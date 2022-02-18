@@ -1,10 +1,8 @@
 library(tidyverse)
 library(stringr)
 
-
-
 apc <- read_csv("data/APC-taxon-2022-02-14-5132.csv")
-apc_species <- filter(apc, taxonRank == "Species")
+apc_species <- filter(apc, taxonRank == "Species",taxonomicStatus=="accepted")
 
 #seperate the states
 sep_state_data <-
