@@ -32,4 +32,5 @@ sample<-sample_n(tassie_names_final, 10)
 
 
 #step 6
-test <- sample %>% mutate(Good_name = case_when(taxon_species_name %in% step4_apc$canonicalName ~"Yes", T ~ "No"))
+test <- sample %>% mutate(Good_name = case_when(taxon_species_name %in% step4_apc$canonicalName ~"Yes", T ~ "No")) %>%
+  mutate(Good_name = case_when((Good_name =="No" & taxon_species_name %in% step3_apc$canonicalName)~ "Yes2", Good_name =="Yes"~"Yes", T ~ "No"))
