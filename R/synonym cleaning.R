@@ -31,6 +31,10 @@ tassie_names_final<-dplyr::distinct(tassie_names_first_run)
 sample<-sample_n(tassie_names_final, 10)
 
 
-#step 6
+#steps 6 and 7 on the small sample
 test <- sample %>% mutate(Good_name = case_when(taxon_species_name %in% step4_apc$canonicalName ~"Yes", T ~ "No")) %>%
+  mutate(Good_name = case_when((Good_name =="No" & taxon_species_name %in% step3_apc$canonicalName)~ "Yes2", Good_name =="Yes"~"Yes", T ~ "No"))
+
+#steps 6 and 7 on the whole Tassie df
+Tassie_master <- tassie_names_final %>% mutate(Good_name = case_when(taxon_species_name %in% step4_apc$canonicalName ~"Yes", T ~ "No")) %>%
   mutate(Good_name = case_when((Good_name =="No" & taxon_species_name %in% step3_apc$canonicalName)~ "Yes2", Good_name =="Yes"~"Yes", T ~ "No"))
