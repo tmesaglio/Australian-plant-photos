@@ -28,4 +28,8 @@ tassie_names_first_run<-dplyr::select(tassie2, taxon_species_name)
 tassie_names_final<-dplyr::distinct(tassie_names_first_run)
 
 #step 5.5 --> select random small sample from tassie_names_final to test the matching script in steps 6 and 7
-test<-sample_n(tassie_names_final, 10)
+sample<-sample_n(tassie_names_final, 10)
+
+
+#step 6
+test <- sample %>% mutate(Good_name = case_when(taxon_species_name %in% step4_apc$canonicalName ~"Yes", T ~ "No"))
