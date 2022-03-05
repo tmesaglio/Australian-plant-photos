@@ -50,3 +50,10 @@ TM2 <- TM2 %>%  # do stage 2 matches
   left_join(step3_apc, by = c("taxon_species_name" = "canonicalName")) %>%
   mutate(Good_name = acceptedNameUsage) %>% select(taxon_species_name, Good_name)
 TM3 <- bind_rows(TM1,TM2) # bind back together
+
+#tidying up final TM3 file
+TM3<-TM3 %>% rename(iNaturalist_name = "taxon_species_name", APC_names = "Good_name")
+TM3[is.na(TM3)] <- "no match"
+
+TM3$APC_name <- word(TM3$APC_names, 1,2)
+TM3$APC_names <- NULL
