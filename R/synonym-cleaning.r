@@ -59,3 +59,8 @@ TM3$APC_name <- word(TM3$APC_names, 1,2)
 TM3$APC_names <- NULL
 
 
+#matching with the master matrix and getting the 'No's on the iNat end
+TM4<-TM3 %>% mutate(Photographed = case_when(APC_name %in% final_matrix$canonicalName ~ "Yes", T ~ "No"))
+
+#matching with the master matrix and getting the 'No's on the APC end
+final_matrix_nos<-final_matrix %>% mutate(Photographed = case_when(canonicalName %in% TM3$APC_name ~ "Yes", T ~ "No"))
