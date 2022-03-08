@@ -61,3 +61,7 @@ big_species_df2
 
 
 write_csv(big_species_df2,"data/states_islands_species_list2.csv")
+
+#now to eliminate the non-native species from this matrix
+
+final_matrix<-states_islands_species_list2 %>%  filter_all(any_vars(str_detect(., pattern = "native")))
