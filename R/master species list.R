@@ -56,12 +56,13 @@ new_x<-x %>%
 
 big_species_df<-dplyr::left_join(species_df,new_x,by="species")
 
-big_species_df2 <- big_species_df[, c(1, 20, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19)]
+big_species_df2 <- big_species_df[, c(1, 20, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19)]
 big_species_df2
 
 
-write_csv(big_species_df2,"data/states_islands_species_list2.csv")
-
 #now to eliminate the non-native species from this matrix
 
-final_matrix<-states_islands_species_list2 %>%  filter_all(any_vars(str_detect(., pattern = "native")))
+final_matrix<-big_species_df2 %>%  filter_all(any_vars(str_detect(., pattern = "native")))
+
+
+write_csv(final_matrix,"data/final_apc_matrix.csv")
