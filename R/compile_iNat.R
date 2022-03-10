@@ -38,7 +38,7 @@ iNat_sixth<-iNat_fifth %>%
 write_csv(iNat_sixth,"data/iNat_sixth.csv")
 
 #now for the cleaning and matching to APC names
-#if needed, read in
+#read in
 iNat_sixth <- read_csv("data/iNat_sixth.csv")
 apc_accepted <- read_csv("data/apc_accepted.csv")
 apc_synonyms <- read_csv("data/apc_synonyms.csv")
