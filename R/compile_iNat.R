@@ -38,19 +38,22 @@ iNat_sixth<-iNat_fifth %>%
 write_csv(iNat_sixth,"data/iNat_sixth.csv")
 
 #now for the cleaning and matching to APC names
+#if needed, read in
+iNat_sixth <- read_csv("data/iNat_sixth.csv")
+apc_accepted <- read_csv("data/apc_accepted.csv")
+apc_synonyms <- read_csv("data/apc_synonyms.csv")
 
-
-Tassie_master <- tassie_names_final %>% mutate(Good_name = case_when(taxon_species_name %in% step4_apc$canonicalName ~taxon_species_name, T ~ "No")) 
-TM2 <- Tassie_master %>% filter(Good_name == "No")
-TM1 <- Tassie_master %>% anti_join(TM2) # separate good and bad matches
-TM2 <- TM2 %>%  # do stage 2 matches
-  left_join(step3_apc, by = c("taxon_species_name" = "canonicalName")) %>%
-  mutate(Good_name = acceptedNameUsage) %>% select(taxon_species_name, Good_name)
-TM3 <- bind_rows(TM1,TM2) # bind back together
+iNat_Master <- iNat_sixth %>% mutate(Good_name = case_when(iNat_name %in% apc_accepted$canonicalName ~iNat_name, T ~ "No")) 
+iM2 <- iNat_Master %>% filter(Good_name == "No")
+iM1 <- iNat_Master %>% anti_join(iM2) # separate good and bad matches
+iM2 <- iM2 %>%  # do stage 2 matches
+  left_join(apc_synonyms, by = c("iNat_name" = "canonicalName")) %>%
+  mutate(Good_name = acceptedNameUsage) %>% select(iNat_name, Good_name)
+iM3 <- bind_rows(iM1,iM2) # bind back together
 
 #tidying up final TM3 file
-TM3<-TM3 %>% rename(iNaturalist_name = "taxon_species_name", APC_names = "Good_name")
-TM3[is.na(TM3)] <- "no match"
+iM3<-iM3 %>% rename(APC_name = "Good_name")
+iM3[is.na(iM3)] <- "no match"
 
-TM3$APC_name <- word(TM3$APC_names, 1,2)
-TM3$APC_names <- NULL
+iM3$APC_name <- word(iM3$APC_name, 1,2)
+
