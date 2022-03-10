@@ -14,8 +14,12 @@ step2_apc <- filter(step1_apc, taxonRank %in% target)
 #step 3
 step3_apc <- filter(step2_apc, taxonomicStatus %in% c("pro parte misapplied","nomenclatural synonym","taxonomic synonym","misapplied","orthographic variant","basionym","isonym","excluded","doubtful taxonomic synonym","pro parte taxonomic synonym","doubtful pro parte taxonomic synonym","replaced synonym","doubtful misapplied","doubtful pro parte misapplied","pro parte nomenclatural synonym","alternative name","doubtful nomenclatural synonym","trade name"))
 
+write_csv(step3_apc,"data/apc_synonyms.csv")
+
 #step 4
 step4_apc <- filter(step2_apc, taxonomicStatus=="accepted")
+
+write_csv(step4_apc,"data/apc_accepted.csv")
 
 #step 5
 tassie <- read_csv("data/test-Tasmania.csv")
