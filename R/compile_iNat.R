@@ -57,3 +57,4 @@ iM3[is.na(iM3)] <- "no match"
 
 iM3$APC_name <- word(iM3$APC_name, 1,2)
 
+write_csv(iM3,"data/iM3.csv")
