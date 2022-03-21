@@ -57,4 +57,7 @@ iM3[is.na(iM3)] <- "no match"
 
 iM3$APC_name <- word(iM3$APC_name, 1,2)
 
+#remove a few non-natives that slipped in due to iNat's stupid ssp. bug with lists
+iM3<-iM3[-c(9640, 3025, 63, 7235), ]
+
 write_csv(iM3,"data/iM3.csv")

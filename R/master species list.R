@@ -64,5 +64,9 @@ big_species_df2
 
 final_matrix<-big_species_df2 %>%  filter_all(any_vars(str_detect(., pattern = "native")))
 
+#append a few extras that escaped the export
+append <- read_csv("data/apc_additions.csv")
+
+final_matrix<-dplyr::bind_rows(append, final_matrix)
 
 write_csv(final_matrix,"data/final_apc_matrix.csv")
