@@ -38,8 +38,9 @@ state_parse_and_add_column <- function(species_df, state, apc_species){
   return(species_df)
 }
 
-species_df<-state_parse_and_add_column(species_df,"LHI",apc_species)
-species_df<-state_parse_and_add_column(species_df,"HI",apc_species)
+#bug checking
+#species_df<-state_parse_and_add_column(species_df,"LHI",apc_species)
+#species_df<-state_parse_and_add_column(species_df,"HI",apc_species)
 
 #go through the states one by one
 for (i in 1:length(apc_places)){
