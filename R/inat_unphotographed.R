@@ -10,5 +10,5 @@ iM5 <- read_csv("data/iM5.csv")
 new_final_matrix <- final_matrix %>% mutate(Match = case_when(canonicalName %in% iM5$APC_name ~canonicalName, T ~ "No")) 
 unphotographed_inat <- filter(new_final_matrix, Match=="No")
 
-
+write_csv(unphotographed_inat,"data/unphotographed_inat.csv")
 
