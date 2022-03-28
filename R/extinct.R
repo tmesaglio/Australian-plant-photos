@@ -1,12 +1,30 @@
 library(tidyverse)
 library(stringr)
 library(dplyr)
+library(galah)
 
-extinct <- read_csv("data/humphreys_extinct.csv")
+post_1972 <- galah_call() |> galah_identify("plantae") |> galah_filter(year >= 1972) |> atlas_species()
+pre_1972 <- galah_call() |> galah_identify("plantae") |> galah_filter(year < 1972) |> atlas_species()
 
-extinct<-dplyr::select(extinct, Accepted.binomial, Accepted.Rank, Locality, List, Source.Rediscovered.or.Synonymised)
+library(epiDisplay)
+tab1(post_1972$phylum, sort.group = "decreasing")
 
-extinct2 <- filter(extinct, Accepted.Rank == "species",List=="Rediscovered")
+post_1972<-post_1972[!grepl("Bryophyta|Marchantiophyta|Rhodophyta|Anthocerotophyta|Tracheophyta", post_1972$phylum),]
+pre_1972<-pre_1972[!grepl("Bryophyta|Marchantiophyta|Rhodophyta|Anthocerotophyta|Tracheophyta", pre_1972$phylum),]
 
-target<-c("WAU","QLD","NSW","SOA","TAS","VIC","NTA")
-extinct3<-filter(extinct2,Locality %in% target)
+
+lookup <- !( pre_1972$species %in% post_1972$species)
+pre_1972$species[lookup]
+
+
+extinct <- pre_1972 %>% mutate(Match = case_when(species %in% post_1972$species ~ "Yes", T ~ "No")) 
+
+extinct2<-filter(extinct,Match=="No")
+
+#remove phrase names
+extinct3<-extinct2[!grepl("sp.", extinct2$species),]
+
+#remove some non-Australia stuff
+extinct4<-extinct3[!grepl("NZOR", extinct3$species_guid),]
+
+write_csv(extinct4,"data/putative_extinct.csv")
