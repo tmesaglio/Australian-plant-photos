@@ -190,3 +190,28 @@ m10 <- galah_call() |>
   galah_filter(multimedia == c("Image")) |>
   galah_select(scientificName, eventDate,dataResourceName,basisOfRecord,typeStatus) |>
   atlas_occurrences()
+
+ala_query<-dplyr::bind_rows(m1, m2, m3, m4, m5, m6, m7, m8, m9, m10)
+ala_query<-dplyr::select(ala_query, scientificName, dataResourceName, basisOfRecord)
+
+preserved<-c("OBSERVATION","HUMAN_OBSERVATION","UNKNOWN")
+ala_query2<-filter(ala_query,basisOfRecord %in% preserved)
+
+#Fixing erroneous matches, erroneous non-native listings by APC, general cleaning, etc. 
+
+ala_query2$scientificName <- word(ala_query2$scientificName, 1,2)
+
+ala_query3<-ala_query2 %>% mutate (Match = case_when(scientificName %in% unphotographed$canonicalName ~ "Yes", T ~ "No"))
+ala_query4<-filter(ala_query3,Match=="Yes")
+
+#delete some rows from ala_query4 due to erroneous matching between APC and ALA
+ala_query5<-ala_query4[!grepl("Corybas dentatus", ala_query4$scientificName),]
+ala_query5<-ala_query5[!grepl("Diuris calcicola", ala_query5$scientificName),]
+ala_query5<-ala_query5[!grepl("Thelymitra jonesii", ala_query5$scientificName),]
+ala_query5<-ala_query5[!grepl("Agrostis parviflora", ala_query5$scientificName),]
+ala_query5 <- ala_query5[-c(10688:10695), ]
+ala_query5 <- ala_query5[-c(10689:10703), ]
+
+#count unique values in ala_query5
+length(unique(ala_query5$scientificName))
+#this added 3082, so now we have 15101/21094 = 71.59%
