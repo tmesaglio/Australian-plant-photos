@@ -29,7 +29,7 @@ target2<-acacia$canonicalName
 m <- galah_call() |>
   galah_identify(target2) |>
   galah_filter(multimedia == c("Image")) |>
-  galah_select(scientificName, eventDate,dataResourceName,basisOfRecord,typeStatus) |>
+  galah_select(scientificName, eventDate,dataResourceName,basisOfRecord,typeStatus,eventRemarks) |>
   atlas_occurrences()
 
 #when I tried to define the entire unphotographed species column as a vector (as I did for Acacia above), it couldn't match 4 entities, and failed
@@ -108,6 +108,9 @@ library(galah)
 library(tidyverse)
 library(stringr)
 library(dplyr)
+
+galah_config(email = "your-email@email.com")
+
 
 unphotographed <- read_csv("data/unphotographed_inat.csv")
 
@@ -215,3 +218,7 @@ ala_query5 <- ala_query5[-c(10689:10703), ]
 #count unique values in ala_query5
 length(unique(ala_query5$scientificName))
 #this added 3082, so now we have 15101/21094 = 71.59%
+
+#create new unphotographed file
+unphotographed_inat_ala <- unphotographed %>% mutate(Match = case_when(canonicalName %in% ala_query5$scientificName ~ "Yes", T ~ "No")) 
+unphotographed_inat <- filter(new_final_matrix, Match=="No")
