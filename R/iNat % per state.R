@@ -2,6 +2,7 @@ library(tidyverse)
 library(stringr)
 library(dplyr)
 
+#after the initial iNat run
 #read in files
 final_matrix <- read_csv("data/final_apc_matrix.csv")
 iM5 <- read_csv("data/iM5.csv")
@@ -80,3 +81,46 @@ ARyes<-filter(match1,Match=="Yes")
 CaI<-filter(final_matrix,CaI %in% target)
 match1<-iM5 %>% mutate (Match = case_when(APC_name %in% CaI$canonicalName ~ "Yes", T ~ "No"))
 CaIyes<-filter(match1,Match=="Yes")
+
+
+#now check unphotographed numbers after doing iNat, ALA, Florabase, EUCLID and WATTLE (and finding what's missing vs what has been done)
+
+unphotographed<- read_csv("data/unphotographed_inat_ala_florabase_euclid_wattle.csv")
+target<-c("native","native and naturalised")
+
+
+NT<-filter(unphotographed,NT %in% target)
+
+Qld<-filter(unphotographed,Qld %in% target)
+
+WA<-filter(unphotographed,WA %in% target)
+
+ChI<-filter(unphotographed,ChI %in% target)
+
+NSW<-filter(unphotographed,NSW %in% target)
+
+SA<-filter(unphotographed,SA %in% target)
+
+Vic<-filter(unphotographed,Vic %in% target)
+
+Tas<-filter(unphotographed,Tas %in% target)
+
+ACT<-filter(unphotographed,ACT %in% target)
+
+NI<-filter(unphotographed,NI %in% target)
+
+LHI<-filter(unphotographed,LHI %in% target)
+
+MI<-filter(unphotographed,MI %in% target)
+
+HI<-filter(unphotographed,HI %in% target)
+
+MDI<-filter(unphotographed,MDI %in% target)
+
+CoI<-filter(unphotographed,CoI %in% target)
+
+CSI<-filter(unphotographed,CSI %in% target)
+
+AR<-filter(unphotographed,AR %in% target)
+
+CaI<-filter(unphotographed,CaI %in% target)
