@@ -221,17 +221,17 @@ length(unique(ala_query5$scientificName))
 
 #now to manually filter out illustrations and pressed specimen photos
 
+delete <- read_csv("data/ala_query_delete.csv")
+target_delete<-delete$species
 
+ala_query6<-ala_query5 %>% mutate (Match = case_when(scientificName %in% delete$species ~ "Yes", T ~ "No"))
+ala_query7<-filter(ala_query6,Match=="No")
 
-
-
-
-
-
-
-
+length(unique(ala_query7$scientificName))
 
 
 #create new unphotographed file
-unphotographed_inat_ala <- unphotographed %>% mutate(Match = case_when(canonicalName %in% ala_query5$scientificName ~ "Yes", T ~ "No")) 
-unphotographed_inat <- filter(new_final_matrix, Match=="No")
+unphotographed_inat_ala <- unphotographed_inat %>% mutate(Match2 = case_when(canonicalName %in% ala_query7$scientificName ~ "Yes", T ~ "No")) 
+unphotographed_inat_ala <- filter(unphotographed_inat_ala, Match2=="No")
+
+write_csv(unphotographed_inat_ala,"data/unphotographed_inat_ala.csv")
