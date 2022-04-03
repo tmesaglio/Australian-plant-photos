@@ -109,7 +109,7 @@ library(tidyverse)
 library(stringr)
 library(dplyr)
 
-galah_config(email = "your-email@email.com")
+galah_config(email = "thomasmesaglio@hotmail.com")
 
 
 unphotographed <- read_csv("data/unphotographed_inat.csv")
@@ -218,6 +218,19 @@ ala_query5 <- ala_query5[-c(10689:10703), ]
 #count unique values in ala_query5
 length(unique(ala_query5$scientificName))
 #this added 3082, so now we have 15101/21094 = 71.59%
+
+#now to manually filter out illustrations and pressed specimen photos
+
+
+
+
+
+
+
+
+
+
+
 
 #create new unphotographed file
 unphotographed_inat_ala <- unphotographed %>% mutate(Match = case_when(canonicalName %in% ala_query5$scientificName ~ "Yes", T ~ "No")) 
