@@ -219,7 +219,7 @@ ala_query5 <- ala_query5[-c(10689:10703), ]
 length(unique(ala_query5$scientificName))
 #this added 3082, so now we have 15101/21094 = 71.59%
 
-#now to manually filter out illustrations and pressed specimen photos
+#now to manually filter out illustrations and pressed specimen photos (which I found by manually checking all the rows in an 18,000 row table...)
 
 delete <- read_csv("data/ala_query_delete.csv")
 target_delete<-delete$species
@@ -235,3 +235,6 @@ unphotographed_inat_ala <- unphotographed_inat %>% mutate(Match2 = case_when(can
 unphotographed_inat_ala <- filter(unphotographed_inat_ala, Match2=="No")
 
 write_csv(unphotographed_inat_ala,"data/unphotographed_inat_ala.csv")
+
+#just checking the ala constituents
+unique<-unique(ala_query7[c("dataResourceName")])
