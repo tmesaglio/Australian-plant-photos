@@ -124,3 +124,46 @@ CSI<-filter(unphotographed,CSI %in% target)
 AR<-filter(unphotographed,AR %in% target)
 
 CaI<-filter(unphotographed,CaI %in% target)
+
+
+#now check unphotographed numbers after having also queried the rainforest lucid, tas key, vicflora
+
+unphotographed2<- read_csv("data/unphotographed_all_tas_vic.csv")
+target<-c("native","native and naturalised")
+
+
+NT<-filter(unphotographed2,NT %in% target)
+
+Qld<-filter(unphotographed2,Qld %in% target)
+
+WA<-filter(unphotographed2,WA %in% target)
+
+ChI<-filter(unphotographed2,ChI %in% target)
+
+NSW<-filter(unphotographed2,NSW %in% target)
+
+SA<-filter(unphotographed2,SA %in% target)
+
+Vic<-filter(unphotographed2,Vic %in% target)
+
+Tas<-filter(unphotographed2,Tas %in% target)
+
+ACT<-filter(unphotographed2,ACT %in% target)
+
+NI<-filter(unphotographed2,NI %in% target)
+
+LHI<-filter(unphotographed2,LHI %in% target)
+
+MI<-filter(unphotographed2,MI %in% target)
+
+HI<-filter(unphotographed2,HI %in% target)
+
+MDI<-filter(unphotographed2,MDI %in% target)
+
+CoI<-filter(unphotographed2,CoI %in% target)
+
+CSI<-filter(unphotographed2,CSI %in% target)
+
+AR<-filter(unphotographed2,AR %in% target)
+
+CaI<-filter(unphotographed2,CaI %in% target)
