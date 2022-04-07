@@ -35,3 +35,21 @@ inat_families<- dplyr::inner_join(unphotographed, families, by = "APC_name")
 
 library(epiDisplay)
 tab1(inat_families$family, sort.group = "decreasing")
+
+
+#another update (ntflora most recent query)
+
+apc <- read_csv("data/APC-taxon-2022-02-14-5132.csv")
+unphotographed <- read_csv("data/unphotographed_plantnet__lucid_ntflora.csv")
+
+apc2 <- filter(apc, taxonRank == "Species",taxonomicStatus=="accepted",nameType=="scientific")
+families<-dplyr::select(apc2, canonicalName, family)
+
+families<-rename(families, APC_name = canonicalName)
+unphotographed<-rename(unphotographed, APC_name = canonicalName)
+
+inat_families<- dplyr::inner_join(unphotographed, families, by = "APC_name")
+
+
+library(epiDisplay)
+tab1(inat_families$family, sort.group = "decreasing")
