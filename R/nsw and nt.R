@@ -35,4 +35,4 @@ unphotographed_plantnet__lucid_ntflora <- unphotographed3 %>% mutate(Match11 = c
 unphotographed4 <- filter(unphotographed_plantnet__lucid_ntflora, Match11=="No")
 
 
-write_csv(unphotographed4,"data/unphotographed_plantnet__lucid_ntflora.csv")
+write_csv(unphotographed4,"data/unphotographed_plantnet_lucid_ntflora.csv")

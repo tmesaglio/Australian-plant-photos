@@ -53,3 +53,9 @@ inat_families<- dplyr::inner_join(unphotographed, families, by = "APC_name")
 
 library(epiDisplay)
 tab1(inat_families$family, sort.group = "decreasing")
+
+#get grasses list for ausgrass2
+grass<-filter(inat_families, family=="Poaceae")
+grass2<-dplyr::select(grass, APC_name, family)
+
+write_csv(grass2,"data/grass.csv")
