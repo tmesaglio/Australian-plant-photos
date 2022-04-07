@@ -28,3 +28,11 @@ unphotographed3 <- filter(unphotographed_plantnet_lucid, Match10=="No")
 
 #NT
 
+ntflora <-read_csv("data/NTflora.csv")
+ntflora_matched<-filter(ntflora, photo=="yes")
+
+unphotographed_plantnet__lucid_ntflora <- unphotographed3 %>% mutate(Match11 = case_when(canonicalName %in% ntflora_matched$canonical_name ~ "Yes", T ~ "No")) 
+unphotographed4 <- filter(unphotographed_plantnet__lucid_ntflora, Match11=="No")
+
+
+write_csv(unphotographed4,"data/unphotographed_plantnet__lucid_ntflora.csv")
