@@ -167,3 +167,47 @@ CSI<-filter(unphotographed2,CSI %in% target)
 AR<-filter(unphotographed2,AR %in% target)
 
 CaI<-filter(unphotographed2,CaI %in% target)
+
+
+#now check unphotographed numbers after having queried up to ausgrass2
+
+
+unphotographed3<- read_csv("data/unphotographed_all_grass.csv")
+target<-c("native","native and naturalised")
+
+
+NT<-filter(unphotographed3,NT %in% target)
+
+Qld<-filter(unphotographed3,Qld %in% target)
+
+WA<-filter(unphotographed3,WA %in% target)
+
+ChI<-filter(unphotographed3,ChI %in% target)
+
+NSW<-filter(unphotographed3,NSW %in% target)
+
+SA<-filter(unphotographed3,SA %in% target)
+
+Vic<-filter(unphotographed3,Vic %in% target)
+
+Tas<-filter(unphotographed3,Tas %in% target)
+
+ACT<-filter(unphotographed3,ACT %in% target)
+
+NI<-filter(unphotographed3,NI %in% target)
+
+LHI<-filter(unphotographed3,LHI %in% target)
+
+MI<-filter(unphotographed3,MI %in% target)
+
+HI<-filter(unphotographed3,HI %in% target)
+
+MDI<-filter(unphotographed3,MDI %in% target)
+
+CoI<-filter(unphotographed3,CoI %in% target)
+
+CSI<-filter(unphotographed3,CSI %in% target)
+
+AR<-filter(unphotographed3,AR %in% target)
+
+CaI<-filter(unphotographed3,CaI %in% target)
