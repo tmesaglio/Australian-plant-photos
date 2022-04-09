@@ -48,3 +48,22 @@ unphotographed6 <- unphotographed5 %>% mutate(Match15 = case_when(canonicalName 
 unphotographed6 <- filter(unphotographed6, Match15=="No")
 
 write_csv(unphotographed6,"data/unphotographed_all_wa_lucid.csv")
+
+
+#triodia and ptilotus
+
+tri_pti<-read_csv("data/triodia_ptilotus.csv")
+
+unphotographed7 <- unphotographed6 %>% mutate(Match16 = case_when(canonicalName %in% tri_pti$species ~ "Yes", T ~ "No")) 
+unphotographed7 <- filter(unphotographed7, Match16=="No")
+
+write_csv(unphotographed7,"data/unphotographed_all_wa_lucid_genera.csv")
+
+
+#darwin page
+
+darwin<-read_csv("data/darwin.csv")
+unphotographed8 <- unphotographed7 %>% mutate(Match17 = case_when(canonicalName %in% darwin$species ~ "Yes", T ~ "No")) 
+unphotographed8 <- filter(unphotographed8, Match17=="No")
+
+write_csv(unphotographed8,"data/unphotographed_all_darwin.csv")
