@@ -75,3 +75,9 @@ inat_families<- dplyr::inner_join(unphotographed, families, by = "APC_name")
 
 library(epiDisplay)
 tab1(inat_families$family, sort.group = "decreasing")
+
+#get orchids for lucid
+orchid<-filter(inat_families, family=="Orchidaceae")
+orchid2<-dplyr::select(orchid, APC_name, family)
+
+write_csv(orchid2,"data/orchid.csv")
