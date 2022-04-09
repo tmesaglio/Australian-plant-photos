@@ -102,8 +102,9 @@ lucid_goo<-filter(inat_families, family=="Goodeniaceae")
 lucid_res<-filter(inat_families, family=="Restionaceae")
 lucid_pro<-filter(inat_families, family=="Proteaceae")
 lucid_lam<-filter(inat_families, family=="Lamiaceae")
+lucid_hae<-filter(inat_families, family=="Haemodoraceae")
 
-wa_lucid<-dplyr::bind_rows(lucid_fab, lucid_rut,lucid_mal,lucid_goo,lucid_res,lucid_pro,lucid_lam)
+wa_lucid<-dplyr::bind_rows(lucid_fab, lucid_rut,lucid_mal,lucid_goo,lucid_res,lucid_pro,lucid_lam, lucid_hae)
 wa_lucid2<-dplyr::select(wa_lucid, APC_name, family)
 
 write_csv(wa_lucid2,"data/wa_lucid.csv")

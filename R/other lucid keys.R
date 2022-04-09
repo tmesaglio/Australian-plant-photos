@@ -35,3 +35,16 @@ unphotographed4 <- unphotographed3 %>% mutate(Match14 = case_when(canonicalName 
 unphotographed4 <- filter(unphotographed4, Match14=="No")
 
 write_csv(unphotographed4,"data/unphotographed_all_nqplants.csv")
+
+
+#wa lucid keys
+
+wa_lucid <- read_csv("data/wa_lucid.csv")
+unphotographed5 <- read_csv("data/unphotographed_all_nqplants.csv")
+
+wa_lucid_matched<-filter(wa_lucid, photo=="yes")
+
+unphotographed6 <- unphotographed5 %>% mutate(Match15 = case_when(canonicalName %in% wa_lucid_matched$APC_name ~ "Yes", T ~ "No")) 
+unphotographed6 <- filter(unphotographed6, Match15=="No")
+
+write_csv(unphotographed6,"data/unphotographed_all_wa_lucid.csv")
