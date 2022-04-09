@@ -27,3 +27,11 @@ unphotographed3 <- unphotographed2 %>% mutate(Match13 = case_when(canonicalName 
 unphotographed3 <- filter(unphotographed3, Match13=="No")
 
 
+#nqplants
+
+nqplants <- read_csv("data/nqplants.csv")
+
+unphotographed4 <- unphotographed3 %>% mutate(Match14 = case_when(canonicalName %in% nqplants$species ~ "Yes", T ~ "No")) 
+unphotographed4 <- filter(unphotographed4, Match14=="No")
+
+write_csv(unphotographed4,"data/unphotographed_all_nqplants.csv")
