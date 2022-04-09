@@ -81,3 +81,29 @@ orchid<-filter(inat_families, family=="Orchidaceae")
 orchid2<-dplyr::select(orchid, APC_name, family)
 
 write_csv(orchid2,"data/orchid.csv")
+
+#get a few families for last lucid keys
+
+apc <- read_csv("data/APC-taxon-2022-02-14-5132.csv")
+unphotographed <- read_csv("data/unphotographed_all_nqplants.csv")
+
+apc2 <- filter(apc, taxonRank == "Species",taxonomicStatus=="accepted",nameType=="scientific")
+families<-dplyr::select(apc2, canonicalName, family)
+
+families<-rename(families, APC_name = canonicalName)
+unphotographed<-rename(unphotographed, APC_name = canonicalName)
+
+inat_families<- dplyr::inner_join(unphotographed, families, by = "APC_name")
+
+lucid_fab<-filter(inat_families, family=="Fabaceae")
+lucid_rut<-filter(inat_families, family=="Rutaceae")
+lucid_mal<-filter(inat_families, family=="Malvaceae")
+lucid_goo<-filter(inat_families, family=="Goodeniaceae")
+lucid_res<-filter(inat_families, family=="Restionaceae")
+lucid_pro<-filter(inat_families, family=="Proteaceae")
+lucid_lam<-filter(inat_families, family=="Lamiaceae")
+
+wa_lucid<-dplyr::bind_rows(lucid_fab, lucid_rut,lucid_mal,lucid_goo,lucid_res,lucid_pro,lucid_lam)
+wa_lucid2<-dplyr::select(wa_lucid, APC_name, family)
+
+write_csv(wa_lucid2,"data/wa_lucid.csv")
