@@ -140,6 +140,21 @@ unphotographed_inat<-rename(unphotographed_inat, APC_name = canonicalName)
 inat_families<- dplyr::inner_join(unphotographed_inat, families, by = "APC_name")
 
 orchid<-filter(inat_families, family=="Orchidaceae")
-orchid2<-dplyr::select(orchid, APC_name, family)
+orchid2<-dplyr::select(orchid, APC_name)
 
 write_csv(orchid2,"data/orchid_encyclo.csv")
+
+#check after orchid encyclopedia 
+apc <- read_csv("data/APC-taxon-2022-02-14-5132.csv")
+unphotographed <- read_csv("data/unphotographed_all_orchid_encyclo.csv")
+
+apc2 <- filter(apc, taxonRank == "Species",taxonomicStatus=="accepted",nameType=="scientific")
+families<-dplyr::select(apc2, canonicalName, family)
+
+families<-rename(families, APC_name = canonicalName)
+unphotographed<-rename(unphotographed, APC_name = canonicalName)
+
+inat_families<- dplyr::inner_join(unphotographed, families, by = "APC_name")
+
+library(epiDisplay)
+tab1(inat_families$family, sort.group = "decreasing")

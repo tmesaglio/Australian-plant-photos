@@ -67,3 +67,16 @@ unphotographed8 <- unphotographed7 %>% mutate(Match17 = case_when(canonicalName 
 unphotographed8 <- filter(unphotographed8, Match17=="No")
 
 write_csv(unphotographed8,"data/unphotographed_all_darwin.csv")
+
+#orchid encyclopedia
+
+orchid_encyclo<-read_csv("data/orchid_encyclo.csv")
+orchid_encyclo_matched<-filter(orchid_encyclo, photo=="yes")
+
+unphotographed8<-read_csv("data/unphotographed_all_darwin.csv")
+
+unphotographed9 <- unphotographed8 %>% mutate(Match18 = case_when(canonicalName %in% orchid_encyclo_matched$APC_name ~ "Yes", T ~ "No")) 
+unphotographed9 <- filter(unphotographed9, Match18=="No")
+
+write_csv(unphotographed9,"data/unphotographed_all_orchid_encyclo.csv")
+

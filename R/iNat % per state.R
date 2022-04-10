@@ -254,3 +254,46 @@ AR<-filter(unphotographed4,AR %in% target)
 
 CaI<-filter(unphotographed4,CaI %in% target)
 
+#check after orchi encyclopedia
+
+unphotographed5<- read_csv("data/unphotographed_all_orchid_encyclo.csv")
+target<-c("native","native and naturalised")
+
+
+NT<-filter(unphotographed5,NT %in% target)
+
+Qld<-filter(unphotographed5,Qld %in% target)
+
+WA<-filter(unphotographed5,WA %in% target)
+
+ChI<-filter(unphotographed5,ChI %in% target)
+
+NSW<-filter(unphotographed5,NSW %in% target)
+
+SA<-filter(unphotographed5,SA %in% target)
+
+Vic<-filter(unphotographed5,Vic %in% target)
+
+Tas<-filter(unphotographed5,Tas %in% target)
+
+ACT<-filter(unphotographed5,ACT %in% target)
+
+NI<-filter(unphotographed5,NI %in% target)
+
+LHI<-filter(unphotographed5,LHI %in% target)
+
+MI<-filter(unphotographed5,MI %in% target)
+
+HI<-filter(unphotographed5,HI %in% target)
+
+MDI<-filter(unphotographed5,MDI %in% target)
+
+CoI<-filter(unphotographed5,CoI %in% target)
+
+CSI<-filter(unphotographed5,CSI %in% target)
+
+AR<-filter(unphotographed5,AR %in% target)
+
+CaI<-filter(unphotographed5,CaI %in% target)
+
+
