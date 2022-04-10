@@ -108,3 +108,19 @@ wa_lucid<-dplyr::bind_rows(lucid_fab, lucid_rut,lucid_mal,lucid_goo,lucid_res,lu
 wa_lucid2<-dplyr::select(wa_lucid, APC_name, family)
 
 write_csv(wa_lucid2,"data/wa_lucid.csv")
+
+
+#check after darwin page
+apc <- read_csv("data/APC-taxon-2022-02-14-5132.csv")
+unphotographed <- read_csv("data/unphotographed_all_darwin.csv")
+
+apc2 <- filter(apc, taxonRank == "Species",taxonomicStatus=="accepted",nameType=="scientific")
+families<-dplyr::select(apc2, canonicalName, family)
+
+families<-rename(families, APC_name = canonicalName)
+unphotographed<-rename(unphotographed, APC_name = canonicalName)
+
+inat_families<- dplyr::inner_join(unphotographed, families, by = "APC_name")
+
+library(epiDisplay)
+tab1(inat_families$family, sort.group = "decreasing")

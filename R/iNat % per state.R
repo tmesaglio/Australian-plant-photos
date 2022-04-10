@@ -211,3 +211,46 @@ CSI<-filter(unphotographed3,CSI %in% target)
 AR<-filter(unphotographed3,AR %in% target)
 
 CaI<-filter(unphotographed3,CaI %in% target)
+
+#check after darwin page
+
+unphotographed4<- read_csv("data/unphotographed_all_darwin.csv")
+target<-c("native","native and naturalised")
+
+
+NT<-filter(unphotographed4,NT %in% target)
+
+Qld<-filter(unphotographed4,Qld %in% target)
+
+WA<-filter(unphotographed4,WA %in% target)
+
+ChI<-filter(unphotographed4,ChI %in% target)
+
+NSW<-filter(unphotographed4,NSW %in% target)
+
+SA<-filter(unphotographed4,SA %in% target)
+
+Vic<-filter(unphotographed4,Vic %in% target)
+
+Tas<-filter(unphotographed4,Tas %in% target)
+
+ACT<-filter(unphotographed4,ACT %in% target)
+
+NI<-filter(unphotographed4,NI %in% target)
+
+LHI<-filter(unphotographed4,LHI %in% target)
+
+MI<-filter(unphotographed4,MI %in% target)
+
+HI<-filter(unphotographed4,HI %in% target)
+
+MDI<-filter(unphotographed4,MDI %in% target)
+
+CoI<-filter(unphotographed4,CoI %in% target)
+
+CSI<-filter(unphotographed4,CSI %in% target)
+
+AR<-filter(unphotographed4,AR %in% target)
+
+CaI<-filter(unphotographed4,CaI %in% target)
+
