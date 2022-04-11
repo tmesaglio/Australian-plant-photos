@@ -35,4 +35,5 @@ apii_matched2 <- filter(apii_matched, photo=="yes")
 unphotographed3 <- unphotographed2 %>% mutate(Match20 = case_when(canonicalName %in% apii_matched2$SCIENTIFICNAME ~ "Yes", T ~ "No")) 
 unphotographed3 <- filter(unphotographed3, Match20=="No")
 
-write_csv(unphotographed2,"data/unphotographed_all_apii.csv")
+write_csv(unphotographed3,"data/unphotographed_all_apii.csv")
+
