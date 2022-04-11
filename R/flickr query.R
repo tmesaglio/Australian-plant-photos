@@ -23,6 +23,6 @@ rock_climbing <- photo_search(
 
 diuris <- photo_search(mindate_taken = "1960-01-01",
                               maxdate_taken = "2022-04-11",
-                              text = "Diuris",
+                              text = "Diuris brevissima",
                               has_geo = FALSE)
                               
