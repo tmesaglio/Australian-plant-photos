@@ -18,6 +18,9 @@ file1<-rename(file1, APC_name = canonicalName)
 
 file2<- dplyr::inner_join(file1, families, by = "APC_name")
 
+#just need to fill 3 na cells
+file2$family<-file2$family %>% replace_na('Apocynaceae')
+
 library(epiDisplay)
 tab1(file2$family, sort.group = "decreasing")
 
