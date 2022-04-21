@@ -16,6 +16,16 @@ file2 <- dplyr::inner_join(file1, apni2, by = "APC_name")
 
 file2[1796, 22] = 1890
 
+my_tab <- table(file2$namePublishedInYear)
+barplot(my_tab)  
+
+file3 <- filter(file2, nameInstanceType == "tax. nov.")
+
+my_tab1 <- table(file3$namePublishedInYear)
+barplot(my_tab1)  
+
+
+
 #robert brown
 brown<-filter(file2, namePublishedInYear == "1810")
 
