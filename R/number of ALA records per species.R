@@ -60,7 +60,7 @@ joined3<-select(joined3, -Match)
 joined3[is.na(joined3)] <- 0
 
 
-unphoto4<-dplyr::slice(file1, 3001:3774)
+unphoto4<-dplyr::slice(file1, 3001:3773)
 target4<-unphoto4$APC_name
 m4 <- galah_call() |>
   galah_identify(target4) |>
@@ -88,7 +88,7 @@ joined_master[1324, 22] = 379
 joined_master[1322, 22] = 1089
 joined_master[1327, 22] = 572
 
-joined_master <- joined_master[-c(1453),]
+joined_master <- joined_master[-c(1452),]
 
 mean(joined_master$n)
 median(joined_master$n)

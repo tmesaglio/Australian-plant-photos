@@ -14,7 +14,7 @@ file2 <- dplyr::inner_join(file1, apni2, by = "APC_name")
 
 #for some reason, Mapania macrocephala is missing the year, so need to manually add it
 
-file2[1798, 22] = 1890
+file2[1796, 22] = 1890
 
 #robert brown
 brown<-filter(file2, namePublishedInYear == "1810")
