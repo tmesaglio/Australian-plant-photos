@@ -60,7 +60,7 @@ joined3<-select(joined3, -Match)
 joined3[is.na(joined3)] <- 0
 
 
-unphoto4<-dplyr::slice(file1, 3001:3775)
+unphoto4<-dplyr::slice(file1, 3001:3774)
 target4<-unphoto4$APC_name
 m4 <- galah_call() |>
   galah_identify(target4) |>
@@ -83,12 +83,12 @@ joined_master<-dplyr::bind_rows(joined1, joined2, joined3, joined4)
 #need to do some cleaning, e.g. for some bizarre reason, four seagrass species have 'absence' records getting included. 
 #Also excluding Diuris calcicola which is getting incorrectly mapped due to synonymy issue, and I don't know how many records are 'true' calcicola
 
-joined_master[1330, 22] = 514
-joined_master[1325, 22] = 379
-joined_master[1323, 22] = 1089
-joined_master[1328, 22] = 572
+joined_master[1329, 22] = 514
+joined_master[1324, 22] = 379
+joined_master[1322, 22] = 1089
+joined_master[1327, 22] = 572
 
-joined_master <- joined_master[-c(1454),]
+joined_master <- joined_master[-c(1453),]
 
 mean(joined_master$n)
 median(joined_master$n)
