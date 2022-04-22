@@ -118,13 +118,14 @@ joined_cleaned5 <- joined_cleaned5[-c(36260), ]
 joined_cleaned5 <- joined_cleaned5[-c(5302:5311), ]
 joined_cleaned5 <- joined_cleaned5[-c(91219,147606), ]
 
-
+write_csv(joined_cleaned5,"data/spatial_analysis.csv")
 
 #now to map these using Sophie's code
 library(raster)
 library(viridis)
 library(maps)
 
+joined_cleaned5<-read_csv("data/spatial_analysis.csv")
 
 calc_num_species <- function(data, na.rm = TRUE) {
   
@@ -154,6 +155,13 @@ heat_map_df <-
   heat_map %>% 
   as.data.frame(xy = TRUE) %>% 
   rename(species_num = layer)
+
+#turn the 5 NAs in middle of Aus to zeros
+heat_map_df[1765, 3] = 0
+heat_map_df[1382, 3] = 0
+heat_map_df[1192, 3] = 0
+heat_map_df[1476, 3] = 0
+heat_map_df[1584, 3] = 0
 
 map_australia <- 
   map_data("world") %>% 
