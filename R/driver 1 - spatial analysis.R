@@ -117,6 +117,7 @@ joined_cleaned5 <- joined_cleaned4[-c(198849:198855), ]
 joined_cleaned5 <- joined_cleaned5[-c(36260), ]
 joined_cleaned5 <- joined_cleaned5[-c(5302:5311), ]
 joined_cleaned5 <- joined_cleaned5[-c(91219,147606), ]
+joined_cleaned5 <- joined_cleaned5[-c(100077,106136,106146,112157,112158,112159,112640,115739), ]
 
 write_csv(joined_cleaned5,"data/spatial_analysis.csv")
 
@@ -157,10 +158,10 @@ heat_map_df <-
   rename(species_num = layer)
 
 #turn the 5 NAs in middle of Aus to zeros
-heat_map_df[1765, 3] = 0
-heat_map_df[1382, 3] = 0
 heat_map_df[1192, 3] = 0
+heat_map_df[1382, 3] = 0
 heat_map_df[1476, 3] = 0
+heat_map_df[1765, 3] = 0
 heat_map_df[1584, 3] = 0
 
 map_australia <- 
