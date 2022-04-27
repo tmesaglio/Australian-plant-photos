@@ -24,7 +24,8 @@ file2$Original_Year = file2$originalNameUsageYear
 file2$Original_Year <- ifelse(is.na(file2$Original_Year), file2$namePublishedInYear, file2$Original_Year)
 
 
-
+my_tab1 <- table(file2$Original_Year)
+barplot(my_tab1)  
 
 
 
