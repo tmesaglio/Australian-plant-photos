@@ -3,9 +3,9 @@ library(stringr)
 library(dplyr)
 
 
-apni <- read_csv("data/APNI-names-2022-04-21-0334.csv")
+apni <- read_csv("data/APNI-names-2022-04-27-0103.csv")
 apni1 <-filter(apni, taxonomicStatus == "accepted")
-apni2<- select(apni1, canonicalName, namePublishedInYear, nameInstanceType)
+apni2<- dplyr::select(apni1, canonicalName, namePublishedInYear, nameInstanceType,originalNameUsage,originalNameUsageYear)
 apni2<-rename(apni2, APC_name = canonicalName)
 
 file1 <- read_csv("data/unphotographed_FINAL.csv")
@@ -16,17 +16,30 @@ file2 <- dplyr::inner_join(file1, apni2, by = "APC_name")
 
 file2[1796, 22] = 1890
 
-my_tab <- table(file2$namePublishedInYear)
-barplot(my_tab)  
 
-file3 <- filter(file2, nameInstanceType == "tax. nov.")
+#now to fill in the original dates for comb. nov., nom. nov. etc
 
-my_tab1 <- table(file3$namePublishedInYear)
-barplot(my_tab1)  
+file2$Original_Year = file2$originalNameUsageYear
 
+file2$Original_Year <- ifelse(is.na(file2$Original_Year), file2$namePublishedInYear, file2$Original_Year)
 
 
-#robert brown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#robert brown out of interest
 brown<-filter(file2, namePublishedInYear == "1810")
 
 
