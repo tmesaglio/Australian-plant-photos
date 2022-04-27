@@ -169,9 +169,24 @@ map_australia <-
   filter(region == "Australia") %>% 
   filter(lat > -45 | long < 155) # Check that this includes all the islands you want
 
+heat_map_df <- heat_map_df %>% 
+  mutate(species_num_binned = case_when(species_num == 0 ~ "0",
+                                        species_num == 1 ~ "1",
+                                        (species_num >= 2 & species_num <= 5) ~ "2 - 5",
+                                        (species_num >= 6 & species_num <= 10) ~ "6 - 10",
+                                        (species_num >= 11 & species_num <= 20) ~ "11 - 20",
+                                        (species_num >= 21 & species_num <= 50) ~ "21 - 50",
+                                        (species_num >= 51 & species_num <= 100) ~ "51 - 100",
+                                        (species_num >= 101 & species_num <= 200) ~ "101 - 200",
+                                        (species_num >= 201 & species_num <= 300) ~ "201 - 300",
+                                        (species_num >= 301 & species_num <= 400) ~ "301 - 400",
+                                        T ~ "NA"))
+
+heat_map_df[ heat_map_df == "NA" ] <- NA
+
 heat_map_df %>% 
   ggplot(aes(x = x, y = y)) +
-  geom_raster(aes(fill = species_num), 
+  geom_raster(aes(fill = species_num_binned), 
               interpolate = FALSE) + # Change interpolate argument to true for smoothing
   geom_polygon(data = map_australia, # Plot Australia polygon
                mapping = aes(x = long, y = lat, group = group), 
@@ -179,16 +194,7 @@ heat_map_df %>%
                colour = "#1a1a1a",
                size = 0.4) +
   coord_fixed() +
-  scale_fill_viridis(na.value = "white") +
-  # My code for customising legend, very unnecessary though
-  guides(fill = guide_colourbar(ticks.colour = "black", 
-                                ticks.linewidth = 1,
-                                frame.colour = "black",
-                                frame.linewidth = 1,
-                                direction = "vertical",
-                                title.position = "top",
-                                barwidth = 0.7,
-                                barheight = 6)) +
+  scale_fill_viridis_d(na.value = "white") +
   theme_classic() +
   theme(axis.line = element_blank(),
         panel.background = element_rect(fill = NA, size = 0.5, colour = "black"),
@@ -197,4 +203,16 @@ heat_map_df %>%
         panel.spacing = unit(0.2, "cm"),
         legend.position = "right",
         legend.title = element_blank())
+
+
+
+# My code for customising legend, very unnecessary though
+guides(fill = guide_colourbar(ticks.colour = "black", 
+                              ticks.linewidth = 1,
+                              frame.colour = "black",
+                              frame.linewidth = 1,
+                              direction = "vertical",
+                              title.position = "top",
+                              barwidth = 0.7,
+                              barheight = 6)) +
 
