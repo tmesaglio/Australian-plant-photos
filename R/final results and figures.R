@@ -115,6 +115,6 @@ file2$Original_Year <- ifelse(is.na(file2$Original_Year), file2$namePublishedInY
 
 file2$Original_Year <- as.factor(file2$Original_Year)
 t3<-Freq(file2$Original_Year)
-
 t3<-dplyr::select(t3, 1:2)
+write_csv(t3,"data/FINAL RESULT - YEARS OF PUBLICATION.csv")
               
