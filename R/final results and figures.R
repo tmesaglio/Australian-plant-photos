@@ -93,4 +93,28 @@ write_csv(CaI,"data/FINAL RESULT - CaI.csv")
 #note that I manually combined the above 18 CSVs into a single excel doc, with each as a sheet
 
 
-#4. 
+#4. Original date of publication
+apni<-read.csv(unz('APNI-names-2022-05-27-3243.zip','APNI-names-2022-05-27-3243.csv'), header = T)
+apni1 <-filter(apni, taxonomicStatus == "accepted")
+apni2<- dplyr::select(apni1, canonicalName, namePublishedInYear, nameInstanceType,originalNameUsage,originalNameUsageYear)
+apni2<-rename(apni2, APC_name = canonicalName)
+
+
+file2 <- dplyr::inner_join(unphotographed, apni2, by = "APC_name")
+
+#for some reason, Mapania macrocephala is missing the year, so need to manually add it
+
+file2[1796, 22] = 1890
+
+#now to fill in the original dates for comb. nov., nom. nov. etc
+
+file2$Original_Year = file2$originalNameUsageYear
+
+file2$Original_Year <- ifelse(is.na(file2$Original_Year), file2$namePublishedInYear, file2$Original_Year)
+
+
+file2$Original_Year <- as.factor(file2$Original_Year)
+t3<-Freq(file2$Original_Year)
+
+t3<-dplyr::select(t3, 1:2)
+              
