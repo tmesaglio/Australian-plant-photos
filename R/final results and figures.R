@@ -117,4 +117,18 @@ file2$Original_Year <- as.factor(file2$Original_Year)
 t3<-Freq(file2$Original_Year)
 t3<-dplyr::select(t3, 1:2)
 write_csv(t3,"data/FINAL RESULT - YEARS OF PUBLICATION.csv")
-              
+
+#note I've manually edited this csv file outside R
+
+years <- read_csv("FINAL RESULT - YEARS OF PUBLICATION.csv")
+years[is.na(years)] <- 0
+
+p<-ggplot(data=years, aes(x=level, y=freq)) +
+  geom_bar(stat="identity",colour="black", size=0.2) +
+  theme_classic() +
+  scale_x_continuous(limits = c(1746,2020), expand = c(0, 0)) +
+  scale_y_continuous(limits = c(0,120), expand = c(0, 0)) 
+p
+
+ggsave("years.png")
+#this figure was edited/cleaned in Affinity after
