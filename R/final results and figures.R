@@ -159,4 +159,6 @@ file4<-dplyr::bind_rows(file3, dentella)
 
 
 library(epiDisplay)
-tab1(file3$plant_growth_form_recoded, sort.group = "decreasing")
+tab1(file4$plant_growth_form_recoded, sort.group = "decreasing")
+
+#note that documentation for changes to these growth habits is available in the xlsx file 'growth habits guide'
