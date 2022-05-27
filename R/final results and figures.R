@@ -30,6 +30,8 @@ t2<-dplyr::select(t2, 1:3)
 write_csv(t2,"data/FINAL RESULT - UNPHOTOGRAPHED GENUS TABLE.csv")
 
 
+#note that I manually combined the above 2 CSVs (family and genus) into a single excel doc, with each as a sheet
+
 #3. State/territory breakdown
 target<-c("native","native and naturalised")
 
@@ -132,3 +134,29 @@ p
 
 ggsave("years.png")
 #this figure was edited/cleaned in Affinity after
+
+
+#4. Growth habit
+austraits<-read_csv("data/austraits_habit.csv")
+
+austraits2<-dplyr::select(austraits,taxon_name,name_resolution_and_type,plant_growth_form_recoded,plant_growth_form_simpler)
+austraits3<-filter(austraits2,name_resolution_and_type == "binomial")
+
+#check for names in unphotographed that are not in austraits file
+check <- unphotographed %>% mutate(Match = case_when(APC_name %in% austraits3$taxon_name ~ "Yes", T ~ "No")) 
+
+#only a single species is missing, Dentella arnhemensis (this is an MS name issue), so I'll manually add this after
+
+#now to join files
+austraits3<-rename(austraits3, APC_name = taxon_name)
+
+file3 <- dplyr::inner_join(unphotographed, austraits3, by = "APC_name")
+file3<-dplyr::select(file2, -name_resolution_and_type)
+
+#add dentella
+dentella<-read_csv("data/dentella_add_habit.csv")
+file4<-dplyr::bind_rows(file3, dentella)
+
+
+library(epiDisplay)
+tab1(file3$plant_growth_form_recoded, sort.group = "decreasing")
