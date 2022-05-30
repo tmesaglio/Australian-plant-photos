@@ -178,13 +178,18 @@ heat_map_df <- heat_map_df %>%
                                         (species_num >= 21 & species_num <= 50) ~ "21 - 50",
                                         (species_num >= 51 & species_num <= 100) ~ "51 - 100",
                                         (species_num >= 101 & species_num <= 200) ~ "101 - 200",
-                                        (species_num >= 201 & species_num <= 300) ~ "201 - 300",
-                                        (species_num >= 301 & species_num <= 400) ~ "301 - 400",
+                                        (species_num >= 201 & species_num <= 400) ~ "201 - 400",
                                         T ~ "NA"))
 
 heat_map_df[ heat_map_df == "NA" ] <- NA
 
+unique(heat_map_df$species_num_binned)
+heat_map_df$species_num_binned<-factor(heat_map_df$species_num_binned,levels = rev(c("0","1","2 - 5","6 - 10","11 - 20",
+                                                 "21 - 50","51 - 100","101 - 200",
+                                                 "201 - 400")))
+
 heat_map_df %>% 
+  filter(!is.na(species_num_binned)) %>%
   ggplot(aes(x = x, y = y)) +
   geom_raster(aes(fill = species_num_binned), 
               interpolate = FALSE) + # Change interpolate argument to true for smoothing
@@ -194,7 +199,7 @@ heat_map_df %>%
                colour = "#1a1a1a",
                size = 0.4) +
   coord_fixed() +
-  scale_fill_viridis_d(na.value = "white") +
+  scale_fill_viridis_d(na.value = "white",direction = -1) +
   theme_classic() +
   theme(axis.line = element_blank(),
         panel.background = element_rect(fill = NA, size = 0.5, colour = "black"),
@@ -204,7 +209,7 @@ heat_map_df %>%
         legend.position = "right",
         legend.title = element_blank())
 
-
+ggsave("rev_legend.png")
 
 # My code for customising legend, very unnecessary though
 guides(fill = guide_colourbar(ticks.colour = "black", 
