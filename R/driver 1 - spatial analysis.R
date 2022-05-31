@@ -219,5 +219,5 @@ guides(fill = guide_colourbar(ticks.colour = "black",
                               direction = "vertical",
                               title.position = "top",
                               barwidth = 0.7,
-                              barheight = 6)) +
+                              barheight = 6)) 
 
