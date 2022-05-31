@@ -75,7 +75,7 @@ m <- galah_call() |>
   galah_select(scientificName, eventDate,dataResourceName,basisOfRecord,typeStatus) |>
   atlas_occurrences()
 
-#seems like 2278 rows also fails; fairly disappointing code/package
+#seems like 2278 rows also fails
 
 unphoto7<-dplyr::slice(unphotographed, 8113:9112)
 target8<-unphoto7$canonicalName
