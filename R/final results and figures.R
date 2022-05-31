@@ -505,5 +505,6 @@ iNat_ala7 <- iNat_ala6 %>% distinct(scientificName, .keep_all = TRUE)
 
 big_un <- read_csv("data/unphotographed_FINAL.csv")
 big_un2 <- iNat_ala7 %>% mutate(Match = case_when(scientificName %in% big_un$APC_name ~ "Yes", T ~ "No"))
+write_csv(big_un2, "data/inat_after_analysis.csv")
 
-#27 species that are still on the unphotographed list! [ie they got uploaded to iNat after I finished my analyses]
+#27 species that are still on the unphotographed list! [ie they got uploaded to iNat after I finished my analyses on April 15th 2022]
