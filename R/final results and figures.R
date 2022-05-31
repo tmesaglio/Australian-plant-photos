@@ -162,3 +162,19 @@ library(epiDisplay)
 tab1(file4$plant_growth_form_recoded, sort.group = "decreasing")
 
 #note that documentation for changes to these growth habits is available in the xlsx file 'growth habits guide'
+
+#treemap
+library(treemap)
+library(d3treeR)
+library(treemapify)
+library(ggplot2)
+
+
+group <- c(rep("Shrubs"),rep("Herbs"),rep("Graminoids"),rep("Trees"),rep("Aquatic herbs and ferns"),rep("Cycads"),rep("Climbers"),rep("Terrestrial ferns"),rep("Woody climbers"),rep("Epiphytic ferns"),rep("Unknown"))
+value <- c(1431,1308,599,217,91,3,36,37,35,13,1)
+data <- data.frame(group,value)
+
+
+ggplot(data, aes(area = value, fill = group)) +
+  geom_treemap()
+ggsave("habit.png")
