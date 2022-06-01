@@ -508,3 +508,25 @@ big_un2 <- iNat_ala7 %>% mutate(Match = case_when(scientificName %in% big_un$APC
 write_csv(big_un2, "data/inat_after_analysis.csv")
 
 #27 species that are still on the unphotographed list! [ie they got uploaded to iNat after I finished my analyses on April 15th 2022]
+
+
+#7 biome/vegetation type
+
+library(tidyverse)
+library(sf)
+library(spatialEco)
+
+# load data
+catch_data <- read_csv("data/spatial_analysis_FINAL.csv") 
+biomes <-st_read("data/ibra7_biomes.shp") %>%
+  dplyr::select(biome) %>% st_make_valid() # select variable wanted and make it valid
+
+# make to spatial data and set projection
+
+catch_data2 <- sf::st_as_sf(catch_data, coords = c("decimallongitude", "decimallatitude"), crs = 4283)
+
+# match data to shapefile
+xx <- point.in.poly(catch_data2, biomes, sp = TRUE, duplicate = TRUE)
+# back to dataframe and save
+catch_data3 <- as.data.frame(xx)
+write_csv(catch_data3, "../../BPEOM round 1/BPEOM Catch with WRPA.csv")
