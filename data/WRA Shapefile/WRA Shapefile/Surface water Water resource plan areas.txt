@@ -1,0 +1,292 @@
+Metadata format: ISO 19139
+
+Murray-Darling Basin Water Resource Plan Areas - Surface Water
+
+ISO 19139 metadata content
+Resource Identification Information
+Reference System Information
+Data Quality Information
+	Data Quality1
+	Data Quality2
+	Data Quality3
+	Data Quality4
+	Data Quality5
+Distribution Information
+Metadata Information
+
+--------------------------------------------------------------------------------
+
+Resource Identification Information
+Citation
+Title Murray-Darling Basin Water Resource Plan Areas - Surface Water
+
+
+Creation date  2009-01
+Publication date  2018-12-03
+Revision date  2017-11-14
+
+
+Themes or categories of the resource boundaries, inlandWaters
+
+
+Theme keywords
+Keywords Australia
+
+Thesaurus
+Title ANZLIC Jurisdictions
+Unique resource identifier  http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml#anzlic-jurisdic
+
+
+Theme keywords
+Keywords BOUNDARIES-Administrative, WATER-Surface
+
+Thesaurus
+Title ANZLIC Search Words
+Unique resource identifier   http://asdd.ga.gov.au/asdd/profileinfo/anzlic-theme.xml#anzlic-theme
+
+
+Abstract
+The Basin Plan's management arrangements will be implemented at a local scale through water resource plans prepared by the Basin states for accreditation by the Commonwealth Water Minister. The Basin has been divided into 19 surface-water water resource plan areas. The boundaries of these areas are shown in the Surface Water Water Resource Plan Areas dataset.
+
+The surface-water water resource plan areas cover the entire Basin, including those areas not previously subject to water planning arrangements. The water resources in the Murray-Darling Basin to which the Basin Plan will apply are identified in the Water Act 2007 (Cwlth). These resources do not include the Great Artesian Basin water resources.
+
+Purpose
+To identify surface water water resource plan areas for the Water Act 2007 and Basin Plan 2012.
+To prepare a map for publication on MDBA's website.
+
+
+Dataset language  English
+Dataset character set utf8
+
+
+Status completed
+Maintenance
+Update frequency asNeeded
+
+
+Resource constraints
+Legal constraints
+Use Constraints  copyright
+
+Limitations of use
+© Commonwealth of Australia (Murray–Darling Basin Authority) 2018
+
+
+Resource constraints
+Legal constraints
+Use Constraints  license
+
+Limitations of use
+Licensed under the Creative Commons Attribution 4.0 International license (CC-BY). Under the following conditions: 
+- You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
+
+
+Spatial representation type vector
+Format
+Name *.xml
+
+
+Spatial resolution
+Dataset's scale
+Scale denominator 250000
+
+
+Extent
+Geographic extent
+Bounding rectangle
+West longitude 138.568461
+East longitude 152.488544
+North latitude -24.585616
+South latitude -37.682085
+
+
+Extent
+Geographic extent
+Value MURRAY_DARLING
+Authority that defines the value
+Title ANZLIC Geographic Extent Name Register
+
+Unique resource identifier   http://asdd.ga.gov.au/asdd/profileinfo/anzlic-allgens.xml#anzlic-drainage_division_river_basin
+
+
+Responsible party - custodian
+Organization's name ANZLIC the Spatial Information Council
+
+
+Extent
+Temporal extent
+Beginning date 2009-01
+Ending date 
+Indeterminate time unknown
+
+
+Point of contact - custodian
+Organization's name Murray-Darling Basin Authority
+Contact's position Information and Data
+
+Contact information
+Phone
+Voice 02 6279 0100
+
+Address
+Delivery point GPO Box 1801
+City CANBERRA
+Administrative area ACT
+Postal code 2601
+Country Australia
+e-mail address gis@mdba.gov.au
+
+--------------------------------------------------------------------------------
+
+Reference System Information
+Reference system identifier
+Value EPSG::4283
+
+--------------------------------------------------------------------------------
+
+Data Quality - Description1
+Scope of quality information
+Resource level dataset
+
+Data quality report - Completeness omission
+Test date 2012-05-23 00:00:00
+
+Conformance test results 
+Test passed  true
+Result explanation Complete for Murray-Darling Basin
+
+--------------------------------------------------------------------------------
+
+Data Quality - Description2
+Scope of quality information
+Resource level dataset
+
+Data quality report - Absolute external positional accuracy
+Test date 2012-05-23 00:00:00
+
+Conformance test results 
+Test passed  true
+Result explanation The dataset is a composite product and the positional accuracy depends on the source datasets specified under the heading 'Lineage'. 
+
+--------------------------------------------------------------------------------
+
+Data Quality - Description3
+Scope of quality information
+Resource level dataset
+
+Data quality report - Non quantitative attribute accuracy
+Test date 2012-05-23 00:00:00
+
+Conformance test results 
+Test passed  true
+Result explanation Attribute information is estimated to be accurate. Feature ID and name were provided to the NRI unit by the respective MDBA program area. Attribute information is also published in the Basin Plan. Some differences might occur in lower or upper case, hyphen, em dash, and abbreviation of State names. 
+
+--------------------------------------------------------------------------------
+
+Data Quality - Description4
+Scope of quality information
+Resource level dataset
+
+Data quality report - Conceptual consistency
+Test date 2016-12-19 00:00:00
+
+Conformance test results 
+Test passed  true
+Result explanation All features were topologically checked to verify no overlaps or gaps between features. Basin and State boundaries were aligned to MDB and State boundaries (GEODATA TOPO 250K) provided by SEWPAC and Geoscience Australia respectively. 
+
+--------------------------------------------------------------------------------
+
+Data Quality - Description5
+Scope of quality information
+Resource level dataset
+
+Lineage
+Lineage statement
+The Water Act (s. 22(1) item 2) requires that boundaries of water resource plan areas must align as far as possible with existing water management boundaries. Accordingly, the Murray–Darling Basin Authority (MDBA) used existing water planning areas as a starting point in the identification of new water resource plan areas. In some cases, existing state planning boundaries have been varied to include, for example, water resources that are not currently covered by water planning areas, or as a result of consultation with Basin states. Hydrologic, geological and hydrogeological units, such as river catchments, geological formations and aquifers, were also used to identify the new boundaries. The surface-water water resource plan areas are largely based on surface-water catchment boundaries, while the groundwater areas are based chiefly on hydrogeological units. This has meant that in most cases, different boundaries have been needed for surface water and groundwater.
+
+As the individual Basin states are responsible for developing water resource plans, each water resource plan area is wholly contained within a single Basin state. The Basin states will be required to report to MDBA on compliance with diversion limits in each water resource plan area within four months of the end of a standard water accounting period (1 July to 30 June), providing consistency across the Basin for compliance reporting, and aligning arrangements across the Basin with the National Water Accounts reporting period.
+
+The following data has been used to create the water resource plan areas for surface water:
+
+Queensland:
+Queensland’s Water Resource Planning Area (as contained in the data files titled: QLD_WATERRESPLANBDY_100K.dbf, QLD_WATERRESPLANBDY_100K.prj, QLD_WATERRESPLANBDY_100K.sbn, QLD_WATERRESPLANBDY_100K.sbx, QLD_WATERRESPLANBDY_100K.shp, QLD_WATERRESPLANBDY_100K.shx) provided by the State of Queensland (Department of Environment and Resource Management)
+
+New South Wales:
+- Surface water planning areas (water sharing plans) (as contained in the data files titled: SurfaceWaterWSP.dbf, SurfaceWaterWSP.prj, SurfaceWaterWSP.sbn, SurfaceWaterWSP.sbx, SurfaceWaterWSP.shp, SurfaceWaterWSP.shx) provided by the State of New South Wales (Department of Environment, Climate Change and Water).
+- Adjusted SDL resource unit boundaries contained in the data file titled NOW_SDL.gdb provided by the State of New South Wales (NSW Office of Water, Primary Industries) 
+- Digital Cadastral Database (DCDB) provided by the State of New South Wales (NSW Spatial Services)
+
+Victoria:
+Northern Region SWS Boundary and Western Region SWS Boundary datasets provided by the State of Victoria (Department of Sustainability and Environment).
+
+South Australia:
+Prescribed water resources provided by the State of South Australia (Department of Water, Land and Biodiversity Conservation). Following are the original dataset provided to MDBA:
+- PrescribedWaterResourceAreas.dbf, PrescribedWaterResourceAreas.prj, PrescribedWaterResourceAreas.sbn, PrescribedWaterResourceAreas.sbx, PrescribedWaterResourceAreas.shp, PrescribedWaterResourceAreas.shx
+- PrescribedWatercourses.dbf, PrescribedWatercourses.prj, PrescribedWatercourses.sbn, PrescribedWatercourses.sbx, PrescribedWatercourses.shp, PrescribedWatercourses.shx
+- PrescribedWells.dbf, PrescribedWells.prj, PrescribedWells.sbn, PrescribedWells.sbx, PrescribedWells.shp, PrescribedWells.shx
+
+All of Murray-Darling Basin:
+GEODATA TOPO 250K Series 3 Topographic Data provided by Geoscience Australia
+
+Murray-Darling Basin Boundary defined under the Water Act 2007 (Commonwealth) held by Murray-Darling Basin Authority with reference SFA506
+
+--------------------------------------------------------------------------------
+
+Distribution Information
+Distributor
+Distributor information - pointOfContact
+Organization's name Murray-Darling Basin Authority
+Contact's position Information and Data
+
+Contact information
+Phone
+Voice 02 6279 0100
+
+Address
+Delivery point GPO Box 1801 
+City CANBERRA
+Administrative area ACT
+Postal code 2601
+Country Australia
+e-mail address gis@mdba.gov.au
+
+
+Format
+Name ESRI Shapefile
+Specification Murray-Darling Basin Water Resource Plan Areas - Surface Water.dbf, Murray-Darling Basin Water Resource Plan Areas - Surface Water.prj, Murray-Darling Basin Water Resource Plan Areas - Surface Water.sbn, Murray-Darling Basin Water Resource Plan Areas - Surface Water.sbx, Murray-Darling Basin Water Resource Plan Areas - Surface Water.shp, Murray-Darling Basin Water Resource Plan Areas - Surface Water.shp.xml, Murray-Darling Basin Water Resource Plan Areas - Surface Water.shx
+
+--------------------------------------------------------------------------------
+
+Metadata Information
+Last update 2018-11-05
+
+
+Metadata contact - custodian
+Organization's name Murray-Darling Basin Authority
+Contact's position Information and Data
+
+Contact information
+Phone
+Voice 02 6279 0100
+
+Address
+Delivery point GPO Box 1801
+City CANBERRA
+Administrative area ACT
+Postal code 2601
+Country Australia
+e-mail address gis@mdba.gov.au
+
+
+Scope of the data described by the metadata dataset
+
+
+Metadata language  English
+Metadata character set utf8
+
+
+Name of the metadata standard used ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata
+Version of the metadata standard 1.1
+
+
+Metadata identifier C323A6DD-A0F1-4670-82C9-5584BE980229

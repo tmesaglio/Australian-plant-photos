@@ -525,8 +525,10 @@ biomes <-st_read("data/ibra7_biomes.shp") %>%
 
 catch_data2 <- sf::st_as_sf(catch_data, coords = c("decimallongitude", "decimallatitude"), crs = 4283)
 
+new<-dplyr::slice(catch_data2, 74648:74658)
+
 # match data to shapefile
-xx <- point.in.poly(catch_data2, biomes, sp = TRUE, duplicate = TRUE)
+xx <- point.in.poly(new, biomes, sp = TRUE, duplicate = TRUE)
 # back to dataframe and save
 catch_data3 <- as.data.frame(xx)
 write_csv(catch_data3, "../../BPEOM round 1/BPEOM Catch with WRPA.csv")
