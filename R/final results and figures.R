@@ -529,3 +529,9 @@ coords2 <- sf::st_as_sf(coords, coords = c("decimallongitude", "decimallatitude"
 xx <- point.in.poly(coords2, biomes, sp = TRUE, duplicate = TRUE)
 # back to dataframe and save
 coords3 <- as.data.frame(xx)
+
+
+
+summary<-coords3 %>%
+  group_by(APC_name,biome) %>%
+  summarise(count = n())
