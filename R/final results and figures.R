@@ -511,35 +511,13 @@ write_csv(big_un2, "data/inat_after_analysis.csv")
 
 
 #7 biome/vegetation type
+#this analysis uses the shape file downloadable from https://www.gislounge.com/terrestrial-ecoregions-gis-data/
 
 library(tidyverse)
 library(sf)
 library(spatialEco)
 
 # load data
-coords <- read_csv("data/spatial_analysis_FINAL.csv") 
-biomes <-st_read("biomes/ibra7_biomes.shp") %>%
-  dplyr::select(biome) %>% st_make_valid() # select variable wanted and make it valid
-
-# make to spatial data and set projection
-
-coords2 <- sf::st_as_sf(coords, coords = c("decimallongitude", "decimallatitude"), crs = 4326)
-
-# match data to shapefile
-xx <- point.in.poly(coords2, biomes, sp = TRUE, duplicate = TRUE)
-# back to dataframe and save
-coords3 <- as.data.frame(xx)
-
-
-
-summary<-coords3 %>%
-  group_by(APC_name,biome) %>%
-  summarise(count = n())
-
-
-
-
-
 coords <- read_csv("data/spatial_analysis_FINAL.csv") 
 
 biomes <-st_read("biomes2/Ecoregions2017.shp") %>%
@@ -555,4 +533,8 @@ xx <- point.in.poly(coords2, biomes, sp = TRUE, duplicate = TRUE)
 coords3 <- as.data.frame(xx)
 
 write_csv(coords3, "data/ecoregions.csv")
+
+#note that in the ~200,000 row csv produced here, ~9600 rows have NA values for ecoregion. These are records where either the coordinates
+#are close to the edge of land/sea or slightly in the ocean; the shape file I used is terrestrial only, and clearly seems to not have 
+#ultra high resolution around the boundaries, so these values get missed out. I filled them in manually outside R. 
 
