@@ -536,5 +536,5 @@ write_csv(coords3, "data/ecoregions.csv")
 
 #note that in the ~200,000 row csv produced here, ~9600 rows have NA values for ecoregion. These are records where either the coordinates
 #are close to the edge of land/sea or slightly in the ocean; the shape file I used is terrestrial only, and clearly seems to not have 
-#ultra high resolution around the boundaries, so these values get missed out. I filled them in manually outside R. 
+#ultra high resolution around the boundaries, so these values get missed out. I filled them in manually outside R (filename = 'ecoregions_updated')
 
