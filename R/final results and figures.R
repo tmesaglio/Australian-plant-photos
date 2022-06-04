@@ -538,3 +538,6 @@ write_csv(coords3, "data/ecoregions.csv")
 #are close to the edge of land/sea or slightly in the ocean; the shape file I used is terrestrial only, and clearly seems to not have 
 #ultra high resolution around the boundaries, so these values get missed out. I filled them in manually outside R (filename = 'ecoregions_updated')
 
+#also note: whilst I could have filled in many/most of these NAs programatically in R based on neighbour values in the df, there are also
+#a number of NAs right on the boundary of two ecoregions in cases where rows keep swapping back and forth between them (e.g., at the boundary)
+#of Carnarvon xeric shrublands and Southwest Australia savanna), so I was more comfortable doing it manually for accuracy.
