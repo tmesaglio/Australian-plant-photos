@@ -535,3 +535,24 @@ coords3 <- as.data.frame(xx)
 summary<-coords3 %>%
   group_by(APC_name,biome) %>%
   summarise(count = n())
+
+
+
+
+
+coords <- read_csv("data/spatial_analysis_FINAL.csv") 
+
+biomes <-st_read("biomes2/Ecoregions2017.shp") %>%
+  dplyr::select(ECO_NAME) %>% st_make_valid() # select variable wanted and make it valid
+
+# make to spatial data and set projection
+
+coords2 <- sf::st_as_sf(coords, coords = c("decimallongitude", "decimallatitude"), crs = 4326)
+
+# match data to shapefile
+xx <- point.in.poly(coords2, biomes, sp = TRUE, duplicate = TRUE)
+# back to dataframe and save
+coords3 <- as.data.frame(xx)
+
+write_csv(coords3, "data/ecoregions.csv")
+
