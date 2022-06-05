@@ -522,3 +522,5 @@ write_csv(big_un2, "data/inat_after_analysis.csv")
 #27 species that are still on the unphotographed list! [ie they got uploaded to iNat after I finished my analyses on April 15th 2022]
 
 
+#now to make a nice final master unphotographed file with all the columns
+
