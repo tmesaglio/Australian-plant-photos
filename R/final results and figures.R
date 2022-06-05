@@ -203,31 +203,13 @@ m1 <- galah_call() |>
   atlas_occurrences()
 m1$scientificName <- word(m1$scientificName, 1,2)
 m1_check <- m1 %>% mutate(Match = case_when(scientificName %in% unphoto1$APC_name ~ "Yes", T ~ "No"))
-#quickly manually fix one species (Dentella)
-m1_check[8060, 11] = "Yes"
-m1_check[8061, 11] = "Yes"
-m1_check[8062, 11] = "Yes"
-m1_check[8063, 11] = "Yes"
-m1_check[8064, 11] = "Yes"
-m1_check[8065, 11] = "Yes"
-m1_check[8066, 11] = "Yes"
-#back to business
 m1_check2 <- dplyr::filter(m1_check, Match == "Yes")
 m1_check2<-rename(m1_check2, APC_name = scientificName)
-#need to manually fix a Stylidium 
-m_stylidium <- galah_call() |>
-  galah_identify("Stylidium perizostera") |>
-  galah_select(scientificName, eventDate,basisOfRecord,dataResourceName,country) |>
-  atlas_occurrences()
-m_stylidium[1, 1] = "Stylidium perizoster"
-m_stylidium[2, 1] = "Stylidium perizoster"
-m_stylidium<-rename(m_stylidium, APC_name = scientificName)
-m1_final<-dplyr::bind_rows(m1_check2, m_stylidium)
-#back to business
-m1_final<-m1_final[ -c(10,11) ]
-m1_aus<-filter(m1_final, country == "Australia")
+m1_check2<-m1_check2[ -c(10) ]
+m1_aus<-filter(m1_check2, country == "Australia")
 m1_aus2<-m1_aus[!is.na(m1_aus$decimalLatitude),]
-
+#clean up the 2 seagrass species with absence records
+m1_aus2<-m1_aus2[!grepl("Collation of spatial seagrass data", m1_aus2$dataResourceName),]
 
 
 
@@ -244,10 +226,8 @@ m2_check2<-rename(m2_check2, APC_name = scientificName)
 m2_check2<-m2_check2[ -c(10) ]
 m2_aus<-filter(m2_check2, country == "Australia")
 m2_aus2<-m2_aus[!is.na(m2_aus$decimalLatitude),]
-#clean up the 4 seagrass species with absence records
+#clean up the 2 seagrass species with absence records
 m2_aus2<-m2_aus2[!grepl("Collation of spatial seagrass data", m2_aus2$dataResourceName),]
-#also remove Diuris calcicola due to incorrect mapping
-m2_aus2<-m2_aus2[!grepl("Diuris calcicola", m2_aus2$APC_name),]
 
 
 
@@ -264,11 +244,12 @@ m3_check2<-rename(m3_check2, APC_name = scientificName)
 m3_check2<-m3_check2[ -c(10) ]
 m3_aus<-filter(m3_check2, country == "Australia")
 m3_aus2<-m3_aus[!is.na(m3_aus$decimalLatitude),]
+#remove Diuris calcicola due to incorrect mapping
+m3_aus2<-m3_aus2[!grepl("Diuris calcicola", m3_aus2$APC_name),]
 
 
 
-
-unphoto4<-dplyr::slice(file1, 3001:3771)
+unphoto4<-dplyr::slice(file1, 3001:3716)
 target4<-unphoto4$APC_name
 m4 <- galah_call() |>
   galah_identify(target4) |>
@@ -276,13 +257,30 @@ m4 <- galah_call() |>
   atlas_occurrences()
 m4$scientificName <- word(m4$scientificName, 1,2)
 m4_check <- m4 %>% mutate(Match = case_when(scientificName %in% unphoto4$APC_name ~ "Yes", T ~ "No"))
+#quickly manually fix one species (Dentella)
+m4_check[6632, 11] = "Yes"
+m4_check[6633, 11] = "Yes"
+m4_check[6634, 11] = "Yes"
+m4_check[6635, 11] = "Yes"
+m4_check[6636, 11] = "Yes"
+m4_check[6637, 11] = "Yes"
+m4_check[6638, 11] = "Yes"
+#back to business
 m4_check2 <- dplyr::filter(m4_check, Match == "Yes")
 m4_check2<-rename(m4_check2, APC_name = scientificName)
-m4_check2<-m4_check2[ -c(10) ]
+#need to manually fix a Stylidium 
+m_stylidium <- galah_call() |>
+  galah_identify("Stylidium perizostera") |>
+  galah_select(scientificName, eventDate,basisOfRecord,dataResourceName,country) |>
+  atlas_occurrences()
+m_stylidium[1, 1] = "Stylidium perizoster"
+m_stylidium[2, 1] = "Stylidium perizoster"
+m_stylidium<-rename(m_stylidium, APC_name = scientificName)
+m4_final<-dplyr::bind_rows(m4_check2, m_stylidium)
+#back to business
+m4_check2<-m4_final[ -c(10,11) ]
 m4_aus<-filter(m4_check2, country == "Australia")
 m4_aus2<-m4_aus[!is.na(m4_aus$decimalLatitude),]
-
-
 
 #join them all
 joined<-dplyr::bind_rows(m1_aus2, m2_aus2, m3_aus2, m4_aus2)
@@ -301,7 +299,7 @@ joined_cleaned3 <- joined_cleaned2[-c(1:9), ]
 joined_cleaned4<-dplyr::arrange(joined_cleaned3, decimallatitude)
 
 
-write_csv(joined_cleaned5,"data/spatial_analysis_FINAL.csv")
+write_csv(joined_cleaned4,"data/spatial_analysis_FINAL.csv")
 
 #now to map these using Sophie's code
 library(raster)
@@ -339,12 +337,14 @@ heat_map_df <-
   as.data.frame(xy = TRUE) %>% 
   rename(species_num = layer)
 
-#turn the 5 NAs in middle of Aus to zeros
-heat_map_df[1192, 3] = 0
-heat_map_df[1382, 3] = 0
-heat_map_df[1476, 3] = 0
-heat_map_df[1765, 3] = 0
-heat_map_df[1584, 3] = 0
+#turn the 7 NAs in middle of Aus to zeros
+heat_map_df[6130, 3] = 0
+heat_map_df[6132, 3] = 0
+heat_map_df[6134, 3] = 0
+heat_map_df[6322, 3] = 0
+heat_map_df[6416, 3] = 0
+heat_map_df[6524, 3] = 0
+heat_map_df[6705, 3] = 0
 
 map_australia <- 
   map_data("world") %>% 
