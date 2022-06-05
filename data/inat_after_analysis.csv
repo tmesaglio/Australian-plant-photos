@@ -93,6 +93,8 @@ Eriachne melicacea,iNaturalist Australia,HUMAN_OBSERVATION,No
 Eriachne nodosa,iNaturalist Australia,HUMAN_OBSERVATION,Yes
 Eriachne stipacea,iNaturalist Australia,HUMAN_OBSERVATION,No
 Eriochloa australiensis,iNaturalist Australia,HUMAN_OBSERVATION,No
+Haloragis glauca,iNaturalist Australia,HUMAN_OBSERVATION,No
+Haloragis milesiae,iNaturalist Australia,HUMAN_OBSERVATION,Yes
 Hibbertia araneolifera,iNaturalist Australia,HUMAN_OBSERVATION,No
 Hibbertia complanata,iNaturalist Australia,HUMAN_OBSERVATION,No
 Hibbertia concinna,iNaturalist Australia,HUMAN_OBSERVATION,Yes
@@ -112,8 +114,6 @@ Acacia saliciformis,iNaturalist Australia,HUMAN_OBSERVATION,No
 Acacia signata,iNaturalist Australia,HUMAN_OBSERVATION,No
 Acacia storyi,iNaturalist Australia,HUMAN_OBSERVATION,No
 Grevillea parallelinervis,iNaturalist Australia,HUMAN_OBSERVATION,No
-Haloragis glauca,iNaturalist Australia,HUMAN_OBSERVATION,No
-Haloragis milesiae,iNaturalist Australia,HUMAN_OBSERVATION,Yes
 Lepidium desvauxii,iNaturalist Australia,HUMAN_OBSERVATION,Yes
 Lepidium peregrinum,iNaturalist Australia,HUMAN_OBSERVATION,Yes
 Lepidium pholidogynum,iNaturalist Australia,HUMAN_OBSERVATION,No
@@ -123,6 +123,7 @@ Petrophile imbricata,iNaturalist Australia,HUMAN_OBSERVATION,No
 Allocasuarina acuaria,iNaturalist Australia,HUMAN_OBSERVATION,No
 Allocasuarina filidens,iNaturalist Australia,HUMAN_OBSERVATION,No
 Crotalaria sessiliflora,iNaturalist Australia,HUMAN_OBSERVATION,No
+Croton mamillatus,iNaturalist Australia,HUMAN_OBSERVATION,No
 Daviesia alternifolia,iNaturalist Australia,HUMAN_OBSERVATION,No
 Daviesia pubigera,iNaturalist Australia,HUMAN_OBSERVATION,No
 Daviesia rhombifolia,iNaturalist Australia,HUMAN_OBSERVATION,No
@@ -142,7 +143,6 @@ Brachychiton tuberculatus,iNaturalist Australia,HUMAN_OBSERVATION,No
 Callistemon megalongensis,iNaturalist Australia,HUMAN_OBSERVATION,No
 Calothamnus phellosus,iNaturalist Australia,HUMAN_OBSERVATION,No
 Conothamnus trinervis,iNaturalist Australia,HUMAN_OBSERVATION,No
-Croton mamillatus,iNaturalist Australia,HUMAN_OBSERVATION,No
 Eucalyptus acies,iNaturalist Australia,HUMAN_OBSERVATION,No
 Eucalyptus apothalassica,iNaturalist Australia,HUMAN_OBSERVATION,No
 Eucalyptus conferta,iNaturalist Australia,HUMAN_OBSERVATION,Yes

@@ -244,7 +244,7 @@ m3_check2<-rename(m3_check2, APC_name = scientificName)
 m3_check2<-m3_check2[ -c(10) ]
 m3_aus<-filter(m3_check2, country == "Australia")
 m3_aus2<-m3_aus[!is.na(m3_aus$decimalLatitude),]
-#remove Diuris calcicola due to incorrect mapping
+#remove Diuris calcicola due to incorrect mapping (because of synonym issues)
 m3_aus2<-m3_aus2[!grepl("Diuris calcicola", m3_aus2$APC_name),]
 
 
@@ -413,11 +413,11 @@ library(galah)
 
 #just a final check of how many species were actually on iNat (since I did the original iNat export early compared to all other sites)
 
-inatu <- read_csv("data/unphotographed_inat.csv")
+inatu <- read_csv("data/unphotographed_inat_updated.csv")
 
-#so 21,079 - 9059 [actually 21,077 - 9057] = 12,020 initially
+#so 21,068 - 9047 = 12,021 initially
 
-#now the ALA stuff (note I'm doing this on May 31st 2022, numbers will change constantly after this if code is rerun)
+#now the ALA stuff (note I'm doing this on June 5th 2022, numbers will change constantly after this if code is rerun)
 unphoto1<-dplyr::slice(inatu, 1:1000)
 target1<-unphoto1$canonicalName
 m1 <- galah_call() |>
@@ -490,7 +490,7 @@ m9 <- galah_call() |>
   galah_select(scientificName, eventDate,dataResourceName,basisOfRecord,typeStatus) |>
   atlas_occurrences()
 
-unphoto10<-dplyr::slice(inatu, 9001:9059)
+unphoto10<-dplyr::slice(inatu, 9001:9047)
 target10<-unphoto10$canonicalName
 m10 <- galah_call() |>
   galah_identify(target9) |>
@@ -513,7 +513,7 @@ iNat_ala6<-iNat_ala5[!grepl("Thelymitra jonesii", iNat_ala5$scientificName),]
 
 iNat_ala7 <- iNat_ala6 %>% distinct(scientificName, .keep_all = TRUE)
 
-#189 additional species in just 48 days! Almost 4 per day.
+#189 additional species since April 13th! 
 
 big_un <- read_csv("data/unphotographed_FINAL.csv")
 big_un2 <- iNat_ala7 %>% mutate(Match = case_when(scientificName %in% big_un$APC_name ~ "Yes", T ~ "No"))

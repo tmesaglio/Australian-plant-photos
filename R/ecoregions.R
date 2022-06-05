@@ -34,3 +34,5 @@ write_csv(coords3, "data/ecoregions.csv")
 
 #fourth note: for some rows, I added my own new 'ecoregion': "Offshore sand and reef flats and islands". This is to address records from 
 #Ashmore Reef, Coral Sea Islands, etc., which for some reason have no designated ecoregion under the current global classification.
+
+#I SCRAPPED THIS
