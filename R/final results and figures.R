@@ -1,3 +1,5 @@
+#note that this script was compiled on June 5th 2022
+
 library(tidyverse)
 library(stringr)
 library(dplyr)
@@ -30,7 +32,8 @@ t2<-dplyr::select(t2, 1:3)
 write_csv(t2,"data/FINAL RESULT - UNPHOTOGRAPHED GENUS TABLE.csv")
 
 
-#note that I manually combined the above 2 CSVs (family and genus) into a single excel doc, with each as a sheet
+#note that I manually combined the above 2 CSVs (family and genus) into a single excel doc ("FINAL RESULT - UNPHOTOGRAPHED BY TAXONOMY"), 
+#with each as a sheet
 
 #3. State/territory breakdown
 target<-c("native","native and naturalised")
@@ -92,7 +95,8 @@ write_csv(CSI,"data/FINAL RESULT - CSI.csv")
 write_csv(AR,"data/FINAL RESULT - AR.csv")
 write_csv(CaI,"data/FINAL RESULT - CaI.csv")
 
-#note that I manually combined the above 18 CSVs into a single excel doc, with each as a sheet
+#note that I manually combined the above 18 CSVs into a single excel doc ("FINAL RESULT - UNPHOTOGRAPHED BY STATE_TERRITORY), 
+#with each as a sheet
 
 
 #4. Original date of publication
@@ -106,7 +110,7 @@ file2 <- dplyr::inner_join(unphotographed, apni2, by = "APC_name")
 
 #for some reason, Mapania macrocephala is missing the year, so need to manually add it
 
-file2[1796, 22] = 1890
+file2[907, 22] = 1890
 
 #now to fill in the original dates for comb. nov., nom. nov. etc
 
@@ -120,8 +124,8 @@ t3<-Freq(file2$Original_Year)
 t3<-dplyr::select(t3, 1:2)
 write_csv(t3,"data/FINAL RESULT - YEARS OF PUBLICATION.csv")
 
-#note I've manually edited this csv file outside R
-
+#note I now manually edit this csv file outside R
+#set working directory to the data folder here
 years <- read_csv("FINAL RESULT - YEARS OF PUBLICATION.csv")
 years[is.na(years)] <- 0
 
@@ -137,6 +141,7 @@ ggsave("years.png")
 
 
 #4. Growth habit
+#set working directory back to main folde3r
 austraits<-read_csv("data/austraits_habit.csv")
 
 austraits2<-dplyr::select(austraits,taxon_name,name_resolution_and_type,plant_growth_form_recoded,plant_growth_form_simpler)
@@ -171,7 +176,7 @@ library(ggplot2)
 
 
 group <- c(rep("Shrubs"),rep("Herbs"),rep("Graminoids"),rep("Trees"),rep("Aquatic herbs and ferns"),rep("Cycads"),rep("Climbers"),rep("Terrestrial ferns"),rep("Woody climbers"),rep("Epiphytic ferns"),rep("Unknown"))
-value <- c(1431,1308,599,217,91,3,36,37,35,13,1)
+value <- c(1407,1289,597,213,89,3,34,38,32,13,1)
 data <- data.frame(group,value)
 
 
@@ -184,8 +189,8 @@ ggsave("habit.png")
 library(galah)
 galah_config(email = "thomasmesaglio@hotmail.com")
 
-#analysis done on 31/05/22
-# note that if the code in section 5 is rerun, some lines need to be updated due to new ALA records
+#analysis done on 05/06/22
+# note that if the code in this section is rerun, some lines need to be updated due to new ALA records
 
 file1<-read_csv("data/unphotographed_FINAL.csv")
 

@@ -1,13 +1,48 @@
 species,APC_name,family
-Isoetes brevicula E.R.L.Johnson,Isoetes brevicula,Isoetaceae
-Isoetes inflata E.R.L.Johnson,Isoetes inflata,Isoetaceae
-Isoetes mongerensis E.R.L.Johnson,Isoetes mongerensis,Isoetaceae
-Isoetes tripus A.Braun,Isoetes tripus,Isoetaceae
+Dicladanthera glabra R.M.Barker,Dicladanthera glabra,Acanthaceae
+Dicliptera miscella R.M.Barker,Dicliptera miscella,Acanthaceae
+Dipteracanthus chichesterensis Trudgen & P.-L.de Kock,Dipteracanthus chichesterensis,Acanthaceae
+Hypoestes sparsiflora R.M.Barker,Hypoestes sparsiflora,Acanthaceae
+Gunniopsis divisa Chinnock,Gunniopsis divisa,Aizoaceae
+Gunniopsis propinqua Chinnock,Gunniopsis propinqua,Aizoaceae
+Tetragonia coronata Rye & Trudgen,Tetragonia coronata,Aizoaceae
+Tetragonia diptera F.Muell.,Tetragonia diptera,Aizoaceae
+Trianthema kimberleyi Bittrich & K.M.Jenssen,Trianthema kimberleyi,Aizoaceae
+Gomphrena eichleri J.Palmer,Gomphrena eichleri,Amaranthaceae
+Gomphrena humifusa J.Palmer,Gomphrena humifusa,Amaranthaceae
+Gomphrena leptophylla (Benth.) J.Palmer,Gomphrena leptophylla,Amaranthaceae
+Gomphrena splendida R.L.Barrett & J.Palmer,Gomphrena splendida,Amaranthaceae
+Gomphrena tenella (Moq.) Benth.,Gomphrena tenella,Amaranthaceae
+Ptilotus actinocladus T.Hammer & R.W.Davis,Ptilotus actinocladus,Amaranthaceae
+Ptilotus alexandri Benl,Ptilotus alexandri,Amaranthaceae
+Ptilotus andersonii R.W.Davis,Ptilotus andersonii,Amaranthaceae
+Ptilotus crispus Benl,Ptilotus crispus,Amaranthaceae
+Ptilotus decalvatus Benl,Ptilotus decalvatus,Amaranthaceae
+Ptilotus falcatus R.W.Davis & T.Hammer,Ptilotus falcatus,Amaranthaceae
+Ptilotus lazaridis Benl,Ptilotus lazaridis,Amaranthaceae
+Ptilotus procumbens Benl,Ptilotus procumbens,Amaranthaceae
+Ptilotus tetrandrus Benl,Ptilotus tetrandrus,Amaranthaceae
+Ptilotus unguiculatus T.Hammer,Ptilotus unguiculatus,Amaranthaceae
+Ptilotus wilsonii Benl,Ptilotus wilsonii,Amaranthaceae
+Ptilotus yapukaratja R.W.Davis & T.Hammer,Ptilotus yapukaratja,Amaranthaceae
+Crinum joesmithii M.D.Barrett & R.L.Barrett,Crinum joesmithii,Amaryllidaceae
+Proiphys kimberleyensis M.D.Barrett & R.L.Barrett,Proiphys kimberleyensis,Amaryllidaceae
+Lyginia excelsa B.G.Briggs & L.A.S.Johnson,Lyginia excelsa,Anarthriaceae
 Actinotus repens Keighery ex Henwood,Actinotus repens,Apiaceae
 Platysace maxwellii (F.Muell.) C.Norman,Platysace maxwellii,Apiaceae
 Xanthosia collina Keighery,Xanthosia collina,Apiaceae
 Xanthosia eichleri J.M.Hart & Henwood,Xanthosia eichleri,Apiaceae
 Xanthosia peduncularis Benth.,Xanthosia peduncularis,Apiaceae
+Cynanchum christineae P.I.Forst.,Cynanchum christineae,Apocynaceae
+Cynanchum puberulum F.Muell. ex Benth.,Cynanchum puberulum,Apocynaceae
+Marsdenia glandulifera C.T.White,Marsdenia glandulifera,Apocynaceae
+Marsdenia graniticola P.I.Forst.,Marsdenia graniticola,Apocynaceae
+Parsonsia kimberleyensis J.B.Williams,Parsonsia kimberleyensis,Apocynaceae
+Vincetoxicum cinerascens (R.Br.) Meve & Liede,Vincetoxicum cinerascens,Apocynaceae
+Pilostyles collina Dell,Pilostyles collina,Apodanthaceae
+Aponogeton euryspermus Hellq. & S.W.L.Jacobs,Aponogeton euryspermus,Aponogetonaceae
+Aponogeton kimberleyensis Hellq. & S.W.L.Jacobs,Aponogeton kimberleyensis,Aponogetonaceae
+Typhonium nudibaccatum A.Hay,Typhonium nudibaccatum,Araceae
 Hydrocotyle decorata A.J.Perkins,Hydrocotyle decorata,Araliaceae
 Hydrocotyle eichleri A.J.Perkins,Hydrocotyle eichleri,Araliaceae
 Hydrocotyle muriculata Turcz.,Hydrocotyle muriculata,Araliaceae
@@ -21,10 +56,27 @@ Trachymene dusenii (Domin) F.M.Bailey,Trachymene dusenii,Araliaceae
 Trachymene elachocarpa (F.Muell.) B.L.Burtt,Trachymene elachocarpa,Araliaceae
 Trachymene pyrophila Rye,Trachymene pyrophila,Araliaceae
 Trachymene villosa (F.Muell.) Benth.,Trachymene villosa,Araliaceae
-"Auranticarpa resinosa (Domin) L.Cayzer, Crisp & I.Telford",Auranticarpa resinosa,Pittosporaceae
-Marianthus aquilonaris N.Gibson & Wege,Marianthus aquilonaris,Pittosporaceae
-Marianthus dryandra L.Cayzer & Crisp,Marianthus dryandra,Pittosporaceae
-Marianthus microphyllus (Turcz.) Benth.,Marianthus microphyllus,Pittosporaceae
+Acanthocarpus humilis A.S.George,Acanthocarpus humilis,Asparagaceae
+Acanthocarpus robustus A.S.George,Acanthocarpus robustus,Asparagaceae
+Acanthocarpus rupestris A.S.George,Acanthocarpus rupestris,Asparagaceae
+Chamaescilla gibsonii Keighery,Chamaescilla gibsonii,Asparagaceae
+Lomandra acicularis M.D.Barrett,Lomandra acicularis,Asparagaceae
+Lomandra brittanii T.S.Choo,Lomandra brittanii,Asparagaceae
+Lomandra nutans T.D.Macfarl.,Lomandra nutans,Asparagaceae
+Lomandra rupestris (Endl.) Ewart,Lomandra rupestris,Asparagaceae
+Lomandra sonderi (F.Muell.) Ewart,Lomandra sonderi,Asparagaceae
+Lomandra spartea (Endl.) Ewart,Lomandra spartea,Asparagaceae
+Lomandra whicherensis Keighery,Lomandra whicherensis,Asparagaceae
+Thysanotus acerosifolius Brittan,Thysanotus acerosifolius,Asparagaceae
+Thysanotus brachiatus Brittan,Thysanotus brachiatus,Asparagaceae
+Thysanotus brachyantherus Brittan,Thysanotus brachyantherus,Asparagaceae
+"Thysanotus fragrans (Brittan) Sirisena, Conran & T.D.Macfarl.",Thysanotus fragrans,Asparagaceae
+Thysanotus gageoides Diels,Thysanotus gageoides,Asparagaceae
+Thysanotus glaucifolius Brittan,Thysanotus glaucifolius,Asparagaceae
+Thysanotus gracilis R.Br.,Thysanotus gracilis,Asparagaceae
+Thysanotus pseudojunceus Brittan,Thysanotus pseudojunceus,Asparagaceae
+"Thysanotus unicupensis Sirisena, T.D.Macfarl. & Conran",Thysanotus unicupensis,Asparagaceae
+Thysanotus volubilis R.Br.,Thysanotus volubilis,Asparagaceae
 Anemocarpa calcicola Paul G.Wilson,Anemocarpa calcicola,Asteraceae
 Angianthus conocephalus (J.M.Black) P.S.Short,Angianthus conocephalus,Asteraceae
 Angianthus cornutus P.S.Short,Angianthus cornutus,Asteraceae
@@ -46,7 +98,6 @@ Blainvillea acmella (L.) Philipson,Blainvillea acmella,Asteraceae
 Blainvillea cunninghamii (DC.) Orchard,Blainvillea cunninghamii,Asteraceae
 Blennospora doliiformis Keighery,Blennospora doliiformis,Asteraceae
 Blumea benthamiana Domin,Blumea benthamiana,Asteraceae
-Blumea psammophila Dunlop,Blumea psammophila,Asteraceae
 Blumea pungens W.Fitzg.,Blumea pungens,Asteraceae
 Brachyscome billabongensis P.S.Short,Brachyscome billabongensis,Asteraceae
 Brachyscome eyrensis J.H.Willis ex G.L.Davis,Brachyscome eyrensis,Asteraceae
@@ -152,7 +203,6 @@ Senecio glabrescens (DC.) Sch.Bip.,Senecio glabrescens,Asteraceae
 Senecio hamersleyensis I.Thomps.,Senecio hamersleyensis,Asteraceae
 Senecio laceratus (F.Muell.) Belcher,Senecio laceratus,Asteraceae
 Senecio leucoglossus F.Muell.,Senecio leucoglossus,Asteraceae
-Senecio multicaulis A.Rich.,Senecio multicaulis,Asteraceae
 Senecio oldfieldii I.Thomps.,Senecio oldfieldii,Asteraceae
 Senecio ramosissimus DC.,Senecio ramosissimus,Asteraceae
 Senecio serratiformis I.Thomps.,Senecio serratiformis,Asteraceae
@@ -165,85 +215,7 @@ Thiseltonia gracillima (F.Muell. & Tate) Paul G.Wilson,Thiseltonia gracillima,As
 Tietkensia corrickiae P.S.Short,Tietkensia corrickiae,Asteraceae
 Vittadinia humerata N.T.Burb.,Vittadinia humerata,Asteraceae
 Vittadinia nullarborensis N.T.Burb.,Vittadinia nullarborensis,Asteraceae
-Isotoma luticola Carolin,Isotoma luticola,Campanulaceae
-Lobelia archeri N.G.Walsh,Lobelia archeri,Campanulaceae
-Lobelia cleistogamoides N.G.Walsh & Albr.,Lobelia cleistogamoides,Campanulaceae
-Lobelia fissiflora N.G.Walsh,Lobelia fissiflora,Campanulaceae
-Lobelia simulans N.G.Walsh,Lobelia simulans,Campanulaceae
-Dampiera eriantha K.Krause,Dampiera eriantha,Goodeniaceae
-Dampiera fitzgeraldensis Rajput & Carolin,Dampiera fitzgeraldensis,Goodeniaceae
-Dampiera heteroptera Rajput & Carolin,Dampiera heteroptera,Goodeniaceae
-Dampiera krauseana Rajput & Carolin,Dampiera krauseana,Goodeniaceae
-Dampiera orchardii Rajput & Carolin,Dampiera orchardii,Goodeniaceae
-Dampiera plumosa S.Moore,Dampiera plumosa,Goodeniaceae
-Dampiera scaevolina C.A.Gardner ex Rajput & Carolin,Dampiera scaevolina,Goodeniaceae
-Goodenia asteriscus P.J.Lang,Goodenia asteriscus,Goodeniaceae
-Goodenia corralina L.W.Sage & K.A.Sheph.,Goodenia corralina,Goodeniaceae
-Goodenia cravenii R.L.Barrett & M.D.Barrett,Goodenia cravenii,Goodeniaceae
-Goodenia durackiana Carolin,Goodenia durackiana,Goodeniaceae
-Goodenia eremophila E.Pritz.,Goodenia eremophila,Goodeniaceae
-Goodenia heatheriana L.W.Sage,Goodenia heatheriana,Goodeniaceae
-Goodenia heterotricha M.D.Barrett & R.L.Barrett,Goodenia heterotricha,Goodeniaceae
-Goodenia integerrima Carolin,Goodenia integerrima,Goodeniaceae
-Goodenia jaurdiensis L.W.Sage & K.A.Sheph.,Goodenia jaurdiensis,Goodeniaceae
-Goodenia leptoclada Benth.,Goodenia leptoclada,Goodeniaceae
-Goodenia maretensis R.L.Barrett,Goodenia maretensis,Goodeniaceae
-Goodenia ochracea Carolin,Goodenia ochracea,Goodeniaceae
-Goodenia pallida Carolin,Goodenia pallida,Goodeniaceae
-Goodenia pascua Carolin,Goodenia pascua,Goodeniaceae
-Goodenia pedicellata L.W.Sage & K.W.Dixon,Goodenia pedicellata,Goodeniaceae
-Goodenia perryi C.A.Gardner ex Carolin,Goodenia perryi,Goodeniaceae
-Goodenia pritzelii Domin,Goodenia pritzelii,Goodeniaceae
-Goodenia salina L.W.Sage & K.A.Sheph.,Goodenia salina,Goodeniaceae
-Goodenia salmoniana (F.Muell.) Carolin,Goodenia salmoniana,Goodeniaceae
-Goodenia schwerinensis Carolin,Goodenia schwerinensis,Goodeniaceae
-Goodenia suffrutescens Carolin,Goodenia suffrutescens,Goodeniaceae
-Goodenia virgata Carolin,Goodenia virgata,Goodeniaceae
-Lechenaultia aphylla D.A.Morrison,Lechenaultia aphylla,Goodeniaceae
-Lechenaultia mimica M.D.Barrett & R.L.Barrett,Lechenaultia mimica,Goodeniaceae
-Scaevola archeriana L.W.Sage,Scaevola archeriana,Goodeniaceae
-Scaevola argentea Carolin,Scaevola argentea,Goodeniaceae
-Scaevola ballajupensis L.W.Sage,Scaevola ballajupensis,Goodeniaceae
-Scaevola densifolia Carolin,Scaevola densifolia,Goodeniaceae
-Scaevola macrophylla (de Vriese) Benth.,Scaevola macrophylla,Goodeniaceae
-Scaevola tenuifolia Carolin,Scaevola tenuifolia,Goodeniaceae
-Scaevola xanthina K.A.Sheph. & Hislop,Scaevola xanthina,Goodeniaceae
-Velleia hispida W.Fitzg.,Velleia hispida,Goodeniaceae
-Liparophyllum congestiflorum (F.Muell.) Tippery & Les,Liparophyllum congestiflorum,Menyanthaceae
-Nymphoides astoniae M.D.Barrett & R.L.Barrett,Nymphoides astoniae,Menyanthaceae
-Nymphoides disperma Aston,Nymphoides disperma,Menyanthaceae
-Ornduffia submersa (Aston) Tippery & Les,Ornduffia submersa,Menyanthaceae
-Stylidium aceratum Lowrie & Kenneally,Stylidium aceratum,Stylidiaceae
-Stylidium applanatum Wege,Stylidium applanatum,Stylidiaceae
-Stylidium bellum Wege,Stylidium bellum,Stylidiaceae
-Stylidium costulatum Lowrie & Kenneally,Stylidium costulatum,Stylidiaceae
-Stylidium daphne Lowrie & Kenneally,Stylidium daphne,Stylidiaceae
-Stylidium diademum Wege,Stylidium diademum,Stylidiaceae
-Stylidium diceratum Lowrie & Kenneally,Stylidium diceratum,Stylidiaceae
-Stylidium dispermum F.Muell.,Stylidium dispermum,Stylidiaceae
-Stylidium ferricola Wege & Keighery,Stylidium ferricola,Stylidiaceae
-Stylidium fimbriatum Lowrie & Kenneally,Stylidium fimbriatum,Stylidiaceae
-Stylidium keigheryi Lowrie & Carlquist,Stylidium keigheryi,Stylidiaceae
-"Stylidium korijekup Wege, B.J.Keighery & Keighery",Stylidium korijekup,Stylidiaceae
-Stylidium lithophilum Wege,Stylidium lithophilum,Stylidiaceae
-Stylidium monticola Lowrie & Kenneally,Stylidium monticola,Stylidiaceae
-Stylidium mucronatum Lowrie & Kenneally,Stylidium mucronatum,Stylidiaceae
-Stylidium nitidum Lowrie & Kenneally,Stylidium nitidum,Stylidiaceae
-Stylidium notabile A.R.Bean,Stylidium notabile,Stylidiaceae
-Stylidium nungarinense S.Moore,Stylidium nungarinense,Stylidiaceae
-Stylidium oreophilum Wege,Stylidium oreophilum,Stylidiaceae
-Stylidium periscelianthum F.L.Erickson & J.H.Willis,Stylidium periscelianthum,Stylidiaceae
-Stylidium perizoster Lowrie & Kenneally,Stylidium perizoster,Stylidiaceae
-Stylidium planirosula Wege,Stylidium planirosula,Stylidiaceae
-Stylidium rhipidium F.L.Erickson & J.H.Willis,Stylidium rhipidium,Stylidiaceae
-Stylidium roseonanum Carlquist,Stylidium roseonanum,Stylidiaceae
-Stylidium rosulatum Wege,Stylidium rosulatum,Stylidiaceae
-Stylidium scintillans Wege,Stylidium scintillans,Stylidiaceae
-Stylidium spiciforme Wege,Stylidium spiciforme,Stylidiaceae
-Stylidium thryonides Wege,Stylidium thryonides,Stylidiaceae
-Stylidium tinkeri Lowrie & Kenneally,Stylidium tinkeri,Stylidiaceae
-Stylidium trudgenii Lowrie & Kenneally,Stylidium trudgenii,Stylidiaceae
-Stylidium xanthopis F.L.Erickson & J.H.Willis,Stylidium xanthopis,Stylidiaceae
+"Cochlospermum macnamarae Hislop, K.R.Thiele & Brassington",Cochlospermum macnamarae,Bixaceae
 Heliotropium aenigmatum Craven,Heliotropium aenigmatum,Boraginaceae
 Heliotropium alcyonium Craven,Heliotropium alcyonium,Boraginaceae
 Heliotropium apertum Craven,Heliotropium apertum,Boraginaceae
@@ -275,288 +247,55 @@ Heliotropium tanythrix Craven,Heliotropium tanythrix,Boraginaceae
 Heliotropium uniflorum Craven,Heliotropium uniflorum,Boraginaceae
 Heliotropium viator Craven,Heliotropium viator,Boraginaceae
 Plagiobothrys australasicus (A.DC.) I.M.Johnst.,Plagiobothrys australasicus,Boraginaceae
-Acrotriche dura (Benth.) Quinn,Acrotriche dura,Ericaceae
-Acrotriche lancifolia Hislop,Acrotriche lancifolia,Ericaceae
-Acrotriche parviflora (Stschegl.) Hislop,Acrotriche parviflora,Ericaceae
-Acrotriche ramiflora R.Br.,Acrotriche ramiflora,Ericaceae
-Andersonia barbata L.Watson,Andersonia barbata,Ericaceae
-Andersonia depressa R.Br.,Andersonia depressa,Ericaceae
-Andersonia ferricola Lemson,Andersonia ferricola,Ericaceae
-Andersonia geniculata Lemson,Andersonia geniculata,Ericaceae
-Andersonia longifolia (Benth.) L.Watson,Andersonia longifolia,Ericaceae
-Astroloma chloranthum Hislop & A.J.G.Wilson,Astroloma chloranthum,Ericaceae
-Astroloma inopinatum Hislop,Astroloma inopinatum,Ericaceae
-Astroloma oblongifolium A.J.G.Wilson & Hislop,Astroloma oblongifolium,Ericaceae
-Astroloma tectum R.Br.,Astroloma tectum,Ericaceae
-Brachyloma delbi Cranfield,Brachyloma delbi,Ericaceae
-Brachyloma djerral Cranfield & Hislop,Brachyloma djerral,Ericaceae
-Brachyloma elusum Hislop & Cranfield,Brachyloma elusum,Ericaceae
-Brachyloma geissoloma (F.Muell.) Cranfield,Brachyloma geissoloma,Ericaceae
-Brachyloma pirara Cranfield & Hislop,Brachyloma pirara,Ericaceae
-Brachyloma stenolobum Hislop & Cranfield,Brachyloma stenolobum,Ericaceae
-Coleanthera coelophylla (A.Cunn. ex DC.) Benth.,Coleanthera coelophylla,Ericaceae
-Conostephium laeve Hislop,Conostephium laeve,Ericaceae
-Conostephium papillosum Hislop,Conostephium papillosum,Ericaceae
-Conostephium prolatum Hislop,Conostephium prolatum,Ericaceae
-Conostephium uncinatum Moezel,Conostephium uncinatum,Ericaceae
-Dielsiodoxa tamariscina (F.Muell.) Albr.,Dielsiodoxa tamariscina,Ericaceae
-Leucopogon acicularis Benth.,Leucopogon acicularis,Ericaceae
-Leucopogon altissimus Hislop,Leucopogon altissimus,Ericaceae
-Leucopogon amplectens Ostenf.,Leucopogon amplectens,Ericaceae
-Leucopogon atherolepis Stschegl.,Leucopogon atherolepis,Ericaceae
-Leucopogon audax Hislop,Leucopogon audax,Ericaceae
-Leucopogon borealis Hislop & A.R.Chapm.,Leucopogon borealis,Ericaceae
-Leucopogon bracteolaris Benth.,Leucopogon bracteolaris,Ericaceae
-Leucopogon canaliculatus Hislop,Leucopogon canaliculatus,Ericaceae
-Leucopogon cinereus E.Pritz.,Leucopogon cinereus,Ericaceae
-Leucopogon compactus Stschegl.,Leucopogon compactus,Ericaceae
-Leucopogon conchifolius Strid,Leucopogon conchifolius,Ericaceae
-Leucopogon crassiflorus (F.Muell.) Benth.,Leucopogon crassiflorus,Ericaceae
-Leucopogon cryptanthus Benth.,Leucopogon cryptanthus,Ericaceae
-Leucopogon decrescens Hislop,Leucopogon decrescens,Ericaceae
-Leucopogon decussatus Stschegl.,Leucopogon decussatus,Ericaceae
-Leucopogon diversifolius Hislop,Leucopogon diversifolius,Ericaceae
-Leucopogon extremus Hislop & Puente-Lel.,Leucopogon extremus,Ericaceae
-Leucopogon grammatus Hislop,Leucopogon grammatus,Ericaceae
-Leucopogon hispidus E.Pritz.,Leucopogon hispidus,Ericaceae
-Leucopogon incisus Hislop,Leucopogon incisus,Ericaceae
-Leucopogon inflexus Hislop,Leucopogon inflexus,Ericaceae
-Leucopogon infuscatus Strid,Leucopogon infuscatus,Ericaceae
-Leucopogon interstans Hislop,Leucopogon interstans,Ericaceae
-Leucopogon lloydiorum Strid,Leucopogon lloydiorum,Ericaceae
-Leucopogon maritimus Hislop,Leucopogon maritimus,Ericaceae
-Leucopogon microcarpus Hislop,Leucopogon microcarpus,Ericaceae
-Leucopogon mollis E.Pritz.,Leucopogon mollis,Ericaceae
-Leucopogon navicularis Hislop,Leucopogon navicularis,Ericaceae
-Leucopogon newbeyi Hislop,Leucopogon newbeyi,Ericaceae
-Leucopogon nitidus Hislop,Leucopogon nitidus,Ericaceae
-Leucopogon ozothamnoides Benth.,Leucopogon ozothamnoides,Ericaceae
-Leucopogon paradoxus Hislop,Leucopogon paradoxus,Ericaceae
-Leucopogon penicillatus Stschegl.,Leucopogon penicillatus,Ericaceae
-Leucopogon prolatus Hislop,Leucopogon prolatus,Ericaceae
-Leucopogon psammophilus E.Pritz.,Leucopogon psammophilus,Ericaceae
-Leucopogon psilopus Stschegl.,Leucopogon psilopus,Ericaceae
-Leucopogon pubescens S.Moore,Leucopogon pubescens,Ericaceae
-Leucopogon remotus Hislop,Leucopogon remotus,Ericaceae
-Leucopogon rigidus A.Cunn. ex DC.,Leucopogon rigidus,Ericaceae
-Leucopogon rubricaulis R.Br.,Leucopogon rubricaulis,Ericaceae
-Leucopogon rugulosus Hislop,Leucopogon rugulosus,Ericaceae
-Leucopogon stokesii Hislop,Leucopogon stokesii,Ericaceae
-Leucopogon subsejunctus Hislop,Leucopogon subsejunctus,Ericaceae
-Leucopogon tetragonus Sond.,Leucopogon tetragonus,Ericaceae
-Leucopogon validus Hislop & A.R.Chapm.,Leucopogon validus,Ericaceae
-Leucopogon wheelerae Hislop,Leucopogon wheelerae,Ericaceae
-Lysinema fimbriatum F.Muell.,Lysinema fimbriatum,Ericaceae
-Lysinema lasianthum R.Br.,Lysinema lasianthum,Ericaceae
-Stenanthera pungens (Keighery) Hislop,Stenanthera pungens,Ericaceae
-Styphelia filamentosa Hislop & Puente-Lel.,Styphelia filamentosa,Ericaceae
-Styphelia filifolia Hislop & Puente-Lel.,Styphelia filifolia,Ericaceae
-Styphelia longissima Hislop & Puente-Lel.,Styphelia longissima,Ericaceae
-Styphelia melaleucoides F.Muell.,Styphelia melaleucoides,Ericaceae
-Samolus caespitosus Keighery,Samolus caespitosus,Primulaceae
-Cynanchum christineae P.I.Forst.,Cynanchum christineae,Apocynaceae
-Cynanchum puberulum F.Muell. ex Benth.,Cynanchum puberulum,Apocynaceae
-Marsdenia glandulifera C.T.White,Marsdenia glandulifera,Apocynaceae
-Marsdenia graniticola P.I.Forst.,Marsdenia graniticola,Apocynaceae
-Parsonsia kimberleyensis J.B.Williams,Parsonsia kimberleyensis,Apocynaceae
-Schenkia clementii (Domin) G.Mans.,Schenkia clementii,Gentianaceae
-"Adelphacme minima (B.J.Conn) K.L.Gibbons, B.J.Conn & Henwood",Adelphacme minima,Loganiaceae
-Logania archeri B.J.Conn,Logania archeri,Loganiaceae
-Logania litoralis B.J.Conn,Logania litoralis,Loganiaceae
-Logania micrantha Benth.,Logania micrantha,Loganiaceae
-Logania perryana B.J.Conn,Logania perryana,Loganiaceae
-"Logania sylvicola Cranfield, Hislop & T.D.Macfarl.",Logania sylvicola,Loganiaceae
-Mitrasacme ambigua R.Br.,Mitrasacme ambigua,Loganiaceae
-Mitrasacme epigaea Dunlop,Mitrasacme epigaea,Loganiaceae
-Mitrasacme foliosa C.A.Gardner,Mitrasacme foliosa,Loganiaceae
-Mitrasacme graminea Dunlop,Mitrasacme graminea,Loganiaceae
-Mitrasacme hispida W.Fitzg.,Mitrasacme hispida,Loganiaceae
-Mitrasacme katjarranka N.Gibson & S.J.van Leeuwen,Mitrasacme katjarranka,Loganiaceae
-Mitrasacme kenneallyi Dunlop,Mitrasacme kenneallyi,Loganiaceae
-Mitrasacme laxiceps Dunlop,Mitrasacme laxiceps,Loganiaceae
-Mitrasacme lutea F.Muell.,Mitrasacme lutea,Loganiaceae
-Mitrasacme retroloba Dunlop,Mitrasacme retroloba,Loganiaceae
-Mitrasacme scopata Dunlop,Mitrasacme scopata,Loganiaceae
-Mitrasacme secedens Dunlop,Mitrasacme secedens,Loganiaceae
-Mitrasacme thedae M.D.Barrett & R.L.Barrett,Mitrasacme thedae,Loganiaceae
-Orianthera biloba (B.J.Conn) C.S.P.Foster & B.J.Conn,Orianthera biloba,Loganiaceae
-Orianthera callosa (F.Muell.) C.S.P.Foster & B.J.Conn,Orianthera callosa,Loganiaceae
-Orianthera exilis (B.J.Conn) C.S.P.Foster & B.J.Conn,Orianthera exilis,Loganiaceae
-Orianthera wendyae (Cranfield & Keighery) C.S.P.Foster & B.J.Conn,Orianthera wendyae,Loganiaceae
-Gardenia gardneri Puttock,Gardenia gardneri,Rubiaceae
-Gardenia sericea Puttock,Gardenia sericea,Rubiaceae
-Oldenlandia delicata (Halford) Halford,Oldenlandia delicata,Rubiaceae
-Oldenlandia kochiae Halford,Oldenlandia kochiae,Rubiaceae
-Opercularia hirsuta F.Muell. ex Benth.,Opercularia hirsuta,Rubiaceae
-Opercularia liberiflora F.Muell.,Opercularia liberiflora,Rubiaceae
-Opercularia loganioides Keighery,Opercularia loganioides,Rubiaceae
-Opercularia rubioides Juss.,Opercularia rubioides,Rubiaceae
-Pavetta kimberleyana S.T.Reynolds,Pavetta kimberleyana,Rubiaceae
-Psydrax rigidula S.T.Reynolds & R.J.F.Hend.,Psydrax rigidula,Rubiaceae
-Psydrax suaveolens (S.Moore) S.T.Reynolds & R.J.F.Hend.,Psydrax suaveolens,Rubiaceae
-Vincetoxicum cinerascens (R.Br.) Meve & Liede,Vincetoxicum cinerascens,Apocynaceae
-Dicladanthera glabra R.M.Barker,Dicladanthera glabra,Acanthaceae
-Dicliptera miscella R.M.Barker,Dicliptera miscella,Acanthaceae
-Dipteracanthus chichesterensis Trudgen & P.-L.de Kock,Dipteracanthus chichesterensis,Acanthaceae
-Hypoestes sparsiflora R.M.Barker,Hypoestes sparsiflora,Acanthaceae
-Anisomeles farinacea A.R.Bean,Anisomeles farinacea,Lamiaceae
-Anisomeles principis A.R.Bean,Anisomeles principis,Lamiaceae
-Anisomeles viscidula A.R.Bean,Anisomeles viscidula,Lamiaceae
-Dasymalla chorisepala (Munir) B.J.Conn & Henwood,Dasymalla chorisepala,Lamiaceae
-Dicrastylis archeri Munir,Dicrastylis archeri,Lamiaceae
-Dicrastylis capitellata Munir,Dicrastylis capitellata,Lamiaceae
-Dicrastylis cundeeleensis Rye,Dicrastylis cundeeleensis,Lamiaceae
-Dicrastylis kumarinensis Rye,Dicrastylis kumarinensis,Lamiaceae
-Dicrastylis maritima Rye & Trudgen,Dicrastylis maritima,Lamiaceae
-Dicrastylis mitchellii Rye,Dicrastylis mitchellii,Lamiaceae
-Dicrastylis nicholasii F.Muell.,Dicrastylis nicholasii,Lamiaceae
-Dicrastylis obovata Munir,Dicrastylis obovata,Lamiaceae
-Dicrastylis subterminalis Rye,Dicrastylis subterminalis,Lamiaceae
-Dicrastylis velutina Munir,Dicrastylis velutina,Lamiaceae
-Gmelina australis de Kok,Gmelina australis,Lamiaceae
-Gmelina schlechteri H.J.Lam,Gmelina schlechteri,Lamiaceae
-Hemigenia appressa G.R.Guerin,Hemigenia appressa,Lamiaceae
-Hemigenia argentea Bartl.,Hemigenia argentea,Lamiaceae
-Hemigenia barbata Bartl.,Hemigenia barbata,Lamiaceae
-Hemigenia benthamii G.R.Guerin,Hemigenia benthamii,Lamiaceae
-Hemigenia bracteosa G.R.Guerin,Hemigenia bracteosa,Lamiaceae
-Hemigenia buccinata G.R.Guerin,Hemigenia buccinata,Lamiaceae
-Hemigenia curvifolia F.Muell.,Hemigenia curvifolia,Lamiaceae
-Hemigenia dulcis G.R.Guerin,Hemigenia dulcis,Lamiaceae
-Hemigenia exilis S.Moore,Hemigenia exilis,Lamiaceae
-Hemigenia loganiacea (F.Muell.) F.Muell.,Hemigenia loganiacea,Lamiaceae
-Hemigenia macphersonii Luehm.,Hemigenia macphersonii,Lamiaceae
-Hemigenia obovata F.Muell.,Hemigenia obovata,Lamiaceae
-Hemigenia obtusa Benth.,Hemigenia obtusa,Lamiaceae
-Hemigenia pimeleifolia F.Muell.,Hemigenia pimeleifolia,Lamiaceae
-Hemigenia royceana G.R.Guerin,Hemigenia royceana,Lamiaceae
-Hemigenia tenelliflora G.R.Guerin,Hemigenia tenelliflora,Lamiaceae
-Hemigenia tichbonii K.R.Thiele & G.R.Guerin,Hemigenia tichbonii,Lamiaceae
-Hemigenia tomentosa G.R.Guerin,Hemigenia tomentosa,Lamiaceae
-Hemigenia wandooana G.R.Guerin,Hemigenia wandooana,Lamiaceae
-Microcorys cephalantha B.J.Conn,Microcorys cephalantha,Lamiaceae
-Microcorys longiflora F.Muell.,Microcorys longiflora,Lamiaceae
-Microcorys wilsoniana B.J.Conn,Microcorys wilsoniana,Lamiaceae
-Physopsis chrysotricha (F.Muell.) Rye,Physopsis chrysotricha,Lamiaceae
-Pityrodia iphthima K.A.Sheph.,Pityrodia iphthima,Lamiaceae
-Prostanthera canaliculata F.Muell.,Prostanthera canaliculata,Lamiaceae
-Prostanthera nanophylla B.J.Conn,Prostanthera nanophylla,Lamiaceae
-Prostanthera patens B.J.Conn,Prostanthera patens,Lamiaceae
-Prostanthera petrophila B.J.Conn,Prostanthera petrophila,Lamiaceae
-Prostanthera splendens B.J.Conn,Prostanthera splendens,Lamiaceae
-Prostanthera tysoniana (Carrick) B.J.Conn,Prostanthera tysoniana,Lamiaceae
-Prostanthera verticillaris B.J.Conn,Prostanthera verticillaris,Lamiaceae
-Teucrium fililobum Benth.,Teucrium fililobum,Lamiaceae
-Teucrium pilbaranum B.J.Conn,Teucrium pilbaranum,Lamiaceae
-Vitex velutinifolia Munir,Vitex velutinifolia,Lamiaceae
-Westringia acifolia G.R.Guerin,Westringia acifolia,Lamiaceae
-Westringia capitonis G.R.Guerin,Westringia capitonis,Lamiaceae
-Westringia fitzgeraldensis R.W.Davis & Jobson,Westringia fitzgeraldensis,Lamiaceae
-Utricularia albertiana R.W.Jobson & Baleeiro,Utricularia albertiana,Lentibulariaceae
-Utricularia byrneana R.W.Jobson & Baleeiro,Utricularia byrneana,Lentibulariaceae
-Utricularia helix P.Taylor,Utricularia helix,Lentibulariaceae
-Utricularia kenneallyi P.Taylor,Utricularia kenneallyi,Lentibulariaceae
-Utricularia magna R.W.Jobson & M.D.Barrett,Utricularia magna,Lentibulariaceae
-Utricularia papilliscapa R.W.Jobson & M.D.Barrett,Utricularia papilliscapa,Lentibulariaceae
-Utricularia tridactyla P.Taylor,Utricularia tridactyla,Lentibulariaceae
-Utricularia wannanii R.W.Jobson & Baleeiro,Utricularia wannanii,Lentibulariaceae
-Lindernia barkeri Wannan,Lindernia barkeri,Linderniaceae
-Lindernia chrysoplectra W.R.Barker,Lindernia chrysoplectra,Linderniaceae
-Lindernia cleistandra W.R.Barker,Lindernia cleistandra,Linderniaceae
-Lindernia eremophiloides W.R.Barker,Lindernia eremophiloides,Linderniaceae
-Lindernia hypandra W.R.Barker,Lindernia hypandra,Linderniaceae
-Lindernia macrosiphonia (F.Muell.) W.R.Barker,Lindernia macrosiphonia,Linderniaceae
-Lindernia porphyrodinea W.R.Barker & M.D.Barrett,Lindernia porphyrodinea,Linderniaceae
-Glossostigma trichodes F.Muell.,Glossostigma trichodes,Phrymaceae
-Peplidium maritimum (L.f.) Asch.,Peplidium maritimum,Phrymaceae
-Uvedalia clementii (Domin) W.R.Barker & Beardsley,Uvedalia clementii,Phrymaceae
-Plantago exilis Decne.,Plantago exilis,Plantaginaceae
-Stemodia debilis Benth.,Stemodia debilis,Plantaginaceae
-Stemodia flaccida W.Fitzg.,Stemodia flaccida,Plantaginaceae
-Diocirea ternata Chinnock,Diocirea ternata,Scrophulariaceae
-Eremophila anomala Chinnock,Eremophila anomala,Scrophulariaceae
-Eremophila arenaria Chinnock,Eremophila arenaria,Scrophulariaceae
-Eremophila ballythunnensis Buirchell & A.P.Br.,Eremophila ballythunnensis,Scrophulariaceae
-Eremophila buirchellii A.P.Br.,Eremophila buirchellii,Scrophulariaceae
-Eremophila calcicola R.W.Davis,Eremophila calcicola,Scrophulariaceae
-Eremophila capricornica Buirchell & A.P.Br.,Eremophila capricornica,Scrophulariaceae
-Eremophila ciliata Chinnock,Eremophila ciliata,Scrophulariaceae
-Eremophila daddii Buirchell & A.P.Br.,Eremophila daddii,Scrophulariaceae
-Eremophila demissa Chinnock,Eremophila demissa,Scrophulariaceae
-Eremophila eversa Chinnock,Eremophila eversa,Scrophulariaceae
-Eremophila ferricola Buirchell & A.P.Br.,Eremophila ferricola,Scrophulariaceae
-Eremophila graciliflora F.Muell.,Eremophila graciliflora,Scrophulariaceae
-Eremophila gracillima Chinnock,Eremophila gracillima,Scrophulariaceae
-Eremophila jamesiorum Buirchell & A.P.Br.,Eremophila jamesiorum,Scrophulariaceae
-Eremophila laccata Buirchell & A.P.Br.,Eremophila laccata,Scrophulariaceae
-Eremophila petrophila Chinnock,Eremophila petrophila,Scrophulariaceae
-Eremophila pusilliflora Buirchell & A.P.Br.,Eremophila pusilliflora,Scrophulariaceae
-Eremophila regia Buirchell & A.P.Br.,Eremophila regia,Scrophulariaceae
-Eremophila resiliens Buirchell & A.P.Br.,Eremophila resiliens,Scrophulariaceae
-Eremophila rigens Chinnock,Eremophila rigens,Scrophulariaceae
-Eremophila scrobiculata Buirchell & A.P.Br.,Eremophila scrobiculata,Scrophulariaceae
-Eremophila subangustifolia A.P.Br. & T.M.Llorens,Eremophila subangustifolia,Scrophulariaceae
-Eremophila viscimarginata Chinnock,Eremophila viscimarginata,Scrophulariaceae
-Eremophila yinnetharrensis Buirchell & A.P.Br.,Eremophila yinnetharrensis,Scrophulariaceae
-Bonamia oblongifolia Myint,Bonamia oblongifolia,Convolvulaceae
-Bonamia pilbarensis R.W.Johnson,Bonamia pilbarensis,Convolvulaceae
-Bonamia wilsoniae R.W.Johnson,Bonamia wilsoniae,Convolvulaceae
-Camonea pilosa (Houtt.) A.R.Simões & Staples,Camonea pilosa,Convolvulaceae
-Convolvulus recurvatus R.W.Johnson,Convolvulus recurvatus,Convolvulaceae
-Distimake kimberleyensis (R.W.Johnson) A.R.Simões & Staples,Distimake kimberleyensis,Convolvulaceae
-Ipomoea johnsoniana R.L.Barrett,Ipomoea johnsoniana,Convolvulaceae
-Ipomoea kalumburu R.W.Johnson,Ipomoea kalumburu,Convolvulaceae
-Ipomoea limosa R.W.Johnson,Ipomoea limosa,Convolvulaceae
-Polymeria mollis (Benth.) Domin,Polymeria mollis,Convolvulaceae
-Polymeria quadrivalvis R.Br.,Polymeria quadrivalvis,Convolvulaceae
-Anthocercis fasciculata F.Muell.,Anthocercis fasciculata,Solanaceae
-Anthocercis sylvicola T.D.Macfarl. & Ward.-Johnson,Anthocercis sylvicola,Solanaceae
-Nicotiana gascoynica M.W.Chase & Christenh.,Nicotiana gascoynica,Solanaceae
-Nicotiana karijini M.W.Chase & Christenh.,Nicotiana karijini,Solanaceae
-Solanum austropiceum A.R.Bean,Solanum austropiceum,Solanaceae
-Solanum capsiciforme (Domin) G.T.S.Baylis,Solanum capsiciforme,Solanaceae
-Solanum cataphractum A.Cunn. ex Benth.,Solanum cataphractum,Solanaceae
-Solanum fecundum A.R.Bean,Solanum fecundum,Solanaceae
-Solanum heteropodium Symon,Solanum heteropodium,Solanaceae
-Solanum horridum Dunal ex Poir.,Solanum horridum,Solanaceae
-Solanum iodinum A.R.Bean,Solanum iodinum,Solanaceae
-Solanum kentrocaule A.R.Bean,Solanum kentrocaule,Solanaceae
-Solanum leopoldense Symon,Solanum leopoldense,Solanaceae
-Solanum morrisonii Domin,Solanum morrisonii,Solanaceae
-Solanum octona A.R.Bean,Solanum octona,Solanaceae
-Solanum ossicruentum Martine & J.Cantley,Solanum ossicruentum,Solanaceae
-Solanum pallidifolium A.R.Bean,Solanum pallidifolium,Solanaceae
-Solanum petraeum Symon,Solanum petraeum,Solanaceae
-Solanum piceum A.R.Bean,Solanum piceum,Solanaceae
-Solanum pycnotrichum A.R.Bean,Solanum pycnotrichum,Solanaceae
-Solanum reclusum A.R.Bean,Solanum reclusum,Solanaceae
-Solanum vansittartense C.A.Gardner,Solanum vansittartense,Solanaceae
-Solanum zoeae R.L.Barrett,Solanum zoeae,Solanaceae
-Gunniopsis divisa Chinnock,Gunniopsis divisa,Aizoaceae
-Gunniopsis propinqua Chinnock,Gunniopsis propinqua,Aizoaceae
-Tetragonia coronata Rye & Trudgen,Tetragonia coronata,Aizoaceae
-Tetragonia diptera F.Muell.,Tetragonia diptera,Aizoaceae
-Trianthema kimberleyi Bittrich & K.M.Jenssen,Trianthema kimberleyi,Aizoaceae
-Gomphrena eichleri J.Palmer,Gomphrena eichleri,Amaranthaceae
-Gomphrena humifusa J.Palmer,Gomphrena humifusa,Amaranthaceae
-Gomphrena leptophylla (Benth.) J.Palmer,Gomphrena leptophylla,Amaranthaceae
-Gomphrena splendida R.L.Barrett & J.Palmer,Gomphrena splendida,Amaranthaceae
-Gomphrena tenella (Moq.) Benth.,Gomphrena tenella,Amaranthaceae
-Ptilotus actinocladus T.Hammer & R.W.Davis,Ptilotus actinocladus,Amaranthaceae
-Ptilotus alexandri Benl,Ptilotus alexandri,Amaranthaceae
-Ptilotus andersonii R.W.Davis,Ptilotus andersonii,Amaranthaceae
-Ptilotus crispus Benl,Ptilotus crispus,Amaranthaceae
-Ptilotus decalvatus Benl,Ptilotus decalvatus,Amaranthaceae
-Ptilotus falcatus R.W.Davis & T.Hammer,Ptilotus falcatus,Amaranthaceae
-Ptilotus lazaridis Benl,Ptilotus lazaridis,Amaranthaceae
-Ptilotus procumbens Benl,Ptilotus procumbens,Amaranthaceae
-Ptilotus tetrandrus Benl,Ptilotus tetrandrus,Amaranthaceae
-Ptilotus unguiculatus T.Hammer,Ptilotus unguiculatus,Amaranthaceae
-Ptilotus wilsonii Benl,Ptilotus wilsonii,Amaranthaceae
-Ptilotus yapukaratja R.W.Davis & T.Hammer,Ptilotus yapukaratja,Amaranthaceae
+Borya jabirabela Churchill,Borya jabirabela,Boryaceae
+Borya stenophylla M.D.Barrett,Borya stenophylla,Boryaceae
+Borya subulata C.A.Gardner,Borya subulata,Boryaceae
+Arabidella chrysodema Lepschi & Wege,Arabidella chrysodema,Brassicaceae
+Lepidium amelum Lepschi,Lepidium amelum,Brassicaceae
+Lepidium biplicatum Hewson,Lepidium biplicatum,Brassicaceae
+Lepidium desvauxii Thell.,Lepidium desvauxii,Brassicaceae
+Lepidium drummondii Thell.,Lepidium drummondii,Brassicaceae
+Lepidium genistoides Hewson,Lepidium genistoides,Brassicaceae
+Lepidium lyratogynum Hewson,Lepidium lyratogynum,Brassicaceae
+Lepidium merrallii F.Muell.,Lepidium merrallii,Brassicaceae
+Lepidium muelleri-ferdinandi Thell.,Lepidium muelleri-ferdinandi,Brassicaceae
+Lepidium pseudoruderale Thell.,Lepidium pseudoruderale,Brassicaceae
+Lepidium puberulum Bunge,Lepidium puberulum,Brassicaceae
+Lepidium sagittulatum Thell.,Lepidium sagittulatum,Brassicaceae
+Lepidium xylodes Hewson,Lepidium xylodes,Brassicaceae
+Menkea draboides (Hook.) Benth.,Menkea draboides,Brassicaceae
+Menkea lutea E.A.Shaw,Menkea lutea,Brassicaceae
+Microlepidium alatum (J.M.Black) E.A.Shaw,Microlepidium alatum,Brassicaceae
+Microlepidium pilosulum F.Muell.,Microlepidium pilosulum,Brassicaceae
+Phlegmatospermum drummondii (Benth.) O.E.Schulz,Phlegmatospermum drummondii,Brassicaceae
+Phlegmatospermum eremaeum (J.M.Black) E.A.Shaw,Phlegmatospermum eremaeum,Brassicaceae
+Phlegmatospermum richardsii (F.Muell.) E.A.Shaw,Phlegmatospermum richardsii,Brassicaceae
+Stenopetalum gracile Bunge,Stenopetalum gracile,Brassicaceae
+Stenopetalum salicola Keighery,Stenopetalum salicola,Brassicaceae
+Stenopetalum saxatile Keighery,Stenopetalum saxatile,Brassicaceae
+Isotoma luticola Carolin,Isotoma luticola,Campanulaceae
+Lobelia archeri N.G.Walsh,Lobelia archeri,Campanulaceae
+Lobelia cleistogamoides N.G.Walsh & Albr.,Lobelia cleistogamoides,Campanulaceae
+Lobelia fissiflora N.G.Walsh,Lobelia fissiflora,Campanulaceae
+Lobelia simulans N.G.Walsh,Lobelia simulans,Campanulaceae
 Polycarpaea arida Pedley,Polycarpaea arida,Caryophyllaceae
 Polycarpaea umbrosa R.L.Barrett,Polycarpaea umbrosa,Caryophyllaceae
 Spergularia nesophila L.G.Adams,Spergularia nesophila,Caryophyllaceae
+Allocasuarina anfractuosa Wege & S.R.Barrett,Allocasuarina anfractuosa,Casuarinaceae
+Allocasuarina drummondiana (Miq.) L.A.S.Johnson,Allocasuarina drummondiana,Casuarinaceae
+Allocasuarina globosa L.A.S.Johnson,Allocasuarina globosa,Casuarinaceae
+Allocasuarina hystricosa Wege,Allocasuarina hystricosa,Casuarinaceae
+Apatophyllum macgillivrayi Cranfield & Lander,Apatophyllum macgillivrayi,Celastraceae
+Psammomoya ephedroides Diels & Loes.,Psammomoya ephedroides,Celastraceae
+Stackhousia georgei Diels,Stackhousia georgei,Celastraceae
+Stackhousia huegelii Endl.,Stackhousia huegelii,Celastraceae
+Stackhousia stratfordiae W.R.Barker & Cockerton,Stackhousia stratfordiae,Celastraceae
+Centrolepis alepyroides (Nees) Walp.,Centrolepis alepyroides,Centrolepidaceae
+Centrolepis caespitosa D.A.Cooke,Centrolepis caespitosa,Centrolepidaceae
+Centrolepis curta D.A.Cooke,Centrolepis curta,Centrolepidaceae
+Centrolepis inconspicua W.Fitzg.,Centrolepis inconspicua,Centrolepidaceae
+Centrolepis milleri M.D.Barrett & D.D.Sokoloff,Centrolepis milleri,Centrolepidaceae
+Centrolepis mutica (R.Br.) Hieron.,Centrolepis mutica,Centrolepidaceae
 Atriplex cephalantha Aellen,Atriplex cephalantha,Chenopodiaceae
 Atriplex cryptocarpa Aellen,Atriplex cryptocarpa,Chenopodiaceae
 Atriplex eremitis Cranfield,Atriplex eremitis,Chenopodiaceae
@@ -577,7 +316,6 @@ Maireana murrayana (Ewart & B.Rees) Paul G.Wilson,Maireana murrayana,Chenopodiac
 Maireana polypterygia (Diels) Paul G.Wilson,Maireana polypterygia,Chenopodiaceae
 Maireana stipitata Paul G.Wilson,Maireana stipitata,Chenopodiaceae
 Rhagodia drummondii Moq.,Rhagodia drummondii,Chenopodiaceae
-Rhagodia latifolia (Benth.) Paul G.Wilson,Rhagodia latifolia,Chenopodiaceae
 Roycea spinescens C.A.Gardner,Roycea spinescens,Chenopodiaceae
 Salicornia globosa (Paul G.Wilson) Piirainen & G.Kadereit,Salicornia globosa,Chenopodiaceae
 Sclerolaena alata Paul G.Wilson,Sclerolaena alata,Chenopodiaceae
@@ -603,168 +341,32 @@ Tecticornia mellarium K.A.Sheph.,Tecticornia mellarium,Chenopodiaceae
 Tecticornia papillata K.A.Sheph.,Tecticornia papillata,Chenopodiaceae
 Tecticornia sparagosa K.A.Sheph. & M.Lyons,Tecticornia sparagosa,Chenopodiaceae
 Tecticornia willisii K.A.Sheph.,Tecticornia willisii,Chenopodiaceae
-Drosera caduca Lowrie,Drosera caduca,Droseraceae
-Drosera coalara Lowrie & Conran,Drosera coalara,Droseraceae
-Drosera depauperata Lowrie & Conran,Drosera depauperata,Droseraceae
-Drosera glabriscapa Lowrie,Drosera glabriscapa,Droseraceae
-Drosera indumenta Lowrie & Conran,Drosera indumenta,Droseraceae
-Drosera leioblastus N.G.Marchant & Lowrie,Drosera leioblastus,Droseraceae
-Drosera prostratoscaposa Lowrie & Carlquist,Drosera prostratoscaposa,Droseraceae
-Drosera salina N.G.Marchant & Lowrie,Drosera salina,Droseraceae
-Drosera zigzagia Lowrie,Drosera zigzagia,Droseraceae
-Frankenia brachyphylla (Benth.) Summerh.,Frankenia brachyphylla,Frankeniaceae
-Frankenia conferta Diels,Frankenia conferta,Frankeniaceae
-Frankenia decurrens Summerh.,Frankenia decurrens,Frankeniaceae
-Frankenia desertorum Summerh.,Frankenia desertorum,Frankeniaceae
-Frankenia drummondii Benth.,Frankenia drummondii,Frankeniaceae
-Frankenia eremophila Summerh.,Frankenia eremophila,Frankeniaceae
-Frankenia fecunda Summerh.,Frankenia fecunda,Frankeniaceae
-Frankenia interioris Ostenf.,Frankenia interioris,Frankeniaceae
-Macarthuria georgeana Keighery,Macarthuria georgeana,Limeaceae
-Boerhavia schomburgkiana Oliv.,Boerhavia schomburgkiana,Nyctaginaceae
-Rumex drummondii Meisn.,Rumex drummondii,Polygonaceae
-Calandrinia butcherensis Obbens,Calandrinia butcherensis,Portulacaceae
-Calandrinia composita (Nees) Benth.,Calandrinia composita,Portulacaceae
-Calandrinia cylindrica Poelln.,Calandrinia cylindrica,Portulacaceae
-Calandrinia dielsii Poelln.,Calandrinia dielsii,Portulacaceae
-Calandrinia flava Obbens,Calandrinia flava,Portulacaceae
-Calandrinia lefroyensis Obbens,Calandrinia lefroyensis,Portulacaceae
-Calandrinia monogyna Poelln.,Calandrinia monogyna,Portulacaceae
-Calandrinia oraria Obbens,Calandrinia oraria,Portulacaceae
-Calandrinia pentavalvis Obbens,Calandrinia pentavalvis,Portulacaceae
-Calandrinia polypetala Fenzl,Calandrinia polypetala,Portulacaceae
-Calandrinia rubrisabulosa Obbens,Calandrinia rubrisabulosa,Portulacaceae
-Calandrinia vernicosa Obbens,Calandrinia vernicosa,Portulacaceae
-Rumicastrum chamaecladum (Diels) Ulbr.,Rumicastrum chamaecladum,Portulacaceae
-Cassytha candida (J.Z.Weber) J.Z.Weber,Cassytha candida,Lauraceae
-Cassytha nodiflora Meisn.,Cassytha nodiflora,Lauraceae
-Aponogeton euryspermus Hellq. & S.W.L.Jacobs,Aponogeton euryspermus,Aponogetonaceae
-Aponogeton kimberleyensis Hellq. & S.W.L.Jacobs,Aponogeton kimberleyensis,Aponogetonaceae
-Typhonium nudibaccatum A.Hay,Typhonium nudibaccatum,Araceae
-Cymodocea angustata Ostenf.,Cymodocea angustata,Cymodoceaceae
-Cymodocea rotundata Ehrenb. & Hempr. ex Asch. & Schweinf.,Cymodocea rotundata,Cymodoceaceae
-Thalassodendron ciliatum (Forssk.) Hartog,Thalassodendron ciliatum,Cymodoceaceae
-Blyxa echinosperma (C.B.Clarke) Hook.f.,Blyxa echinosperma,Hydrocharitaceae
-Blyxa octandra (Roxb.) Thwaites,Blyxa octandra,Hydrocharitaceae
-Enhalus acoroides (L.f.) Royle,Enhalus acoroides,Hydrocharitaceae
-Halophila minor (Zoll.) Hartog,Halophila minor,Hydrocharitaceae
-Najas browniana Rendle,Najas browniana,Hydrocharitaceae
-Najas graminea Delile,Najas graminea,Hydrocharitaceae
-Najas malesiana W.J.de Wilde,Najas malesiana,Hydrocharitaceae
-Najas pseudograminea W.Koch,Najas pseudograminea,Hydrocharitaceae
-Vallisneria triptera S.W.L.Jacobs & K.A.Frank,Vallisneria triptera,Hydrocharitaceae
-Cycnogeton lineare (Endl.) Sond.,Cycnogeton lineare,Juncaginaceae
-Triglochin centrocarpa Hook.,Triglochin centrocarpa,Juncaginaceae
-Triglochin longicarpa (Ostenf.) Aston,Triglochin longicarpa,Juncaginaceae
-Triglochin stowardii N.E.Br.,Triglochin stowardii,Juncaginaceae
-Triglochin trichophora Nees,Triglochin trichophora,Juncaginaceae
-Posidonia denhartogii J.Kuo & Cambridge,Posidonia denhartogii,Posidoniaceae
-Posidonia kirkmanii J.Kuo & Cambridge,Posidonia kirkmanii,Posidoniaceae
-Posidonia ostenfeldii Hartog,Posidonia ostenfeldii,Posidoniaceae
-Posidonia robertsoniae J.Kuo & Cambridge,Posidonia robertsoniae,Posidoniaceae
-Althenia australis (J.Drumm. ex Harv.) F.Muell.,Althenia australis,Potamogetonaceae
-Althenia bilocularis (Kirk) Cockayne,Althenia bilocularis,Potamogetonaceae
-Althenia hearnii T.D.Macfarl. & D.D.Sokoloff,Althenia hearnii,Potamogetonaceae
-Althenia marina (E.L.Robertson) Yu Ito,Althenia marina,Potamogetonaceae
-Althenia patentifolia (E.L.Robertson) T.D.Macfarl. & D.D.Sokoloff,Althenia patentifolia,Potamogetonaceae
-Althenia preissii (Lehm.) F.Muell.,Althenia preissii,Potamogetonaceae
-Potamogeton reduncus Hagstr.,Potamogeton reduncus,Potamogetonaceae
-Heterozostera polychlamys J.Kuo,Heterozostera polychlamys,Zosteraceae
-Crinum joesmithii M.D.Barrett & R.L.Barrett,Crinum joesmithii,Amaryllidaceae
-Proiphys kimberleyensis M.D.Barrett & R.L.Barrett,Proiphys kimberleyensis,Amaryllidaceae
-Acanthocarpus humilis A.S.George,Acanthocarpus humilis,Asparagaceae
-Acanthocarpus robustus A.S.George,Acanthocarpus robustus,Asparagaceae
-Acanthocarpus rupestris A.S.George,Acanthocarpus rupestris,Asparagaceae
-Chamaescilla gibsonii Keighery,Chamaescilla gibsonii,Asparagaceae
-Lomandra acicularis M.D.Barrett,Lomandra acicularis,Asparagaceae
-Lomandra brittanii T.S.Choo,Lomandra brittanii,Asparagaceae
-Lomandra nutans T.D.Macfarl.,Lomandra nutans,Asparagaceae
-Lomandra rupestris (Endl.) Ewart,Lomandra rupestris,Asparagaceae
-Lomandra sonderi (F.Muell.) Ewart,Lomandra sonderi,Asparagaceae
-Lomandra spartea (Endl.) Ewart,Lomandra spartea,Asparagaceae
-Lomandra whicherensis Keighery,Lomandra whicherensis,Asparagaceae
-Thysanotus acerosifolius Brittan,Thysanotus acerosifolius,Asparagaceae
-Thysanotus brachiatus Brittan,Thysanotus brachiatus,Asparagaceae
-Thysanotus brachyantherus Brittan,Thysanotus brachyantherus,Asparagaceae
-"Thysanotus fragrans (Brittan) Sirisena, Conran & T.D.Macfarl.",Thysanotus fragrans,Asparagaceae
-Thysanotus gageoides Diels,Thysanotus gageoides,Asparagaceae
-Thysanotus glaucifolius Brittan,Thysanotus glaucifolius,Asparagaceae
-Thysanotus gracilis R.Br.,Thysanotus gracilis,Asparagaceae
-Thysanotus pseudojunceus Brittan,Thysanotus pseudojunceus,Asparagaceae
-"Thysanotus unicupensis Sirisena, T.D.Macfarl. & Conran",Thysanotus unicupensis,Asparagaceae
-Thysanotus volubilis R.Br.,Thysanotus volubilis,Asparagaceae
-Borya jabirabela Churchill,Borya jabirabela,Boryaceae
-Borya stenophylla M.D.Barrett,Borya stenophylla,Boryaceae
-Borya subulata C.A.Gardner,Borya subulata,Boryaceae
-Caesia rigidifolia F.Muell.,Caesia rigidifolia,Hemerocallidaceae
-Caesia viscida Keighery,Caesia viscida,Hemerocallidaceae
-Corynotheca asperata R.J.F.Hend.,Corynotheca asperata,Hemerocallidaceae
-Corynotheca flexuosissima R.J.F.Hend.,Corynotheca flexuosissima,Hemerocallidaceae
-Johnsonia inconspicua Keighery,Johnsonia inconspicua,Hemerocallidaceae
-Stawellia gymnocephala Diels,Stawellia gymnocephala,Hemerocallidaceae
-Stypandra jamesii Hopper,Stypandra jamesii,Hemerocallidaceae
-Tricoryne soullierae T.D.Macfarl. & Keighery,Tricoryne soullierae,Hemerocallidaceae
-Tricoryne tuberosa Keighery & T.D.Macfarl.,Tricoryne tuberosa,Hemerocallidaceae
-Hypoxis cavernicola M.D.Barrett,Hypoxis cavernicola,Hypoxidaceae
-Pauridia gardneri (R.J.F.Hend.) Snijman & Kocyan,Pauridia gardneri,Hypoxidaceae
-Pauridia salina (M.Lyons & Keighery) Snijman & Kocyan,Pauridia salina,Hypoxidaceae
-Patersonia argyrea D.A.Cooke,Patersonia argyrea,Iridaceae
-Patersonia maxwellii (F.Muell.) F.Muell. ex Benth.,Patersonia maxwellii,Iridaceae
-Diuris carecta D.L.Jones & C.J.French,Diuris carecta,Orchidaceae
-Drakaea andrewsiae Hopper & A.P.Br.,Drakaea andrewsiae,Orchidaceae
-Eulophia bicallosa (D.Don) P.F.Hunt & Summerh.,Eulophia bicallosa,Orchidaceae
-Phoringopsis byrnesii (Blaxell) D.L.Jones & M.A.Clem.,Phoringopsis byrnesii,Orchidaceae
-Prasophyllum macrotys Lindl.,Prasophyllum macrotys,Orchidaceae
-Pterostylis angulata (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis angulata,Orchidaceae
-Pterostylis elegantissima (D.L.Jones & C.J.French) D.L.Jones,Pterostylis elegantissima,Orchidaceae
-Pterostylis eremaea (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis eremaea,Orchidaceae
-"Pterostylis faceta (D.L.Jones, C.J.French & M.A.Clem.) D.L.Jones & C.J.French",Pterostylis faceta,Orchidaceae
-Pterostylis fuliginosa (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis fuliginosa,Orchidaceae
-Pterostylis hadra (D.L.Jones) D.L.Jones,Pterostylis hadra,Orchidaceae
-Pterostylis meridionalis (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis meridionalis,Orchidaceae
-"Pterostylis precatoria (D.L.Jones, C.J.French & M.A.Clem.) D.L.Jones & C.J.French",Pterostylis precatoria,Orchidaceae
-"Pterostylis serotina (D.L.Jones, C.J.French & M.A.Clem.) D.L.Jones & C.J.French",Pterostylis serotina,Orchidaceae
-Pterostylis telmata D.L.Jones & C.J.French,Pterostylis telmata,Orchidaceae
-Pterostylis tryphera (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis tryphera,Orchidaceae
-Pterostylis virens (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis virens,Orchidaceae
-Pterostylis voigtii D.L.Jones & C.J.French,Pterostylis voigtii,Orchidaceae
-Pterostylis xerampelina (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis xerampelina,Orchidaceae
-Pterostylis zebrina (D.L.Jones) D.L.Jones,Pterostylis zebrina,Orchidaceae
-Commelina roensis M.D.Barrett & R.L.Barrett,Commelina roensis,Commelinaceae
-Conostylis albescens Hopper,Conostylis albescens,Haemodoraceae
-Conostylis deplexa J.W.Green,Conostylis deplexa,Haemodoraceae
-Conostylis latens Hopper,Conostylis latens,Haemodoraceae
-Conostylis pauciflora Hopper,Conostylis pauciflora,Haemodoraceae
-Conostylis resinosa Hopper,Conostylis resinosa,Haemodoraceae
-Conostylis seminuda Hopper,Conostylis seminuda,Haemodoraceae
-Conostylis villosa Benth.,Conostylis villosa,Haemodoraceae
-"Haemodorum basalticum R.L.Barrett, Hopper & T.D.Macfarl.",Haemodorum basalticum,Haemodoraceae
-Haemodorum capitatum R.L.Barrett & Hopper,Haemodorum capitatum,Haemodoraceae
-Haemodorum condensatum Hopper & R.L.Barrett,Haemodorum condensatum,Haemodoraceae
-Haemodorum flaviflorum W.Fitzg.,Haemodorum flaviflorum,Haemodoraceae
-Haemodorum gracile T.D.Macfarl.,Haemodorum gracile,Haemodoraceae
-"Haemodorum griseofuscum R.L.Barrett, M.D.Barrett & Hopper",Haemodorum griseofuscum,Haemodoraceae
-Haemodorum interrex R.L.Barrett & M.D.Barrett,Haemodorum interrex,Haemodoraceae
-Haemodorum loratum T.D.Macfarl.,Haemodorum loratum,Haemodoraceae
-Haemodorum macfarlanei R.L.Barrett,Haemodorum macfarlanei,Haemodoraceae
-Haemodorum thedae R.L.Barrett,Haemodorum thedae,Haemodoraceae
-Tribonanthes minor M.Lyons & Keighery,Tribonanthes minor,Haemodoraceae
-Calectasia elegans R.L.Barrett,Calectasia elegans,Dasypogonaceae
-Calectasia jubilaea R.L.Barrett,Calectasia jubilaea,Dasypogonaceae
-Calectasia keigheryi R.L.Barrett & K.W.Dixon,Calectasia keigheryi,Dasypogonaceae
-Calectasia obtusa R.L.Barrett & K.W.Dixon,Calectasia obtusa,Dasypogonaceae
+"Arivela arenitensis (Craven, Lepschi & Fryxell) R.L.Barrett",Arivela arenitensis,Cleomaceae
+Arivela kenneallyi (Hewson) R.L.Barrett,Arivela kenneallyi,Cleomaceae
+Arivela microphylla (Keighery) R.L.Barrett,Arivela microphylla,Cleomaceae
 Wurmbea dilatata T.D.Macfarl.,Wurmbea dilatata,Colchicaceae
 Wurmbea fluviatilis T.D.Macfarl. & A.L.Case,Wurmbea fluviatilis,Colchicaceae
 Wurmbea inflata T.D.Macfarl. & A.L.Case,Wurmbea inflata,Colchicaceae
 Wurmbea saccata T.D.Macfarl. & S.J.van Leeuwen,Wurmbea saccata,Colchicaceae
-Pandanus rheophilus B.C.Stone,Pandanus rheophilus,Pandanaceae
-Lyginia excelsa B.G.Briggs & L.A.S.Johnson,Lyginia excelsa,Anarthriaceae
-Centrolepis alepyroides (Nees) Walp.,Centrolepis alepyroides,Centrolepidaceae
-Centrolepis caespitosa D.A.Cooke,Centrolepis caespitosa,Centrolepidaceae
-Centrolepis curta D.A.Cooke,Centrolepis curta,Centrolepidaceae
-Centrolepis inconspicua W.Fitzg.,Centrolepis inconspicua,Centrolepidaceae
-Centrolepis milleri M.D.Barrett & D.D.Sokoloff,Centrolepis milleri,Centrolepidaceae
-Centrolepis mutica (R.Br.) Hieron.,Centrolepis mutica,Centrolepidaceae
+Terminalia circumalata F.Muell.,Terminalia circumalata,Combretaceae
+Commelina roensis M.D.Barrett & R.L.Barrett,Commelina roensis,Commelinaceae
+Bonamia oblongifolia Myint,Bonamia oblongifolia,Convolvulaceae
+Bonamia pilbarensis R.W.Johnson,Bonamia pilbarensis,Convolvulaceae
+Bonamia wilsoniae R.W.Johnson,Bonamia wilsoniae,Convolvulaceae
+Camonea pilosa (Houtt.) A.R.Simões & Staples,Camonea pilosa,Convolvulaceae
+Convolvulus recurvatus R.W.Johnson,Convolvulus recurvatus,Convolvulaceae
+Ipomoea johnsoniana R.L.Barrett,Ipomoea johnsoniana,Convolvulaceae
+Ipomoea kalumburu R.W.Johnson,Ipomoea kalumburu,Convolvulaceae
+Ipomoea limosa R.W.Johnson,Ipomoea limosa,Convolvulaceae
+Polymeria mollis (Benth.) Domin,Polymeria mollis,Convolvulaceae
+Polymeria quadrivalvis R.Br.,Polymeria quadrivalvis,Convolvulaceae
+Crassula extrorsa Toelken,Crassula extrorsa,Crassulaceae
+Kalanchoe spathulata DC.,Kalanchoe spathulata,Crassulaceae
+Austrobryonia pilbarensis I.Telford,Austrobryonia pilbarensis,Cucurbitaceae
+Zehneria mucronata (Blume) Miq.,Zehneria mucronata,Cucurbitaceae
+Cymodocea angustata Ostenf.,Cymodocea angustata,Cymodoceaceae
+Cymodocea rotundata Ehrenb. & Hempr. ex Asch. & Schweinf.,Cymodocea rotundata,Cymodoceaceae
+Thalassodendron ciliatum (Forssk.) Hartog,Thalassodendron ciliatum,Cymodoceaceae
 "Actinoschoenus arthrostyloides (W.Fitzg.) K.L.Clarke, K.L.Wilson & J.J.Bruhl",Actinoschoenus arthrostyloides,Cyperaceae
 "Actinoschoenus glabrispiculus Rye, R.L.Barrett & M.D.Barrett",Actinoschoenus glabrispiculus,Cyperaceae
 "Actinoschoenus pentagonus Rye, R.L.Barrett & M.D.Barrett",Actinoschoenus pentagonus,Cyperaceae
@@ -913,176 +515,10 @@ Scleria psilorrhiza C.B.Clarke,Scleria psilorrhiza,Cyperaceae
 Tetraria microcarpa S.T.Blake,Tetraria microcarpa,Cyperaceae
 Tricostularia aphylla (R.Br.) K.L.Wilson & R.L.Barrett,Tricostularia aphylla,Cyperaceae
 Tricostularia exsul (C.B.Clarke) K.L.Wilson & R.L.Barrett,Tricostularia exsul,Cyperaceae
-Ecdeiocolea rigens B.G.Briggs,Ecdeiocolea rigens,Ecdeiocoleaceae
-Eriocaulon concretum F.Muell.,Eriocaulon concretum,Eriocaulaceae
-Eriocaulon inapertum G.J.Leach,Eriocaulon inapertum,Eriocaulaceae
-Eriocaulon patericola G.J.Leach,Eriocaulon patericola,Eriocaulaceae
-"Eriocaulon rivicola G.J.Leach, M.D.Barrett & R.L.Barrett",Eriocaulon rivicola,Eriocaulaceae
-Eriocaulon spectabile F.Muell.,Eriocaulon spectabile,Eriocaulaceae
-Juncus meianthus L.A.S.Johnson ex K.L.Wilson,Juncus meianthus,Juncaceae
-Amphibromus vickeryae S.W.L.Jacobs & Lapinpuro,Amphibromus vickeryae,Poaceae
-Anthosachne rectiseta (Nees) Barkworth & S.W.L.Jacobs,Anthosachne rectiseta,Poaceae
-Aristida burbidgeae B.K.Simon,Aristida burbidgeae,Poaceae
-Aristida dominii B.K.Simon,Aristida dominii,Poaceae
-Aristida exserta S.T.Blake,Aristida exserta,Poaceae
-Aristida kimberleyensis B.K.Simon,Aristida kimberleyensis,Poaceae
-Aristida polyclados Domin,Aristida polyclados,Poaceae
-Aristida sciuroides Domin,Aristida sciuroides,Poaceae
-Aristida strigosa (Henrard) S.T.Blake ex J.M.Black,Aristida strigosa,Poaceae
-Austrostipa bronweniae A.R.Williams,Austrostipa bronweniae,Poaceae
-Austrostipa crinita (Gaudich.) S.W.L.Jacobs & J.Everett,Austrostipa crinita,Poaceae
-"Austrostipa dongicola (Vickery, S.W.L.Jacobs & J.Everett) S.W.L.Jacobs & J.Everett",Austrostipa dongicola,Poaceae
-Austrostipa geoffreyi S.W.L.Jacobs & J.Everett,Austrostipa geoffreyi,Poaceae
-Austrostipa jacobsiana A.R.Williams,Austrostipa jacobsiana,Poaceae
-"Austrostipa lanata (Vickery, S.W.L.Jacobs & J.Everett) S.W.L.Jacobs & J.Everett",Austrostipa lanata,Poaceae
-"Austrostipa nullarborensis (Vickery, S.W.L.Jacobs & J.Everett) S.W.L.Jacobs & J.Everett",Austrostipa nullarborensis,Poaceae
-Austrostipa plumigera (Hughes) S.W.L.Jacobs & J.Everett,Austrostipa plumigera,Poaceae
-Austrostipa pycnostachya (Benth.) S.W.L.Jacobs & J.Everett,Austrostipa pycnostachya,Poaceae
-Austrostipa tuckeri (F.Muell.) S.W.L.Jacobs & J.Everett,Austrostipa tuckeri,Poaceae
-Chionachne hubbardiana Henrard,Chionachne hubbardiana,Poaceae
-Deyeuxia inaequalis Vickery,Deyeuxia inaequalis,Poaceae
-Digitaria gibbosa (R.Br.) P.Beauv.,Digitaria gibbosa,Poaceae
-Digitaria papposa (R.Br.) P.Beauv.,Digitaria papposa,Poaceae
-Digitaria stenostachya (Benth.) Hughes,Digitaria stenostachya,Poaceae
-Echinochloa elliptica P.W.Michael & Vickery,Echinochloa elliptica,Poaceae
-Echinochloa kimberleyensis P.W.Michael & Vickery,Echinochloa kimberleyensis,Poaceae
-Ectrosia danesii Domin,Ectrosia danesii,Poaceae
-Enteropogon dolichostachyus (Lag.) Keng ex Lazarides,Enteropogon dolichostachyus,Poaceae
-Eragrostis crateriformis Lazarides,Eragrostis crateriformis,Poaceae
-Eragrostis desertorum Domin,Eragrostis desertorum,Poaceae
-Eragrostis petraea Lazarides,Eragrostis petraea,Poaceae
-Eragrostis potamophila Lazarides,Eragrostis potamophila,Poaceae
-Eragrostis rigidiuscula Domin,Eragrostis rigidiuscula,Poaceae
-Eragrostis surreyana K.A.Sheph. & Trudgen,Eragrostis surreyana,Poaceae
-Eriachne avenacea R.Br.,Eriachne avenacea,Poaceae
-Eriachne fastigiata Lazarides,Eriachne fastigiata,Poaceae
-Eriachne festucacea F.Muell.,Eriachne festucacea,Poaceae
-Eriachne flaccida W.Hartley,Eriachne flaccida,Poaceae
-Eriachne glandulosa Lazarides,Eriachne glandulosa,Poaceae
-Eriachne imbricata Lazarides,Eriachne imbricata,Poaceae
-Eriachne lanata Lazarides,Eriachne lanata,Poaceae
-Eriachne major (Ewart & O.B.Davies) Lazarides,Eriachne major,Poaceae
-Eriachne nodosa Lazarides,Eriachne nodosa,Poaceae
-Eriachne pauciflora W.Fitzg.,Eriachne pauciflora,Poaceae
-Eriachne pindanica R.L.Barrett,Eriachne pindanica,Poaceae
-Eriochloa fatmensis (Hochst. ex Steud.) Clayton,Eriochloa fatmensis,Poaceae
-Eulalia annua B.K.Simon,Eulalia annua,Poaceae
-Eulalia mackinlayi (F.Muell. ex Benth.) Kuntze,Eulalia mackinlayi,Poaceae
-Glyceria drummondii (Steud.) C.E.Hubb.,Glyceria drummondii,Poaceae
-Ischaemum albovillosum B.K.Simon,Ischaemum albovillosum,Poaceae
-Iseilema ciliatum C.E.Hubb.,Iseilema ciliatum,Poaceae
-Iseilema holmesii S.T.Blake,Iseilema holmesii,Poaceae
-Iseilema trichopus (Benth.) C.E.Hubb.,Iseilema trichopus,Poaceae
-Lachnagrostis drummondiana (Steud.) S.W.L.Jacobs,Lachnagrostis drummondiana,Poaceae
-Lachnagrostis nesomytica A.J.Br.,Lachnagrostis nesomytica,Poaceae
-Lachnagrostis plebeia (R.Br.) Trin.,Lachnagrostis plebeia,Poaceae
-Lachnagrostis preissii Nees,Lachnagrostis preissii,Poaceae
-Lepturus copeanus B.K.Simon,Lepturus copeanus,Poaceae
-Micraira brevis M.D.Barrett & R.L.Barrett,Micraira brevis,Poaceae
-"Micraira lazaridis L.G.Clark, Wendel & Craven",Micraira lazaridis,Poaceae
-Micraira spiciforma Lazarides,Micraira spiciforma,Poaceae
-Mnesithea annua (Lazarides) de Koning & Sosef,Mnesithea annua,Poaceae
-Neurachne annularis T.D.Macfarl.,Neurachne annularis,Poaceae
-Neurachne lanigera S.T.Blake,Neurachne lanigera,Poaceae
-Panicum mindanaense Merr.,Panicum mindanaense,Poaceae
-Paspalidium retiglume (Domin) Hughes,Paspalidium retiglume,Poaceae
-Poa fax J.H.Willis & Court,Poa fax,Poaceae
-Poa homomalla Nees,Poa homomalla,Poaceae
-Puccinellia longior A.R.Williams,Puccinellia longior,Poaceae
-Puccinellia vassica A.R.Williams,Puccinellia vassica,Poaceae
-Rytidosperma acerosum (Vickery) Connor & Edgar,Rytidosperma acerosum,Poaceae
-Rytidosperma occidentale (Vickery) Connor & Edgar,Rytidosperma occidentale,Poaceae
-Schizachyrium crinizonatum S.T.Blake,Schizachyrium crinizonatum,Poaceae
-Schizachyrium mitchelliana B.K.Simon,Schizachyrium mitchelliana,Poaceae
-Setaria queenslandica Domin,Setaria queenslandica,Poaceae
-Sorghum amplum Lazarides,Sorghum amplum,Poaceae
-Sorghum ecarinatum Lazarides,Sorghum ecarinatum,Poaceae
-Sorghum interjectum Lazarides,Sorghum interjectum,Poaceae
-Sporobolus blakei De Nardi ex B.K.Simon,Sporobolus blakei,Poaceae
-Sporobolus pulchellus R.Br.,Sporobolus pulchellus,Poaceae
-Thedachloa annua S.W.L.Jacobs,Thedachloa annua,Poaceae
-Triodia aeria Lazarides,Triodia aeria,Poaceae
-Triodia barbata R.L.Barrett & M.D.Barrett,Triodia barbata,Poaceae
-Triodia bunglensis (S.W.L.Jacobs) Lazarides,Triodia bunglensis,Poaceae
-Triodia claytonii Lazarides,Triodia claytonii,Poaceae
-Triodia cremnophila R.L.Barrett & M.D.Barrett,Triodia cremnophila,Poaceae
-Triodia cunninghamii Benth.,Triodia cunninghamii,Poaceae
-Triodia desertorum (C.E.Hubb.) Lazarides,Triodia desertorum,Poaceae
-Triodia dielsii (C.E.Hubb.) Lazarides,Triodia dielsii,Poaceae
-"Triodia fissura R.L.Barrett, G.B.Wells & K.W.Dixon",Triodia fissura,Poaceae
-Triodia fitzgeraldii N.T.Burb.,Triodia fitzgeraldii,Poaceae
-Triodia helmsii (C.E.Hubb.) Lazarides,Triodia helmsii,Poaceae
-Triodia inaequiloba N.T.Burb.,Triodia inaequiloba,Poaceae
-Triodia nana B.M.Anderson,Triodia nana,Poaceae
-Triodia pascoeana B.K.Simon,Triodia pascoeana,Poaceae
-Triodia roscida N.T.Burb.,Triodia roscida,Poaceae
-Triodia salina Lazarides,Triodia salina,Poaceae
-Triodia tomentosa S.W.L.Jacobs,Triodia tomentosa,Poaceae
-Urochloa kurzii (Hook.f.) R.D.Webster,Urochloa kurzii,Poaceae
-Urochloa occidentalis (C.A.Gardner & C.E.Hubb.) B.K.Simon,Urochloa occidentalis,Poaceae
-Urochloa polyphylla (R.Br.) R.D.Webster,Urochloa polyphylla,Poaceae
-Whiteochloa biciliata Lazarides,Whiteochloa biciliata,Poaceae
-Whiteochloa capillipes (Benth.) Lazarides,Whiteochloa capillipes,Poaceae
-Whiteochloa cymbiformis (Hughes) B.K.Simon,Whiteochloa cymbiformis,Poaceae
-Yakirra majuscula (F.Muell. ex Benth.) Lazarides & R.D.Webster,Yakirra majuscula,Poaceae
-Yakirra muelleri (Hughes) Lazarides & R.D.Webster,Yakirra muelleri,Poaceae
-Yakirra pauciflora (R.Br.) Lazarides & R.D.Webster,Yakirra pauciflora,Poaceae
-Chaetanthus leptocarpoides R.Br.,Chaetanthus leptocarpoides,Restionaceae
-Chordifex capillaceus B.G.Briggs & L.A.S.Johnson,Chordifex capillaceus,Restionaceae
-Chordifex gracilior (F.Muell. ex Benth.) B.G.Briggs & L.A.S.Johnson,Chordifex gracilior,Restionaceae
-Chordifex jacksonii B.G.Briggs & L.A.S.Johnson,Chordifex jacksonii,Restionaceae
-Chordifex leucoblepharus (Gilg) B.G.Briggs & L.A.S.Johnson,Chordifex leucoblepharus,Restionaceae
-Chordifex ornatus (Steud.) B.G.Briggs & L.A.S.Johnson,Chordifex ornatus,Restionaceae
-Chordifex reseminans B.G.Briggs & L.A.S.Johnson,Chordifex reseminans,Restionaceae
-Desmocladus biformis B.G.Briggs & L.A.S.Johnson,Desmocladus biformis,Restionaceae
-Desmocladus castaneus B.G.Briggs & L.A.S.Johnson,Desmocladus castaneus,Restionaceae
-Desmocladus confertospicatus (Steud.) B.G.Briggs,Desmocladus confertospicatus,Restionaceae
-Desmocladus diacolpicus B.G.Briggs & L.A.S.Johnson,Desmocladus diacolpicus,Restionaceae
-Desmocladus eludens (B.G.Briggs & L.A.S.Johnson) B.G.Briggs,Desmocladus eludens,Restionaceae
-Desmocladus eyreanus (B.G.Briggs & L.A.S.Johnson) B.G.Briggs,Desmocladus eyreanus,Restionaceae
-Desmocladus ferruginipes (Meney & Pate) B.G.Briggs,Desmocladus ferruginipes,Restionaceae
-Desmocladus glomeratus K.W.Dixon & Meney,Desmocladus glomeratus,Restionaceae
-Desmocladus lateriticus B.G.Briggs & L.A.S.Johnson,Desmocladus lateriticus,Restionaceae
-Desmocladus nodatus (B.G.Briggs & L.A.S.Johnson) B.G.Briggs,Desmocladus nodatus,Restionaceae
-Desmocladus quiricanus B.G.Briggs & L.A.S.Johnson,Desmocladus quiricanus,Restionaceae
-Desmocladus semiplanus B.G.Briggs & L.A.S.Johnson,Desmocladus semiplanus,Restionaceae
-Desmocladus virgatus (Benth.) B.G.Briggs & L.A.S.Johnson,Desmocladus virgatus,Restionaceae
-Hopkinsia adscendens B.G.Briggs & L.A.S.Johnson,Hopkinsia adscendens,Restionaceae
-Hypolaena caespitosa B.G.Briggs & L.A.S.Johnson,Hypolaena caespitosa,Restionaceae
-Hypolaena grandiuscula F.Muell.,Hypolaena grandiuscula,Restionaceae
-Hypolaena viridis L.A.S.Johnson & B.G.Briggs,Hypolaena viridis,Restionaceae
-Lepidobolus basiflorus Pate & Meney,Lepidobolus basiflorus,Restionaceae
-Lepidobolus eurardyensis K.W.Dixon & B.G.Briggs,Lepidobolus eurardyensis,Restionaceae
-Lepidobolus spiralis Meney & K.W.Dixon,Lepidobolus spiralis,Restionaceae
-Leptocarpus crassipes Pate & Meney,Leptocarpus crassipes,Restionaceae
-Leptocarpus decipiens B.G.Briggs,Leptocarpus decipiens,Restionaceae
-Leptocarpus scoparius B.G.Briggs,Leptocarpus scoparius,Restionaceae
-Leptocarpus tephrinus B.G.Briggs,Leptocarpus tephrinus,Restionaceae
-Leptocarpus thysananthus B.G.Briggs,Leptocarpus thysananthus,Restionaceae
-Lepyrodia curvescens B.G.Briggs & L.A.S.Johnson,Lepyrodia curvescens,Restionaceae
-Lepyrodia drummondiana Steud.,Lepyrodia drummondiana,Restionaceae
-Lepyrodia extensa B.G.Briggs & L.A.S.Johnson,Lepyrodia extensa,Restionaceae
-Lepyrodia fortunata B.G.Briggs & L.A.S.Johnson,Lepyrodia fortunata,Restionaceae
-Lepyrodia heleocharoides Gilg,Lepyrodia heleocharoides,Restionaceae
-Lepyrodia macra Nees,Lepyrodia macra,Restionaceae
-Lepyrodia monoica F.Muell.,Lepyrodia monoica,Restionaceae
-Lepyrodia muirii F.Muell.,Lepyrodia muirii,Restionaceae
-Lepyrodia porterae B.G.Briggs & L.A.S.Johnson,Lepyrodia porterae,Restionaceae
-Lepyrodia riparia B.G.Briggs & L.A.S.Johnson,Lepyrodia riparia,Restionaceae
-Loxocarya albipes Pate & Meney,Loxocarya albipes,Restionaceae
-Loxocarya striata (F.Muell.) B.G.Briggs & L.A.S.Johnson,Loxocarya striata,Restionaceae
-Melanostachya ustulata (F.Muell. ex Ewart & Sharman) B.G.Briggs & L.A.S.Johnson,Melanostachya ustulata,Restionaceae
-Platychorda applanata (Spreng.) B.G.Briggs & L.A.S.Johnson,Platychorda applanata,Restionaceae
-Platychorda rivalis B.G.Briggs & L.A.S.Johnson,Platychorda rivalis,Restionaceae
-Sporadanthus strictus (R.Br.) B.G.Briggs & L.A.S.Johnson,Sporadanthus strictus,Restionaceae
-Tyrbastes glaucescens B.G.Briggs & L.A.S.Johnson,Tyrbastes glaucescens,Restionaceae
-Xyris atroviridis Doust & B.J.Conn,Xyris atroviridis,Xyridaceae
-Xyris gracillima F.Muell.,Xyris gracillima,Xyridaceae
-Xyris inaequalis N.A.Wakef.,Xyris inaequalis,Xyridaceae
-Xyris laxiflora F.Muell.,Xyris laxiflora,Xyridaceae
-Xyris maxima Doust & B.J.Conn,Xyris maxima,Xyridaceae
-Xyris pusilla Sol. ex R.Br.,Xyris pusilla,Xyridaceae
-Uvaria glabra Span.,Uvaria glabra,Annonaceae
+Calectasia elegans R.L.Barrett,Calectasia elegans,Dasypogonaceae
+Calectasia jubilaea R.L.Barrett,Calectasia jubilaea,Dasypogonaceae
+Calectasia keigheryi R.L.Barrett & K.W.Dixon,Calectasia keigheryi,Dasypogonaceae
+Calectasia obtusa R.L.Barrett & K.W.Dixon,Calectasia obtusa,Dasypogonaceae
 Hibbertia acrotrichion J.R.Wheeler,Hibbertia acrotrichion,Dilleniaceae
 Hibbertia ancistrophylla J.R.Wheeler,Hibbertia ancistrophylla,Dilleniaceae
 Hibbertia ancistrotricha J.R.Wheeler,Hibbertia ancistrotricha,Dilleniaceae
@@ -1092,7 +528,6 @@ Hibbertia carinata J.R.Wheeler,Hibbertia carinata,Dilleniaceae
 Hibbertia charlesii J.R.Wheeler,Hibbertia charlesii,Dilleniaceae
 Hibbertia chartacea J.R.Wheeler,Hibbertia chartacea,Dilleniaceae
 Hibbertia drummondii (Turcz.) Gilg,Hibbertia drummondii,Dilleniaceae
-Hibbertia echiifolia R.Br. ex Benth.,Hibbertia echiifolia,Dilleniaceae
 Hibbertia ferruginea J.R.Wheeler,Hibbertia ferruginea,Dilleniaceae
 Hibbertia fitzgeraldensis J.R.Wheeler,Hibbertia fitzgeraldensis,Dilleniaceae
 Hibbertia glabriuscula J.R.Wheeler,Hibbertia glabriuscula,Dilleniaceae
@@ -1116,123 +551,152 @@ Hibbertia suffrutescens Toelken,Hibbertia suffrutescens,Dilleniaceae
 Hibbertia trichocalyx J.R.Wheeler,Hibbertia trichocalyx,Dilleniaceae
 Hibbertia turleyana J.R.Wheeler,Hibbertia turleyana,Dilleniaceae
 Hibbertia verrucosa (Turcz.) Benth.,Hibbertia verrucosa,Dilleniaceae
-Crassula extrorsa Toelken,Crassula extrorsa,Crassulaceae
-Kalanchoe spathulata DC.,Kalanchoe spathulata,Crassulaceae
-Gonocarpus benthamii Orchard,Gonocarpus benthamii,Haloragaceae
-Gonocarpus cordiger (Fenzl) Nees,Gonocarpus cordiger,Haloragaceae
-Gonocarpus diffusus (Diels) Orchard,Gonocarpus diffusus,Haloragaceae
-Gonocarpus ephemerus Orchard,Gonocarpus ephemerus,Haloragaceae
-Gonocarpus ericifolius Orchard,Gonocarpus ericifolius,Haloragaceae
-Gonocarpus hispidus Orchard,Gonocarpus hispidus,Haloragaceae
-Gonocarpus implexus Orchard,Gonocarpus implexus,Haloragaceae
-Gonocarpus nodulosus Nees,Gonocarpus nodulosus,Haloragaceae
-Gonocarpus pusillus (Benth.) Orchard,Gonocarpus pusillus,Haloragaceae
-Gonocarpus pycnostachyus (F.Muell.) Orchard,Gonocarpus pycnostachyus,Haloragaceae
-Gonocarpus rudis (Benth.) Orchard,Gonocarpus rudis,Haloragaceae
-Gonocarpus scordioides (Benth.) Orchard,Gonocarpus scordioides,Haloragaceae
-Gonocarpus simplex (R.Br. ex Britten) Orchard,Gonocarpus simplex,Haloragaceae
-Gonocarpus trichostachyus (Benth.) Orchard,Gonocarpus trichostachyus,Haloragaceae
-Haloragis aculeolata Benth.,Haloragis aculeolata,Haloragaceae
-Haloragis dura Orchard,Haloragis dura,Haloragaceae
-Haloragis hamata Orchard,Haloragis hamata,Haloragaceae
-Haloragis maierae Orchard,Haloragis maierae,Haloragaceae
-Haloragis platycarpa Benth.,Haloragis platycarpa,Haloragaceae
-Haloragis scoparia Fenzl,Haloragis scoparia,Haloragaceae
-Myriophyllum costatum Orchard,Myriophyllum costatum,Haloragaceae
-Myriophyllum drummondii Benth.,Myriophyllum drummondii,Haloragaceae
-Myriophyllum filiforme Benth.,Myriophyllum filiforme,Haloragaceae
-Myriophyllum limnophilum Orchard,Myriophyllum limnophilum,Haloragaceae
-Myriophyllum trifidum (Nees) M.L.Moody & Les,Myriophyllum trifidum,Haloragaceae
-"Trithuria austinensis D.D.Sokoloff, Remizowa, T.D.Macfarl. & Rudall",Trithuria austinensis,Hydatellaceae
-Trithuria lanterna D.A.Cooke,Trithuria lanterna,Hydatellaceae
-"Trithuria polybracteata D.A.Cooke ex D.D.Sokoloff, Remizowa, T.D.Macfarl. & Rudall",Trithuria polybracteata,Hydatellaceae
-Nymphaea kimberleyensis (S.W.L.Jacobs) S.W.L.Jacobs & Hellq.,Nymphaea kimberleyensis,Nymphaeaceae
-"Nymphaea ondinea Löhne, Wiersema & Borsch",Nymphaea ondinea,Nymphaeaceae
-Adenanthos cacomorphus E.C.Nelson,Adenanthos cacomorphus,Proteaceae
-Conospermum multispicatum E.M.Benn.,Conospermum multispicatum,Proteaceae
-Grevillea adenotricha McGill.,Grevillea adenotricha,Proteaceae
-Grevillea calcicola A.S.George,Grevillea calcicola,Proteaceae
-Grevillea ceratocarpa Diels,Grevillea ceratocarpa,Proteaceae
-Grevillea cheilocarpa Makinson,Grevillea cheilocarpa,Proteaceae
-Grevillea cravenii Makinson,Grevillea cravenii,Proteaceae
-Grevillea donaldiana Kenneally,Grevillea donaldiana,Proteaceae
-Grevillea eremophila (Diels) Olde & Marriott,Grevillea eremophila,Proteaceae
-Grevillea incurva (Diels) Olde & Marriott,Grevillea incurva,Proteaceae
-Grevillea lissopleura McGill.,Grevillea lissopleura,Proteaceae
-Grevillea lullfitzii McGill.,Grevillea lullfitzii,Proteaceae
-Grevillea maherae Makinson & M.D.Barrett,Grevillea maherae,Proteaceae
-Grevillea metamorpha Makinson,Grevillea metamorpha,Proteaceae
-Grevillea microstyla M.D.Barrett & Makinson,Grevillea microstyla,Proteaceae
-Grevillea punctata Olde & Marriott,Grevillea punctata,Proteaceae
-Grevillea roycei McGill.,Grevillea roycei,Proteaceae
-Grevillea saxicola S.J.Dillon,Grevillea saxicola,Proteaceae
-Grevillea secunda McGill.,Grevillea secunda,Proteaceae
-Grevillea stenogyne (Benth.) Makinson,Grevillea stenogyne,Proteaceae
-Grevillea sulcata C.A.Gardner ex Olde & Marriott,Grevillea sulcata,Proteaceae
-Grevillea xiphoidea Olde & Marriott,Grevillea xiphoidea,Proteaceae
-Hakea oligoneura K.A.Sheph. & R.M.Barker,Hakea oligoneura,Proteaceae
-Persoonia baeckeoides P.H.Weston,Persoonia baeckeoides,Proteaceae
-Persoonia biglandulosa P.H.Weston,Persoonia biglandulosa,Proteaceae
-Persoonia brachystylis F.Muell.,Persoonia brachystylis,Proteaceae
-Persoonia cordifolia P.H.Weston,Persoonia cordifolia,Proteaceae
-Persoonia filiformis P.H.Weston,Persoonia filiformis,Proteaceae
-Persoonia flexifolia R.Br.,Persoonia flexifolia,Proteaceae
-Persoonia hakeiformis Meisn.,Persoonia hakeiformis,Proteaceae
-Persoonia kararae P.H.Weston,Persoonia kararae,Proteaceae
-Persoonia leucopogon S.Moore,Persoonia leucopogon,Proteaceae
-Persoonia manotricha A.S.Markey & R.Butcher,Persoonia manotricha,Proteaceae
-Persoonia papillosa P.H.Weston,Persoonia papillosa,Proteaceae
-Persoonia pertinax P.H.Weston,Persoonia pertinax,Proteaceae
-Persoonia scabra R.Br.,Persoonia scabra,Proteaceae
-Persoonia spathulata R.Br.,Persoonia spathulata,Proteaceae
-Petrophile globifera Rye & K.A.Sheph.,Petrophile globifera,Proteaceae
-Petrophile misturata Foreman,Petrophile misturata,Proteaceae
-Petrophile trifurcata Foreman,Petrophile trifurcata,Proteaceae
-Stirlingia abrotanoides Meisn.,Stirlingia abrotanoides,Proteaceae
-Stirlingia divaricatissima A.S.George,Stirlingia divaricatissima,Proteaceae
-Strangea stenocarpoides (F.Muell. ex Benth.) C.A.Gardner,Strangea stenocarpoides,Proteaceae
-Synaphea drummondii Meisn.,Synaphea drummondii,Proteaceae
-Synaphea incurva A.S.George,Synaphea incurva,Proteaceae
-Synaphea tamminensis A.S.George,Synaphea tamminensis,Proteaceae
-Synaphea trinacriformis R.Butcher,Synaphea trinacriformis,Proteaceae
-Arabidella chrysodema Lepschi & Wege,Arabidella chrysodema,Brassicaceae
-Lepidium amelum Lepschi,Lepidium amelum,Brassicaceae
-Lepidium biplicatum Hewson,Lepidium biplicatum,Brassicaceae
-Lepidium desvauxii Thell.,Lepidium desvauxii,Brassicaceae
-Lepidium drummondii Thell.,Lepidium drummondii,Brassicaceae
-Lepidium genistoides Hewson,Lepidium genistoides,Brassicaceae
-Lepidium lyratogynum Hewson,Lepidium lyratogynum,Brassicaceae
-Lepidium merrallii F.Muell.,Lepidium merrallii,Brassicaceae
-Lepidium muelleri-ferdinandi Thell.,Lepidium muelleri-ferdinandi,Brassicaceae
-Lepidium pseudoruderale Thell.,Lepidium pseudoruderale,Brassicaceae
-Lepidium puberulum Bunge,Lepidium puberulum,Brassicaceae
-Lepidium sagittulatum Thell.,Lepidium sagittulatum,Brassicaceae
-Lepidium xylodes Hewson,Lepidium xylodes,Brassicaceae
-Menkea draboides (Hook.) Benth.,Menkea draboides,Brassicaceae
-Menkea lutea E.A.Shaw,Menkea lutea,Brassicaceae
-Microlepidium alatum (J.M.Black) E.A.Shaw,Microlepidium alatum,Brassicaceae
-Microlepidium pilosulum F.Muell.,Microlepidium pilosulum,Brassicaceae
-Phlegmatospermum drummondii (Benth.) O.E.Schulz,Phlegmatospermum drummondii,Brassicaceae
-Phlegmatospermum eremaeum (J.M.Black) E.A.Shaw,Phlegmatospermum eremaeum,Brassicaceae
-Phlegmatospermum richardsii (F.Muell.) E.A.Shaw,Phlegmatospermum richardsii,Brassicaceae
-Stenopetalum gracile Bunge,Stenopetalum gracile,Brassicaceae
-Stenopetalum salicola Keighery,Stenopetalum salicola,Brassicaceae
-Stenopetalum saxatile Keighery,Stenopetalum saxatile,Brassicaceae
-"Arivela arenitensis (Craven, Lepschi & Fryxell) R.L.Barrett",Arivela arenitensis,Cleomaceae
-Arivela kenneallyi (Hewson) R.L.Barrett,Arivela kenneallyi,Cleomaceae
-Arivela microphylla (Keighery) R.L.Barrett,Arivela microphylla,Cleomaceae
-Gyrostemon brownii S.Moore,Gyrostemon brownii,Gyrostemonaceae
-Gyrostemon prostratus A.S.George,Gyrostemon prostratus,Gyrostemonaceae
-Gyrostemon reticulatus A.S.George,Gyrostemon reticulatus,Gyrostemonaceae
-Gyrostemon sessilis A.S.George,Gyrostemon sessilis,Gyrostemonaceae
-Walteranthus erectus Keighery,Walteranthus erectus,Gyrostemonaceae
-Apatophyllum macgillivrayi Cranfield & Lander,Apatophyllum macgillivrayi,Celastraceae
-Psammomoya ephedroides Diels & Loes.,Psammomoya ephedroides,Celastraceae
-Stackhousia georgei Diels,Stackhousia georgei,Celastraceae
-Stackhousia huegelii Endl.,Stackhousia huegelii,Celastraceae
-Stackhousia stratfordiae W.R.Barker & Cockerton,Stackhousia stratfordiae,Celastraceae
-Austrobryonia pilbarensis I.Telford,Austrobryonia pilbarensis,Cucurbitaceae
-Zehneria mucronata (Blume) Miq.,Zehneria mucronata,Cucurbitaceae
+Drosera caduca Lowrie,Drosera caduca,Droseraceae
+Drosera coalara Lowrie & Conran,Drosera coalara,Droseraceae
+Drosera depauperata Lowrie & Conran,Drosera depauperata,Droseraceae
+Drosera glabriscapa Lowrie,Drosera glabriscapa,Droseraceae
+Drosera indumenta Lowrie & Conran,Drosera indumenta,Droseraceae
+Drosera leioblastus N.G.Marchant & Lowrie,Drosera leioblastus,Droseraceae
+Drosera prostratoscaposa Lowrie & Carlquist,Drosera prostratoscaposa,Droseraceae
+Drosera salina N.G.Marchant & Lowrie,Drosera salina,Droseraceae
+Drosera zigzagia Lowrie,Drosera zigzagia,Droseraceae
+Ecdeiocolea rigens B.G.Briggs,Ecdeiocolea rigens,Ecdeiocoleaceae
+Tetratheca butcheriana A.J.Perkins,Tetratheca butcheriana,Elaeocarpaceae
+Tetratheca fasciculata Joy Thomps.,Tetratheca fasciculata,Elaeocarpaceae
+Tetratheca fordiana R.Butcher,Tetratheca fordiana,Elaeocarpaceae
+Tetratheca paucifolia Joy Thomps.,Tetratheca paucifolia,Elaeocarpaceae
+Tetratheca pilata R.Butcher,Tetratheca pilata,Elaeocarpaceae
+Tetratheca plumosa R.Butcher,Tetratheca plumosa,Elaeocarpaceae
+Tetratheca remota Joy Thomps.,Tetratheca remota,Elaeocarpaceae
+Tetratheca spenceri R.Butcher & Cockerton,Tetratheca spenceri,Elaeocarpaceae
+Bergia pusilla Benth.,Bergia pusilla,Elatinaceae
+Acrotriche dura (Benth.) Quinn,Acrotriche dura,Ericaceae
+Acrotriche lancifolia Hislop,Acrotriche lancifolia,Ericaceae
+Acrotriche parviflora (Stschegl.) Hislop,Acrotriche parviflora,Ericaceae
+Acrotriche ramiflora R.Br.,Acrotriche ramiflora,Ericaceae
+Andersonia barbata L.Watson,Andersonia barbata,Ericaceae
+Andersonia depressa R.Br.,Andersonia depressa,Ericaceae
+Andersonia ferricola Lemson,Andersonia ferricola,Ericaceae
+Andersonia geniculata Lemson,Andersonia geniculata,Ericaceae
+Andersonia longifolia (Benth.) L.Watson,Andersonia longifolia,Ericaceae
+Astroloma chloranthum Hislop & A.J.G.Wilson,Astroloma chloranthum,Ericaceae
+Astroloma inopinatum Hislop,Astroloma inopinatum,Ericaceae
+Astroloma oblongifolium A.J.G.Wilson & Hislop,Astroloma oblongifolium,Ericaceae
+Astroloma tectum R.Br.,Astroloma tectum,Ericaceae
+Brachyloma delbi Cranfield,Brachyloma delbi,Ericaceae
+Brachyloma djerral Cranfield & Hislop,Brachyloma djerral,Ericaceae
+Brachyloma elusum Hislop & Cranfield,Brachyloma elusum,Ericaceae
+Brachyloma geissoloma (F.Muell.) Cranfield,Brachyloma geissoloma,Ericaceae
+Brachyloma pirara Cranfield & Hislop,Brachyloma pirara,Ericaceae
+Brachyloma stenolobum Hislop & Cranfield,Brachyloma stenolobum,Ericaceae
+Coleanthera coelophylla (A.Cunn. ex DC.) Benth.,Coleanthera coelophylla,Ericaceae
+Conostephium laeve Hislop,Conostephium laeve,Ericaceae
+Conostephium papillosum Hislop,Conostephium papillosum,Ericaceae
+Conostephium prolatum Hislop,Conostephium prolatum,Ericaceae
+Conostephium uncinatum Moezel,Conostephium uncinatum,Ericaceae
+Dielsiodoxa tamariscina (F.Muell.) Albr.,Dielsiodoxa tamariscina,Ericaceae
+Leucopogon acicularis Benth.,Leucopogon acicularis,Ericaceae
+Leucopogon altissimus Hislop,Leucopogon altissimus,Ericaceae
+Leucopogon amplectens Ostenf.,Leucopogon amplectens,Ericaceae
+Leucopogon atherolepis Stschegl.,Leucopogon atherolepis,Ericaceae
+Leucopogon audax Hislop,Leucopogon audax,Ericaceae
+Leucopogon borealis Hislop & A.R.Chapm.,Leucopogon borealis,Ericaceae
+Leucopogon bracteolaris Benth.,Leucopogon bracteolaris,Ericaceae
+Leucopogon canaliculatus Hislop,Leucopogon canaliculatus,Ericaceae
+Leucopogon cinereus E.Pritz.,Leucopogon cinereus,Ericaceae
+Leucopogon compactus Stschegl.,Leucopogon compactus,Ericaceae
+Leucopogon conchifolius Strid,Leucopogon conchifolius,Ericaceae
+Leucopogon crassiflorus (F.Muell.) Benth.,Leucopogon crassiflorus,Ericaceae
+Leucopogon cryptanthus Benth.,Leucopogon cryptanthus,Ericaceae
+Leucopogon decrescens Hislop,Leucopogon decrescens,Ericaceae
+Leucopogon decussatus Stschegl.,Leucopogon decussatus,Ericaceae
+Leucopogon diversifolius Hislop,Leucopogon diversifolius,Ericaceae
+Leucopogon extremus Hislop & Puente-Lel.,Leucopogon extremus,Ericaceae
+Leucopogon grammatus Hislop,Leucopogon grammatus,Ericaceae
+Leucopogon hispidus E.Pritz.,Leucopogon hispidus,Ericaceae
+Leucopogon incisus Hislop,Leucopogon incisus,Ericaceae
+Leucopogon inflexus Hislop,Leucopogon inflexus,Ericaceae
+Leucopogon infuscatus Strid,Leucopogon infuscatus,Ericaceae
+Leucopogon interstans Hislop,Leucopogon interstans,Ericaceae
+Leucopogon lloydiorum Strid,Leucopogon lloydiorum,Ericaceae
+Leucopogon maritimus Hislop,Leucopogon maritimus,Ericaceae
+Leucopogon microcarpus Hislop,Leucopogon microcarpus,Ericaceae
+Leucopogon mollis E.Pritz.,Leucopogon mollis,Ericaceae
+Leucopogon navicularis Hislop,Leucopogon navicularis,Ericaceae
+Leucopogon newbeyi Hislop,Leucopogon newbeyi,Ericaceae
+Leucopogon nitidus Hislop,Leucopogon nitidus,Ericaceae
+Leucopogon ozothamnoides Benth.,Leucopogon ozothamnoides,Ericaceae
+Leucopogon paradoxus Hislop,Leucopogon paradoxus,Ericaceae
+Leucopogon penicillatus Stschegl.,Leucopogon penicillatus,Ericaceae
+Leucopogon prolatus Hislop,Leucopogon prolatus,Ericaceae
+Leucopogon psammophilus E.Pritz.,Leucopogon psammophilus,Ericaceae
+Leucopogon psilopus Stschegl.,Leucopogon psilopus,Ericaceae
+Leucopogon pubescens S.Moore,Leucopogon pubescens,Ericaceae
+Leucopogon remotus Hislop,Leucopogon remotus,Ericaceae
+Leucopogon rigidus A.Cunn. ex DC.,Leucopogon rigidus,Ericaceae
+Leucopogon rubricaulis R.Br.,Leucopogon rubricaulis,Ericaceae
+Leucopogon rugulosus Hislop,Leucopogon rugulosus,Ericaceae
+Leucopogon stokesii Hislop,Leucopogon stokesii,Ericaceae
+Leucopogon subsejunctus Hislop,Leucopogon subsejunctus,Ericaceae
+Leucopogon tetragonus Sond.,Leucopogon tetragonus,Ericaceae
+Leucopogon validus Hislop & A.R.Chapm.,Leucopogon validus,Ericaceae
+Leucopogon wheelerae Hislop,Leucopogon wheelerae,Ericaceae
+Lysinema fimbriatum F.Muell.,Lysinema fimbriatum,Ericaceae
+Lysinema lasianthum R.Br.,Lysinema lasianthum,Ericaceae
+Stenanthera pungens (Keighery) Hislop,Stenanthera pungens,Ericaceae
+Styphelia filamentosa Hislop & Puente-Lel.,Styphelia filamentosa,Ericaceae
+Styphelia filifolia Hislop & Puente-Lel.,Styphelia filifolia,Ericaceae
+Styphelia longissima Hislop & Puente-Lel.,Styphelia longissima,Ericaceae
+Styphelia melaleucoides F.Muell.,Styphelia melaleucoides,Ericaceae
+Eriocaulon concretum F.Muell.,Eriocaulon concretum,Eriocaulaceae
+Eriocaulon inapertum G.J.Leach,Eriocaulon inapertum,Eriocaulaceae
+Eriocaulon patericola G.J.Leach,Eriocaulon patericola,Eriocaulaceae
+"Eriocaulon rivicola G.J.Leach, M.D.Barrett & R.L.Barrett",Eriocaulon rivicola,Eriocaulaceae
+Eriocaulon spectabile F.Muell.,Eriocaulon spectabile,Eriocaulaceae
+Acalypha lanceolata Willd.,Acalypha lanceolata,Euphorbiaceae
+Amperea conferta Benth.,Amperea conferta,Euphorbiaceae
+Amperea volubilis F.Muell. ex Benth.,Amperea volubilis,Euphorbiaceae
+Bertya dimerostigma F.Muell.,Bertya dimerostigma,Euphorbiaceae
+Bertya virgata (Ewart) Halford & R.J.F.Hend.,Bertya virgata,Euphorbiaceae
+Beyeria brevifolia (Müll.Arg.) Benth.,Beyeria brevifolia,Euphorbiaceae
+Beyeria calycina Airy Shaw,Beyeria calycina,Euphorbiaceae
+Beyeria disciformis Halford & R.J.F.Hend.,Beyeria disciformis,Euphorbiaceae
+Beyeria lapidicola Halford & R.J.F.Hend.,Beyeria lapidicola,Euphorbiaceae
+Beyeria latifolia Baill.,Beyeria latifolia,Euphorbiaceae
+Beyeria minor (Airy Shaw) Halford & R.J.F.Hend.,Beyeria minor,Euphorbiaceae
+Beyeria physaphylla Halford & R.J.F.Hend.,Beyeria physaphylla,Euphorbiaceae
+Beyeria rostellata Halford & R.J.F.Hend.,Beyeria rostellata,Euphorbiaceae
+Beyeria similis (Müll.Arg.) Benth.,Beyeria similis,Euphorbiaceae
+Beyeria simplex Halford & R.J.F.Hend.,Beyeria simplex,Euphorbiaceae
+Beyeria sulcata Halford & R.J.F.Hend.,Beyeria sulcata,Euphorbiaceae
+Calycopeplus marginatus Benth.,Calycopeplus marginatus,Euphorbiaceae
+Calycopeplus oligandrus P.I.Forst.,Calycopeplus oligandrus,Euphorbiaceae
+Croton schultzii Benth.,Croton schultzii,Euphorbiaceae
+Croton tomentellus F.Muell.,Croton tomentellus,Euphorbiaceae
+Euphorbia albrechtii Halford & W.K.Harris,Euphorbia albrechtii,Euphorbiaceae
+Euphorbia armstrongiana Boiss.,Euphorbia armstrongiana,Euphorbiaceae
+Euphorbia cinerea W.Fitzg.,Euphorbia cinerea,Euphorbiaceae
+Euphorbia clementii Domin,Euphorbia clementii,Euphorbiaceae
+Euphorbia fitzroyensis Halford & W.K.Harris,Euphorbia fitzroyensis,Euphorbiaceae
+Euphorbia hassallii Halford & W.K.Harris,Euphorbia hassallii,Euphorbiaceae
+Euphorbia kimberleyensis B.G.Thomson,Euphorbia kimberleyensis,Euphorbiaceae
+Euphorbia maconochieana B.G.Thomson,Euphorbia maconochieana,Euphorbiaceae
+Euphorbia philochalix Halford & W.K.Harris,Euphorbia philochalix,Euphorbiaceae
+Euphorbia psilosperma Halford & W.K.Harris,Euphorbia psilosperma,Euphorbiaceae
+Euphorbia vaccaria Baill.,Euphorbia vaccaria,Euphorbiaceae
+Euphorbia verrucitesta Halford & W.K.Harris,Euphorbia verrucitesta,Euphorbiaceae
+Euphorbia vicina Halford & W.K.Harris,Euphorbia vicina,Euphorbiaceae
+Euphorbia victoriensis Halford & W.K.Harris,Euphorbia victoriensis,Euphorbiaceae
+Monotaxis paxii Grüning,Monotaxis paxii,Euphorbiaceae
+Monotaxis tenuis Airy Shaw,Monotaxis tenuis,Euphorbiaceae
+Ricinocarpos brevis R.J.F.Hend. & Mollemans,Ricinocarpos brevis,Euphorbiaceae
+Ricinocarpos graniticus Halford & R.J.F.Hend.,Ricinocarpos graniticus,Euphorbiaceae
+Ricinocarpos marginatus Benth.,Ricinocarpos marginatus,Euphorbiaceae
+Ricinocarpos oliganthus Halford & R.J.F.Hend.,Ricinocarpos oliganthus,Euphorbiaceae
+Ricinocarpos pilifer Halford & R.J.F.Hend.,Ricinocarpos pilifer,Euphorbiaceae
+Ricinocarpos psilocladus (Müll.Arg.) Benth.,Ricinocarpos psilocladus,Euphorbiaceae
+Ricinocarpos rosmarinifolius Benth.,Ricinocarpos rosmarinifolius,Euphorbiaceae
+Ricinocarpos stylosus Diels,Ricinocarpos stylosus,Euphorbiaceae
 Acacia adjutrices Maslin,Acacia adjutrices,Fabaceae
 Acacia anasilla A.S.George,Acacia anasilla,Fabaceae
 "Acacia anastomosa Maslin, M.D.Barrett & R.L.Barrett",Acacia anastomosa,Fabaceae
@@ -1334,7 +798,6 @@ Cullen candidum J.W.Grimes,Cullen candidum,Fabaceae
 Cullen praeruptorum J.W.Grimes,Cullen praeruptorum,Fabaceae
 Cullen virens (W.Fitzg.) J.W.Grimes,Cullen virens,Fabaceae
 Daviesia eremaea Crisp,Daviesia eremaea,Fabaceae
-Daviesia implexa (Crisp) Crisp,Daviesia implexa,Fabaceae
 Daviesia pleurophylla Crisp,Daviesia pleurophylla,Fabaceae
 Daviesia scabrella Crisp,Daviesia scabrella,Fabaceae
 Daviesia subulata Crisp & G.Chandler,Daviesia subulata,Fabaceae
@@ -1370,7 +833,6 @@ Gompholobium roseum Chappill,Gompholobium roseum,Fabaceae
 Gompholobium wonganense Chappill,Gompholobium wonganense,Fabaceae
 Goodia stenocarpa I.Thomps.,Goodia stenocarpa,Fabaceae
 Grona flagellaris (Benth.) H.Ohashi & K.Ohashi,Grona flagellaris,Fabaceae
-Grona glareosa (Pedley) H.Ohashi & K.Ohashi,Grona glareosa,Fabaceae
 Grona hannii (Schindl.) H.Ohashi & K.Ohashi,Grona hannii,Fabaceae
 Grona pycnotricha (Pedley) H.Ohashi & K.Ohashi,Grona pycnotricha,Fabaceae
 Indigofera cuspidata Peter G.Wilson & Rowe,Indigofera cuspidata,Fabaceae
@@ -1386,7 +848,6 @@ Indigofera pilifera Peter G.Wilson & Rowe,Indigofera pilifera,Fabaceae
 Indigofera roseola Peter G.Wilson & Rowe,Indigofera roseola,Fabaceae
 Indigofera rupicola Peter G.Wilson & Rowe,Indigofera rupicola,Fabaceae
 Indigofera warburtonensis Peter G.Wilson & Rowe,Indigofera warburtonensis,Fabaceae
-Isotropis browniae Jobson,Isotropis browniae,Fabaceae
 Isotropis canescens F.Muell.,Isotropis canescens,Fabaceae
 Jacksonia arida Chappill,Jacksonia arida,Fabaceae
 Jacksonia eremodendron E.Pritz.,Jacksonia eremodendron,Fabaceae
@@ -1449,97 +910,238 @@ Tephrosia valleculata Cowie,Tephrosia valleculata,Fabaceae
 Vachellia ditricha (Pedley) Kodela,Vachellia ditricha,Fabaceae
 "Vigna adenantha (G.Mey.) Maréchal, Mascherpa & Stainier",Vigna adenantha,Fabaceae
 Vigna triodiophila A.E.Holland & R.Butcher,Vigna triodiophila,Fabaceae
-Comesperma griffinii Keighery,Comesperma griffinii,Polygalaceae
-Comesperma lanceolatum R.Br. ex Benth.,Comesperma lanceolatum,Polygalaceae
-Comesperma minutum A.J.Ford & Halford,Comesperma minutum,Polygalaceae
-Comesperma rhadinocarpum F.Muell.,Comesperma rhadinocarpum,Polygalaceae
-Comesperma sabulosum A.J.Ford & Halford,Comesperma sabulosum,Polygalaceae
-Polygala bifoliata R.A.Kerrigan,Polygala bifoliata,Polygalaceae
-Polygala canaliculata R.A.Kerrigan,Polygala canaliculata,Polygalaceae
-Polygala crassitesta R.A.Kerrigan,Polygala crassitesta,Polygalaceae
-Polygala dimorphotricha R.A.Kerrigan,Polygala dimorphotricha,Polygalaceae
-Polygala eriocephala F.Muell. ex Benth.,Polygala eriocephala,Polygalaceae
-Polygala galeocephala R.A.Kerrigan,Polygala galeocephala,Polygalaceae
-Polygala kimberleyensis R.A.Kerrigan,Polygala kimberleyensis,Polygalaceae
-Polygala petrophila R.A.Kerrigan,Polygala petrophila,Polygalaceae
-Polygala praecox R.A.Kerrigan,Polygala praecox,Polygalaceae
-Polygala pterocarpa R.A.Kerrigan,Polygala pterocarpa,Polygalaceae
-Polygala rhynchocarpa R.A.Kerrigan,Polygala rhynchocarpa,Polygalaceae
-Polygala saccopetala R.A.Kerrigan,Polygala saccopetala,Polygalaceae
-Polygala succulenta R.A.Kerrigan,Polygala succulenta,Polygalaceae
-Polygala tepperi F.Muell.,Polygala tepperi,Polygalaceae
-Allocasuarina anfractuosa Wege & S.R.Barrett,Allocasuarina anfractuosa,Casuarinaceae
-Allocasuarina drummondiana (Miq.) L.A.S.Johnson,Allocasuarina drummondiana,Casuarinaceae
-Allocasuarina globosa L.A.S.Johnson,Allocasuarina globosa,Casuarinaceae
-Allocasuarina hystricosa Wege,Allocasuarina hystricosa,Casuarinaceae
+Frankenia brachyphylla (Benth.) Summerh.,Frankenia brachyphylla,Frankeniaceae
+Frankenia conferta Diels,Frankenia conferta,Frankeniaceae
+Frankenia decurrens Summerh.,Frankenia decurrens,Frankeniaceae
+Frankenia desertorum Summerh.,Frankenia desertorum,Frankeniaceae
+Frankenia drummondii Benth.,Frankenia drummondii,Frankeniaceae
+Frankenia eremophila Summerh.,Frankenia eremophila,Frankeniaceae
+Frankenia fecunda Summerh.,Frankenia fecunda,Frankeniaceae
+Frankenia interioris Ostenf.,Frankenia interioris,Frankeniaceae
+Schenkia clementii (Domin) G.Mans.,Schenkia clementii,Gentianaceae
 "Erodium janszii Alarcon, Aldasoro, C.Navarro & C.Aedo",Erodium janszii,Geraniaceae
-Pelargonium drummondii Turcz.,Pelargonium drummondii,Geraniaceae
-Bergia pusilla Benth.,Bergia pusilla,Elatinaceae
-Acalypha lanceolata Willd.,Acalypha lanceolata,Euphorbiaceae
-Amperea conferta Benth.,Amperea conferta,Euphorbiaceae
-Amperea volubilis F.Muell. ex Benth.,Amperea volubilis,Euphorbiaceae
-Bertya dimerostigma F.Muell.,Bertya dimerostigma,Euphorbiaceae
-Bertya virgata (Ewart) Halford & R.J.F.Hend.,Bertya virgata,Euphorbiaceae
-Beyeria brevifolia (Müll.Arg.) Benth.,Beyeria brevifolia,Euphorbiaceae
-Beyeria calycina Airy Shaw,Beyeria calycina,Euphorbiaceae
-Beyeria cinerea (Müll.Arg.) Benth.,Beyeria cinerea,Euphorbiaceae
-Beyeria disciformis Halford & R.J.F.Hend.,Beyeria disciformis,Euphorbiaceae
-Beyeria lapidicola Halford & R.J.F.Hend.,Beyeria lapidicola,Euphorbiaceae
-Beyeria latifolia Baill.,Beyeria latifolia,Euphorbiaceae
-Beyeria minor (Airy Shaw) Halford & R.J.F.Hend.,Beyeria minor,Euphorbiaceae
-Beyeria physaphylla Halford & R.J.F.Hend.,Beyeria physaphylla,Euphorbiaceae
-Beyeria rostellata Halford & R.J.F.Hend.,Beyeria rostellata,Euphorbiaceae
-Beyeria similis (Müll.Arg.) Benth.,Beyeria similis,Euphorbiaceae
-Beyeria simplex Halford & R.J.F.Hend.,Beyeria simplex,Euphorbiaceae
-Beyeria sulcata Halford & R.J.F.Hend.,Beyeria sulcata,Euphorbiaceae
-Calycopeplus marginatus Benth.,Calycopeplus marginatus,Euphorbiaceae
-Calycopeplus oligandrus P.I.Forst.,Calycopeplus oligandrus,Euphorbiaceae
-Croton schultzii Benth.,Croton schultzii,Euphorbiaceae
-Croton tomentellus F.Muell.,Croton tomentellus,Euphorbiaceae
-Euphorbia albrechtii Halford & W.K.Harris,Euphorbia albrechtii,Euphorbiaceae
-Euphorbia armstrongiana Boiss.,Euphorbia armstrongiana,Euphorbiaceae
-Euphorbia cinerea W.Fitzg.,Euphorbia cinerea,Euphorbiaceae
-Euphorbia clementii Domin,Euphorbia clementii,Euphorbiaceae
-Euphorbia fitzroyensis Halford & W.K.Harris,Euphorbia fitzroyensis,Euphorbiaceae
-Euphorbia hassallii Halford & W.K.Harris,Euphorbia hassallii,Euphorbiaceae
-Euphorbia kimberleyensis B.G.Thomson,Euphorbia kimberleyensis,Euphorbiaceae
-Euphorbia maconochieana B.G.Thomson,Euphorbia maconochieana,Euphorbiaceae
-Euphorbia philochalix Halford & W.K.Harris,Euphorbia philochalix,Euphorbiaceae
-Euphorbia psilosperma Halford & W.K.Harris,Euphorbia psilosperma,Euphorbiaceae
-Euphorbia vaccaria Baill.,Euphorbia vaccaria,Euphorbiaceae
-Euphorbia verrucitesta Halford & W.K.Harris,Euphorbia verrucitesta,Euphorbiaceae
-Euphorbia vicina Halford & W.K.Harris,Euphorbia vicina,Euphorbiaceae
-Euphorbia victoriensis Halford & W.K.Harris,Euphorbia victoriensis,Euphorbiaceae
-Monotaxis paxii Grüning,Monotaxis paxii,Euphorbiaceae
-Monotaxis tenuis Airy Shaw,Monotaxis tenuis,Euphorbiaceae
-Ricinocarpos brevis R.J.F.Hend. & Mollemans,Ricinocarpos brevis,Euphorbiaceae
-Ricinocarpos graniticus Halford & R.J.F.Hend.,Ricinocarpos graniticus,Euphorbiaceae
-Ricinocarpos marginatus Benth.,Ricinocarpos marginatus,Euphorbiaceae
-Ricinocarpos oliganthus Halford & R.J.F.Hend.,Ricinocarpos oliganthus,Euphorbiaceae
-Ricinocarpos pilifer Halford & R.J.F.Hend.,Ricinocarpos pilifer,Euphorbiaceae
-Ricinocarpos psilocladus (Müll.Arg.) Benth.,Ricinocarpos psilocladus,Euphorbiaceae
-Ricinocarpos rosmarinifolius Benth.,Ricinocarpos rosmarinifolius,Euphorbiaceae
-Ricinocarpos stylosus Diels,Ricinocarpos stylosus,Euphorbiaceae
-Glochidion perakense Hook.f.,Glochidion perakense,Phyllanthaceae
-Phyllanthus baeckeoides J.T.Hunter & J.J.Bruhl,Phyllanthus baeckeoides,Phyllanthaceae
-Phyllanthus eremicus R.L.Barrett & I.Telford,Phyllanthus eremicus,Phyllanthaceae
-Phyllanthus hamelinii I.Telford & R.L.Barrett,Phyllanthus hamelinii,Phyllanthaceae
-Phyllanthus sulcatus J.T.Hunter & J.J.Bruhl,Phyllanthus sulcatus,Phyllanthaceae
-Poranthera dissecta Halford & R.J.F.Hend.,Poranthera dissecta,Phyllanthaceae
-Poranthera drummondii Klotzsch,Poranthera drummondii,Phyllanthaceae
-Poranthera florosa Halford & R.J.F.Hend.,Poranthera florosa,Phyllanthaceae
-Poranthera moorokatta R.L.Barrett,Poranthera moorokatta,Phyllanthaceae
-Sauropus crassifolius (Müll.Arg.) Airy Shaw,Sauropus crassifolius,Phyllanthaceae
-Synostemon hamersleyensis I.Telford & Naaykens,Synostemon hamersleyensis,Phyllanthaceae
-Synostemon judithae I.Telford & J.J.Bruhl,Synostemon judithae,Phyllanthaceae
-Synostemon salignus (J.T.Hunter & J.J.Bruhl) I.Telford & Pruesapan,Synostemon salignus,Phyllanthaceae
-Synostemon umbrosus I.Telford & J.J.Bruhl,Synostemon umbrosus,Phyllanthaceae
-Stachystemon mucronatus Halford & R.J.F.Hend.,Stachystemon mucronatus,Picrodendraceae
-"Malaccotristicha australis (C.Cusset & G.Cusset) M.Kato, Y.Kita & Koi",Malaccotristicha australis,Podostemaceae
-Afrohybanthus bennettiae (R.L.Barrett) Messina,Afrohybanthus bennettiae,Violaceae
-Hybanthus volubilis E.M.Benn.,Hybanthus volubilis,Violaceae
-Pilostyles collina Dell,Pilostyles collina,Apodanthaceae
-"Cochlospermum macnamarae Hislop, K.R.Thiele & Brassington",Cochlospermum macnamarae,Bixaceae
+Dampiera eriantha K.Krause,Dampiera eriantha,Goodeniaceae
+Dampiera fitzgeraldensis Rajput & Carolin,Dampiera fitzgeraldensis,Goodeniaceae
+Dampiera heteroptera Rajput & Carolin,Dampiera heteroptera,Goodeniaceae
+Dampiera krauseana Rajput & Carolin,Dampiera krauseana,Goodeniaceae
+Dampiera orchardii Rajput & Carolin,Dampiera orchardii,Goodeniaceae
+Dampiera plumosa S.Moore,Dampiera plumosa,Goodeniaceae
+Dampiera scaevolina C.A.Gardner ex Rajput & Carolin,Dampiera scaevolina,Goodeniaceae
+Goodenia asteriscus P.J.Lang,Goodenia asteriscus,Goodeniaceae
+Goodenia corralina L.W.Sage & K.A.Sheph.,Goodenia corralina,Goodeniaceae
+Goodenia cravenii R.L.Barrett & M.D.Barrett,Goodenia cravenii,Goodeniaceae
+Goodenia durackiana Carolin,Goodenia durackiana,Goodeniaceae
+Goodenia eremophila E.Pritz.,Goodenia eremophila,Goodeniaceae
+Goodenia heatheriana L.W.Sage,Goodenia heatheriana,Goodeniaceae
+Goodenia heterotricha M.D.Barrett & R.L.Barrett,Goodenia heterotricha,Goodeniaceae
+Goodenia integerrima Carolin,Goodenia integerrima,Goodeniaceae
+Goodenia jaurdiensis L.W.Sage & K.A.Sheph.,Goodenia jaurdiensis,Goodeniaceae
+Goodenia leptoclada Benth.,Goodenia leptoclada,Goodeniaceae
+Goodenia maretensis R.L.Barrett,Goodenia maretensis,Goodeniaceae
+Goodenia ochracea Carolin,Goodenia ochracea,Goodeniaceae
+Goodenia pallida Carolin,Goodenia pallida,Goodeniaceae
+Goodenia pascua Carolin,Goodenia pascua,Goodeniaceae
+Goodenia pedicellata L.W.Sage & K.W.Dixon,Goodenia pedicellata,Goodeniaceae
+Goodenia perryi C.A.Gardner ex Carolin,Goodenia perryi,Goodeniaceae
+Goodenia pritzelii Domin,Goodenia pritzelii,Goodeniaceae
+Goodenia salina L.W.Sage & K.A.Sheph.,Goodenia salina,Goodeniaceae
+Goodenia salmoniana (F.Muell.) Carolin,Goodenia salmoniana,Goodeniaceae
+Goodenia schwerinensis Carolin,Goodenia schwerinensis,Goodeniaceae
+Goodenia suffrutescens Carolin,Goodenia suffrutescens,Goodeniaceae
+Goodenia virgata Carolin,Goodenia virgata,Goodeniaceae
+Lechenaultia aphylla D.A.Morrison,Lechenaultia aphylla,Goodeniaceae
+Lechenaultia mimica M.D.Barrett & R.L.Barrett,Lechenaultia mimica,Goodeniaceae
+Scaevola archeriana L.W.Sage,Scaevola archeriana,Goodeniaceae
+Scaevola argentea Carolin,Scaevola argentea,Goodeniaceae
+Scaevola ballajupensis L.W.Sage,Scaevola ballajupensis,Goodeniaceae
+Scaevola densifolia Carolin,Scaevola densifolia,Goodeniaceae
+Scaevola macrophylla (de Vriese) Benth.,Scaevola macrophylla,Goodeniaceae
+Scaevola tenuifolia Carolin,Scaevola tenuifolia,Goodeniaceae
+Scaevola xanthina K.A.Sheph. & Hislop,Scaevola xanthina,Goodeniaceae
+Velleia hispida W.Fitzg.,Velleia hispida,Goodeniaceae
+Gyrostemon brownii S.Moore,Gyrostemon brownii,Gyrostemonaceae
+Gyrostemon prostratus A.S.George,Gyrostemon prostratus,Gyrostemonaceae
+Gyrostemon reticulatus A.S.George,Gyrostemon reticulatus,Gyrostemonaceae
+Gyrostemon sessilis A.S.George,Gyrostemon sessilis,Gyrostemonaceae
+Walteranthus erectus Keighery,Walteranthus erectus,Gyrostemonaceae
+Conostylis albescens Hopper,Conostylis albescens,Haemodoraceae
+Conostylis deplexa J.W.Green,Conostylis deplexa,Haemodoraceae
+Conostylis latens Hopper,Conostylis latens,Haemodoraceae
+Conostylis resinosa Hopper,Conostylis resinosa,Haemodoraceae
+Conostylis seminuda Hopper,Conostylis seminuda,Haemodoraceae
+Conostylis villosa Benth.,Conostylis villosa,Haemodoraceae
+"Haemodorum basalticum R.L.Barrett, Hopper & T.D.Macfarl.",Haemodorum basalticum,Haemodoraceae
+Haemodorum capitatum R.L.Barrett & Hopper,Haemodorum capitatum,Haemodoraceae
+Haemodorum condensatum Hopper & R.L.Barrett,Haemodorum condensatum,Haemodoraceae
+Haemodorum flaviflorum W.Fitzg.,Haemodorum flaviflorum,Haemodoraceae
+Haemodorum gracile T.D.Macfarl.,Haemodorum gracile,Haemodoraceae
+"Haemodorum griseofuscum R.L.Barrett, M.D.Barrett & Hopper",Haemodorum griseofuscum,Haemodoraceae
+Haemodorum interrex R.L.Barrett & M.D.Barrett,Haemodorum interrex,Haemodoraceae
+Haemodorum loratum T.D.Macfarl.,Haemodorum loratum,Haemodoraceae
+Haemodorum macfarlanei R.L.Barrett,Haemodorum macfarlanei,Haemodoraceae
+Haemodorum thedae R.L.Barrett,Haemodorum thedae,Haemodoraceae
+Tribonanthes minor M.Lyons & Keighery,Tribonanthes minor,Haemodoraceae
+Gonocarpus benthamii Orchard,Gonocarpus benthamii,Haloragaceae
+Gonocarpus cordiger (Fenzl) Nees,Gonocarpus cordiger,Haloragaceae
+Gonocarpus diffusus (Diels) Orchard,Gonocarpus diffusus,Haloragaceae
+Gonocarpus ephemerus Orchard,Gonocarpus ephemerus,Haloragaceae
+Gonocarpus ericifolius Orchard,Gonocarpus ericifolius,Haloragaceae
+Gonocarpus hispidus Orchard,Gonocarpus hispidus,Haloragaceae
+Gonocarpus implexus Orchard,Gonocarpus implexus,Haloragaceae
+Gonocarpus nodulosus Nees,Gonocarpus nodulosus,Haloragaceae
+Gonocarpus pusillus (Benth.) Orchard,Gonocarpus pusillus,Haloragaceae
+Gonocarpus pycnostachyus (F.Muell.) Orchard,Gonocarpus pycnostachyus,Haloragaceae
+Gonocarpus rudis (Benth.) Orchard,Gonocarpus rudis,Haloragaceae
+Gonocarpus scordioides (Benth.) Orchard,Gonocarpus scordioides,Haloragaceae
+Gonocarpus simplex (R.Br. ex Britten) Orchard,Gonocarpus simplex,Haloragaceae
+Gonocarpus trichostachyus (Benth.) Orchard,Gonocarpus trichostachyus,Haloragaceae
+Haloragis aculeolata Benth.,Haloragis aculeolata,Haloragaceae
+Haloragis dura Orchard,Haloragis dura,Haloragaceae
+Haloragis hamata Orchard,Haloragis hamata,Haloragaceae
+Haloragis maierae Orchard,Haloragis maierae,Haloragaceae
+Haloragis platycarpa Benth.,Haloragis platycarpa,Haloragaceae
+Haloragis scoparia Fenzl,Haloragis scoparia,Haloragaceae
+Myriophyllum costatum Orchard,Myriophyllum costatum,Haloragaceae
+Myriophyllum drummondii Benth.,Myriophyllum drummondii,Haloragaceae
+Myriophyllum filiforme Benth.,Myriophyllum filiforme,Haloragaceae
+Myriophyllum limnophilum Orchard,Myriophyllum limnophilum,Haloragaceae
+Myriophyllum trifidum (Nees) M.L.Moody & Les,Myriophyllum trifidum,Haloragaceae
+Caesia rigidifolia F.Muell.,Caesia rigidifolia,Hemerocallidaceae
+Caesia viscida Keighery,Caesia viscida,Hemerocallidaceae
+Corynotheca asperata R.J.F.Hend.,Corynotheca asperata,Hemerocallidaceae
+Corynotheca flexuosissima R.J.F.Hend.,Corynotheca flexuosissima,Hemerocallidaceae
+Johnsonia inconspicua Keighery,Johnsonia inconspicua,Hemerocallidaceae
+Stawellia gymnocephala Diels,Stawellia gymnocephala,Hemerocallidaceae
+Stypandra jamesii Hopper,Stypandra jamesii,Hemerocallidaceae
+Tricoryne soullierae T.D.Macfarl. & Keighery,Tricoryne soullierae,Hemerocallidaceae
+Tricoryne tuberosa Keighery & T.D.Macfarl.,Tricoryne tuberosa,Hemerocallidaceae
+"Trithuria austinensis D.D.Sokoloff, Remizowa, T.D.Macfarl. & Rudall",Trithuria austinensis,Hydatellaceae
+Trithuria lanterna D.A.Cooke,Trithuria lanterna,Hydatellaceae
+"Trithuria polybracteata D.A.Cooke ex D.D.Sokoloff, Remizowa, T.D.Macfarl. & Rudall",Trithuria polybracteata,Hydatellaceae
+Blyxa echinosperma (C.B.Clarke) Hook.f.,Blyxa echinosperma,Hydrocharitaceae
+Blyxa octandra (Roxb.) Thwaites,Blyxa octandra,Hydrocharitaceae
+Enhalus acoroides (L.f.) Royle,Enhalus acoroides,Hydrocharitaceae
+Halophila minor (Zoll.) Hartog,Halophila minor,Hydrocharitaceae
+Najas browniana Rendle,Najas browniana,Hydrocharitaceae
+Najas graminea Delile,Najas graminea,Hydrocharitaceae
+Najas malesiana W.J.de Wilde,Najas malesiana,Hydrocharitaceae
+Najas pseudograminea W.Koch,Najas pseudograminea,Hydrocharitaceae
+Vallisneria triptera S.W.L.Jacobs & K.A.Frank,Vallisneria triptera,Hydrocharitaceae
+Hypoxis cavernicola M.D.Barrett,Hypoxis cavernicola,Hypoxidaceae
+Pauridia gardneri (R.J.F.Hend.) Snijman & Kocyan,Pauridia gardneri,Hypoxidaceae
+Pauridia salina (M.Lyons & Keighery) Snijman & Kocyan,Pauridia salina,Hypoxidaceae
+Patersonia argyrea D.A.Cooke,Patersonia argyrea,Iridaceae
+Patersonia maxwellii (F.Muell.) F.Muell. ex Benth.,Patersonia maxwellii,Iridaceae
+Isoetes brevicula E.R.L.Johnson,Isoetes brevicula,Isoetaceae
+Isoetes inflata E.R.L.Johnson,Isoetes inflata,Isoetaceae
+Isoetes mongerensis E.R.L.Johnson,Isoetes mongerensis,Isoetaceae
+Isoetes tripus A.Braun,Isoetes tripus,Isoetaceae
+Juncus meianthus L.A.S.Johnson ex K.L.Wilson,Juncus meianthus,Juncaceae
+Cycnogeton lineare (Endl.) Sond.,Cycnogeton lineare,Juncaginaceae
+Triglochin centrocarpa Hook.,Triglochin centrocarpa,Juncaginaceae
+Triglochin longicarpa (Ostenf.) Aston,Triglochin longicarpa,Juncaginaceae
+Triglochin stowardii N.E.Br.,Triglochin stowardii,Juncaginaceae
+Triglochin trichophora Nees,Triglochin trichophora,Juncaginaceae
+Anisomeles farinacea A.R.Bean,Anisomeles farinacea,Lamiaceae
+Anisomeles principis A.R.Bean,Anisomeles principis,Lamiaceae
+Anisomeles viscidula A.R.Bean,Anisomeles viscidula,Lamiaceae
+Dasymalla chorisepala (Munir) B.J.Conn & Henwood,Dasymalla chorisepala,Lamiaceae
+Dicrastylis archeri Munir,Dicrastylis archeri,Lamiaceae
+Dicrastylis capitellata Munir,Dicrastylis capitellata,Lamiaceae
+Dicrastylis cundeeleensis Rye,Dicrastylis cundeeleensis,Lamiaceae
+Dicrastylis kumarinensis Rye,Dicrastylis kumarinensis,Lamiaceae
+Dicrastylis maritima Rye & Trudgen,Dicrastylis maritima,Lamiaceae
+Dicrastylis mitchellii Rye,Dicrastylis mitchellii,Lamiaceae
+Dicrastylis nicholasii F.Muell.,Dicrastylis nicholasii,Lamiaceae
+Dicrastylis obovata Munir,Dicrastylis obovata,Lamiaceae
+Dicrastylis subterminalis Rye,Dicrastylis subterminalis,Lamiaceae
+Dicrastylis velutina Munir,Dicrastylis velutina,Lamiaceae
+Gmelina schlechteri H.J.Lam,Gmelina schlechteri,Lamiaceae
+Hemigenia appressa G.R.Guerin,Hemigenia appressa,Lamiaceae
+Hemigenia argentea Bartl.,Hemigenia argentea,Lamiaceae
+Hemigenia barbata Bartl.,Hemigenia barbata,Lamiaceae
+Hemigenia benthamii G.R.Guerin,Hemigenia benthamii,Lamiaceae
+Hemigenia bracteosa G.R.Guerin,Hemigenia bracteosa,Lamiaceae
+Hemigenia buccinata G.R.Guerin,Hemigenia buccinata,Lamiaceae
+Hemigenia curvifolia F.Muell.,Hemigenia curvifolia,Lamiaceae
+Hemigenia dulcis G.R.Guerin,Hemigenia dulcis,Lamiaceae
+Hemigenia exilis S.Moore,Hemigenia exilis,Lamiaceae
+Hemigenia loganiacea (F.Muell.) F.Muell.,Hemigenia loganiacea,Lamiaceae
+Hemigenia macphersonii Luehm.,Hemigenia macphersonii,Lamiaceae
+Hemigenia obovata F.Muell.,Hemigenia obovata,Lamiaceae
+Hemigenia obtusa Benth.,Hemigenia obtusa,Lamiaceae
+Hemigenia pimeleifolia F.Muell.,Hemigenia pimeleifolia,Lamiaceae
+Hemigenia royceana G.R.Guerin,Hemigenia royceana,Lamiaceae
+Hemigenia tenelliflora G.R.Guerin,Hemigenia tenelliflora,Lamiaceae
+Hemigenia tichbonii K.R.Thiele & G.R.Guerin,Hemigenia tichbonii,Lamiaceae
+Hemigenia tomentosa G.R.Guerin,Hemigenia tomentosa,Lamiaceae
+Hemigenia wandooana G.R.Guerin,Hemigenia wandooana,Lamiaceae
+Microcorys cephalantha B.J.Conn,Microcorys cephalantha,Lamiaceae
+Microcorys longiflora F.Muell.,Microcorys longiflora,Lamiaceae
+Microcorys wilsoniana B.J.Conn,Microcorys wilsoniana,Lamiaceae
+Physopsis chrysotricha (F.Muell.) Rye,Physopsis chrysotricha,Lamiaceae
+Pityrodia iphthima K.A.Sheph.,Pityrodia iphthima,Lamiaceae
+Prostanthera canaliculata F.Muell.,Prostanthera canaliculata,Lamiaceae
+Prostanthera nanophylla B.J.Conn,Prostanthera nanophylla,Lamiaceae
+Prostanthera patens B.J.Conn,Prostanthera patens,Lamiaceae
+Prostanthera petrophila B.J.Conn,Prostanthera petrophila,Lamiaceae
+Prostanthera splendens B.J.Conn,Prostanthera splendens,Lamiaceae
+Prostanthera tysoniana (Carrick) B.J.Conn,Prostanthera tysoniana,Lamiaceae
+Prostanthera verticillaris B.J.Conn,Prostanthera verticillaris,Lamiaceae
+Teucrium fililobum Benth.,Teucrium fililobum,Lamiaceae
+Teucrium pilbaranum B.J.Conn,Teucrium pilbaranum,Lamiaceae
+Vitex velutinifolia Munir,Vitex velutinifolia,Lamiaceae
+Westringia acifolia G.R.Guerin,Westringia acifolia,Lamiaceae
+Westringia capitonis G.R.Guerin,Westringia capitonis,Lamiaceae
+Westringia fitzgeraldensis R.W.Davis & Jobson,Westringia fitzgeraldensis,Lamiaceae
+Cassytha candida (J.Z.Weber) J.Z.Weber,Cassytha candida,Lauraceae
+Cassytha nodiflora Meisn.,Cassytha nodiflora,Lauraceae
+Utricularia albertiana R.W.Jobson & Baleeiro,Utricularia albertiana,Lentibulariaceae
+Utricularia byrneana R.W.Jobson & Baleeiro,Utricularia byrneana,Lentibulariaceae
+Utricularia helix P.Taylor,Utricularia helix,Lentibulariaceae
+Utricularia kenneallyi P.Taylor,Utricularia kenneallyi,Lentibulariaceae
+Utricularia magna R.W.Jobson & M.D.Barrett,Utricularia magna,Lentibulariaceae
+Utricularia papilliscapa R.W.Jobson & M.D.Barrett,Utricularia papilliscapa,Lentibulariaceae
+Utricularia tridactyla P.Taylor,Utricularia tridactyla,Lentibulariaceae
+Utricularia wannanii R.W.Jobson & Baleeiro,Utricularia wannanii,Lentibulariaceae
+Macarthuria georgeana Keighery,Macarthuria georgeana,Limeaceae
+Lindernia barkeri Wannan,Lindernia barkeri,Linderniaceae
+Lindernia chrysoplectra W.R.Barker,Lindernia chrysoplectra,Linderniaceae
+Lindernia cleistandra W.R.Barker,Lindernia cleistandra,Linderniaceae
+Lindernia eremophiloides W.R.Barker,Lindernia eremophiloides,Linderniaceae
+Lindernia hypandra W.R.Barker,Lindernia hypandra,Linderniaceae
+Lindernia macrosiphonia (F.Muell.) W.R.Barker,Lindernia macrosiphonia,Linderniaceae
+Lindernia porphyrodinea W.R.Barker & M.D.Barrett,Lindernia porphyrodinea,Linderniaceae
+Lindsaea orbiculata (Lam.) Mett. ex Kuhn,Lindsaea orbiculata,Lindsaeaceae
+"Adelphacme minima (B.J.Conn) K.L.Gibbons, B.J.Conn & Henwood",Adelphacme minima,Loganiaceae
+Logania archeri B.J.Conn,Logania archeri,Loganiaceae
+Logania litoralis B.J.Conn,Logania litoralis,Loganiaceae
+Logania micrantha Benth.,Logania micrantha,Loganiaceae
+Logania perryana B.J.Conn,Logania perryana,Loganiaceae
+"Logania sylvicola Cranfield, Hislop & T.D.Macfarl.",Logania sylvicola,Loganiaceae
+Mitrasacme ambigua R.Br.,Mitrasacme ambigua,Loganiaceae
+Mitrasacme epigaea Dunlop,Mitrasacme epigaea,Loganiaceae
+Mitrasacme foliosa C.A.Gardner,Mitrasacme foliosa,Loganiaceae
+Mitrasacme graminea Dunlop,Mitrasacme graminea,Loganiaceae
+Mitrasacme hispida W.Fitzg.,Mitrasacme hispida,Loganiaceae
+Mitrasacme katjarranka N.Gibson & S.J.van Leeuwen,Mitrasacme katjarranka,Loganiaceae
+Mitrasacme kenneallyi Dunlop,Mitrasacme kenneallyi,Loganiaceae
+Mitrasacme laxiceps Dunlop,Mitrasacme laxiceps,Loganiaceae
+Mitrasacme lutea F.Muell.,Mitrasacme lutea,Loganiaceae
+Mitrasacme retroloba Dunlop,Mitrasacme retroloba,Loganiaceae
+Mitrasacme scopata Dunlop,Mitrasacme scopata,Loganiaceae
+Mitrasacme secedens Dunlop,Mitrasacme secedens,Loganiaceae
+Mitrasacme thedae M.D.Barrett & R.L.Barrett,Mitrasacme thedae,Loganiaceae
+Orianthera biloba (B.J.Conn) C.S.P.Foster & B.J.Conn,Orianthera biloba,Loganiaceae
+Orianthera callosa (F.Muell.) C.S.P.Foster & B.J.Conn,Orianthera callosa,Loganiaceae
+Orianthera exilis (B.J.Conn) C.S.P.Foster & B.J.Conn,Orianthera exilis,Loganiaceae
+Orianthera wendyae (Cranfield & Keighery) C.S.P.Foster & B.J.Conn,Orianthera wendyae,Loganiaceae
+Amyema pyriformis Barlow,Amyema pyriformis,Loranthaceae
+Decaisnina biangulata (W.Fitzg.) Barlow,Decaisnina biangulata,Loranthaceae
+Ammannia auriculata Willd.,Ammannia auriculata,Lythraceae
+Ammannia fitzgeraldii R.L.Barrett,Ammannia fitzgeraldii,Lythraceae
+Ammannia striatiflora (Hewson) S.A.Graham & Gandhi,Ammannia striatiflora,Lythraceae
+Lythrum wilsonii Hewson,Lythrum wilsonii,Lythraceae
 Abutilon amplum Benth.,Abutilon amplum,Malvaceae
 Abutilon geranioides (DC.) Benth.,Abutilon geranioides,Malvaceae
 Androcalva aphrix C.F.Wilkins,Androcalva aphrix,Malvaceae
@@ -1599,7 +1201,6 @@ Lawrencia repens (S.Moore) Melville,Lawrencia repens,Malvaceae
 Lysiosepalum aromaticum C.F.Wilkins,Lysiosepalum aromaticum,Malvaceae
 Seringia undulata C.F.Wilkins,Seringia undulata,Malvaceae
 Sida brachypoda F.Muell. ex A.E.Holland & S.T.Reynolds,Sida brachypoda,Malvaceae
-Sida pusilla Cav.,Sida pusilla,Malvaceae
 Sida spenceriana F.Muell.,Sida spenceriana,Malvaceae
 Thomasia brachystachys Turcz.,Thomasia brachystachys,Malvaceae
 Thomasia dielsii E.Pritz.,Thomasia dielsii,Malvaceae
@@ -1632,17 +1233,11 @@ Triumfetta simulans Halford,Triumfetta simulans,Malvaceae
 Triumfetta tenuiseta Halford,Triumfetta tenuiseta,Malvaceae
 Triumfetta triandra Sprague & Hutch.,Triumfetta triandra,Malvaceae
 Triumfetta trisecta Halford,Triumfetta trisecta,Malvaceae
-Pimelea eyrei F.Muell.,Pimelea eyrei,Thymelaeaceae
-Pimelea holroydii F.Muell.,Pimelea holroydii,Thymelaeaceae
-Pimelea neokyrea Rye,Pimelea neokyrea,Thymelaeaceae
-Pimelea pelinos Rye,Pimelea pelinos,Thymelaeaceae
-Terminalia circumalata F.Muell.,Terminalia circumalata,Combretaceae
-Ammannia auriculata Willd.,Ammannia auriculata,Lythraceae
-Ammannia fitzgeraldii R.L.Barrett,Ammannia fitzgeraldii,Lythraceae
-Ammannia striatiflora (Hewson) S.A.Graham & Gandhi,Ammannia striatiflora,Lythraceae
-Lythrum wilsonii Hewson,Lythrum wilsonii,Lythraceae
+Liparophyllum congestiflorum (F.Muell.) Tippery & Les,Liparophyllum congestiflorum,Menyanthaceae
+Nymphoides astoniae M.D.Barrett & R.L.Barrett,Nymphoides astoniae,Menyanthaceae
+Nymphoides disperma Aston,Nymphoides disperma,Menyanthaceae
+Ornduffia submersa (Aston) Tippery & Les,Ornduffia submersa,Menyanthaceae
 Agonis undulata Benth.,Agonis undulata,Myrtaceae
-Aluta aspera (E.Pritz.) Rye & Trudgen,Aluta aspera,Myrtaceae
 Aluta quadrata Rye & Trudgen,Aluta quadrata,Myrtaceae
 Aluta teres Rye & Trudgen,Aluta teres,Myrtaceae
 Anticoryne diosmoides Turcz.,Anticoryne diosmoides,Myrtaceae
@@ -1800,7 +1395,6 @@ Oxymyrrhine gracilis Schauer,Oxymyrrhine gracilis,Myrtaceae
 Oxymyrrhine plicata Rye & Trudgen,Oxymyrrhine plicata,Myrtaceae
 Pericalymma crassipes Lehm. ex Schauer,Pericalymma crassipes,Myrtaceae
 Pericalymma megaphyllum Cranfield,Pericalymma megaphyllum,Myrtaceae
-Pileanthus rubrinitidus Keighery,Pileanthus rubrinitidus,Myrtaceae
 Rinzia affinis Trudgen,Rinzia affinis,Myrtaceae
 Rinzia fimbriolata Rye,Rinzia fimbriolata,Myrtaceae
 Rinzia longifolia Turcz.,Rinzia longifolia,Myrtaceae
@@ -1839,14 +1433,306 @@ Thryptomene wannooensis Rye,Thryptomene wannooensis,Myrtaceae
 Verticordia mirabilis Eliz.George & A.S.George,Verticordia mirabilis,Myrtaceae
 Verticordia serotina A.S.George,Verticordia serotina,Myrtaceae
 Verticordia setacea A.S.George,Verticordia setacea,Myrtaceae
-Tetratheca butcheriana A.J.Perkins,Tetratheca butcheriana,Elaeocarpaceae
-Tetratheca fasciculata Joy Thomps.,Tetratheca fasciculata,Elaeocarpaceae
-Tetratheca fordiana R.Butcher,Tetratheca fordiana,Elaeocarpaceae
-Tetratheca paucifolia Joy Thomps.,Tetratheca paucifolia,Elaeocarpaceae
-Tetratheca pilata R.Butcher,Tetratheca pilata,Elaeocarpaceae
-Tetratheca plumosa R.Butcher,Tetratheca plumosa,Elaeocarpaceae
-Tetratheca remota Joy Thomps.,Tetratheca remota,Elaeocarpaceae
-Tetratheca spenceri R.Butcher & Cockerton,Tetratheca spenceri,Elaeocarpaceae
+Boerhavia schomburgkiana Oliv.,Boerhavia schomburgkiana,Nyctaginaceae
+Nymphaea kimberleyensis (S.W.L.Jacobs) S.W.L.Jacobs & Hellq.,Nymphaea kimberleyensis,Nymphaeaceae
+"Nymphaea ondinea Löhne, Wiersema & Borsch",Nymphaea ondinea,Nymphaeaceae
+Olax aphylla R.Br.,Olax aphylla,Olacaceae
+Olax scalariformis A.S.George,Olax scalariformis,Olacaceae
+Diuris carecta D.L.Jones & C.J.French,Diuris carecta,Orchidaceae
+Drakaea andrewsiae Hopper & A.P.Br.,Drakaea andrewsiae,Orchidaceae
+Phoringopsis byrnesii (Blaxell) D.L.Jones & M.A.Clem.,Phoringopsis byrnesii,Orchidaceae
+Prasophyllum macrotys Lindl.,Prasophyllum macrotys,Orchidaceae
+Pterostylis angulata (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis angulata,Orchidaceae
+Pterostylis elegantissima (D.L.Jones & C.J.French) D.L.Jones,Pterostylis elegantissima,Orchidaceae
+Pterostylis eremaea (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis eremaea,Orchidaceae
+"Pterostylis faceta (D.L.Jones, C.J.French & M.A.Clem.) D.L.Jones & C.J.French",Pterostylis faceta,Orchidaceae
+Pterostylis fuliginosa (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis fuliginosa,Orchidaceae
+Pterostylis hadra (D.L.Jones) D.L.Jones,Pterostylis hadra,Orchidaceae
+Pterostylis meridionalis (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis meridionalis,Orchidaceae
+"Pterostylis precatoria (D.L.Jones, C.J.French & M.A.Clem.) D.L.Jones & C.J.French",Pterostylis precatoria,Orchidaceae
+"Pterostylis serotina (D.L.Jones, C.J.French & M.A.Clem.) D.L.Jones & C.J.French",Pterostylis serotina,Orchidaceae
+Pterostylis telmata D.L.Jones & C.J.French,Pterostylis telmata,Orchidaceae
+Pterostylis tryphera (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis tryphera,Orchidaceae
+Pterostylis virens (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis virens,Orchidaceae
+Pterostylis voigtii D.L.Jones & C.J.French,Pterostylis voigtii,Orchidaceae
+Pterostylis xerampelina (D.L.Jones & C.J.French) D.L.Jones & C.J.French,Pterostylis xerampelina,Orchidaceae
+Pterostylis zebrina (D.L.Jones) D.L.Jones,Pterostylis zebrina,Orchidaceae
+Pandanus rheophilus B.C.Stone,Pandanus rheophilus,Pandanaceae
+Glossostigma trichodes F.Muell.,Glossostigma trichodes,Phrymaceae
+Peplidium maritimum (L.f.) Asch.,Peplidium maritimum,Phrymaceae
+Uvedalia clementii (Domin) W.R.Barker & Beardsley,Uvedalia clementii,Phrymaceae
+Glochidion perakense Hook.f.,Glochidion perakense,Phyllanthaceae
+Phyllanthus baeckeoides J.T.Hunter & J.J.Bruhl,Phyllanthus baeckeoides,Phyllanthaceae
+Phyllanthus eremicus R.L.Barrett & I.Telford,Phyllanthus eremicus,Phyllanthaceae
+Phyllanthus hamelinii I.Telford & R.L.Barrett,Phyllanthus hamelinii,Phyllanthaceae
+Phyllanthus sulcatus J.T.Hunter & J.J.Bruhl,Phyllanthus sulcatus,Phyllanthaceae
+Poranthera dissecta Halford & R.J.F.Hend.,Poranthera dissecta,Phyllanthaceae
+Poranthera drummondii Klotzsch,Poranthera drummondii,Phyllanthaceae
+Poranthera florosa Halford & R.J.F.Hend.,Poranthera florosa,Phyllanthaceae
+Poranthera moorokatta R.L.Barrett,Poranthera moorokatta,Phyllanthaceae
+Sauropus crassifolius (Müll.Arg.) Airy Shaw,Sauropus crassifolius,Phyllanthaceae
+Synostemon hamersleyensis I.Telford & Naaykens,Synostemon hamersleyensis,Phyllanthaceae
+Synostemon judithae I.Telford & J.J.Bruhl,Synostemon judithae,Phyllanthaceae
+Synostemon salignus (J.T.Hunter & J.J.Bruhl) I.Telford & Pruesapan,Synostemon salignus,Phyllanthaceae
+Synostemon umbrosus I.Telford & J.J.Bruhl,Synostemon umbrosus,Phyllanthaceae
+Stachystemon mucronatus Halford & R.J.F.Hend.,Stachystemon mucronatus,Picrodendraceae
+"Auranticarpa resinosa (Domin) L.Cayzer, Crisp & I.Telford",Auranticarpa resinosa,Pittosporaceae
+Marianthus aquilonaris N.Gibson & Wege,Marianthus aquilonaris,Pittosporaceae
+Marianthus dryandra L.Cayzer & Crisp,Marianthus dryandra,Pittosporaceae
+Marianthus microphyllus (Turcz.) Benth.,Marianthus microphyllus,Pittosporaceae
+Plantago exilis Decne.,Plantago exilis,Plantaginaceae
+Stemodia debilis Benth.,Stemodia debilis,Plantaginaceae
+Stemodia flaccida W.Fitzg.,Stemodia flaccida,Plantaginaceae
+Amphibromus vickeryae S.W.L.Jacobs & Lapinpuro,Amphibromus vickeryae,Poaceae
+Anthosachne rectiseta (Nees) Barkworth & S.W.L.Jacobs,Anthosachne rectiseta,Poaceae
+Aristida burbidgeae B.K.Simon,Aristida burbidgeae,Poaceae
+Aristida dominii B.K.Simon,Aristida dominii,Poaceae
+Aristida exserta S.T.Blake,Aristida exserta,Poaceae
+Aristida kimberleyensis B.K.Simon,Aristida kimberleyensis,Poaceae
+Aristida polyclados Domin,Aristida polyclados,Poaceae
+Aristida sciuroides Domin,Aristida sciuroides,Poaceae
+Aristida strigosa (Henrard) S.T.Blake ex J.M.Black,Aristida strigosa,Poaceae
+Austrostipa bronweniae A.R.Williams,Austrostipa bronweniae,Poaceae
+Austrostipa crinita (Gaudich.) S.W.L.Jacobs & J.Everett,Austrostipa crinita,Poaceae
+"Austrostipa dongicola (Vickery, S.W.L.Jacobs & J.Everett) S.W.L.Jacobs & J.Everett",Austrostipa dongicola,Poaceae
+Austrostipa geoffreyi S.W.L.Jacobs & J.Everett,Austrostipa geoffreyi,Poaceae
+Austrostipa jacobsiana A.R.Williams,Austrostipa jacobsiana,Poaceae
+"Austrostipa lanata (Vickery, S.W.L.Jacobs & J.Everett) S.W.L.Jacobs & J.Everett",Austrostipa lanata,Poaceae
+"Austrostipa nullarborensis (Vickery, S.W.L.Jacobs & J.Everett) S.W.L.Jacobs & J.Everett",Austrostipa nullarborensis,Poaceae
+Austrostipa plumigera (Hughes) S.W.L.Jacobs & J.Everett,Austrostipa plumigera,Poaceae
+Austrostipa pycnostachya (Benth.) S.W.L.Jacobs & J.Everett,Austrostipa pycnostachya,Poaceae
+Austrostipa tuckeri (F.Muell.) S.W.L.Jacobs & J.Everett,Austrostipa tuckeri,Poaceae
+Chionachne hubbardiana Henrard,Chionachne hubbardiana,Poaceae
+Deyeuxia inaequalis Vickery,Deyeuxia inaequalis,Poaceae
+Digitaria gibbosa (R.Br.) P.Beauv.,Digitaria gibbosa,Poaceae
+Digitaria papposa (R.Br.) P.Beauv.,Digitaria papposa,Poaceae
+Digitaria stenostachya (Benth.) Hughes,Digitaria stenostachya,Poaceae
+Echinochloa elliptica P.W.Michael & Vickery,Echinochloa elliptica,Poaceae
+Echinochloa kimberleyensis P.W.Michael & Vickery,Echinochloa kimberleyensis,Poaceae
+Ectrosia danesii Domin,Ectrosia danesii,Poaceae
+Enteropogon dolichostachyus (Lag.) Keng ex Lazarides,Enteropogon dolichostachyus,Poaceae
+Eragrostis crateriformis Lazarides,Eragrostis crateriformis,Poaceae
+Eragrostis desertorum Domin,Eragrostis desertorum,Poaceae
+Eragrostis petraea Lazarides,Eragrostis petraea,Poaceae
+Eragrostis potamophila Lazarides,Eragrostis potamophila,Poaceae
+Eragrostis rigidiuscula Domin,Eragrostis rigidiuscula,Poaceae
+Eragrostis surreyana K.A.Sheph. & Trudgen,Eragrostis surreyana,Poaceae
+Eriachne avenacea R.Br.,Eriachne avenacea,Poaceae
+Eriachne fastigiata Lazarides,Eriachne fastigiata,Poaceae
+Eriachne festucacea F.Muell.,Eriachne festucacea,Poaceae
+Eriachne flaccida W.Hartley,Eriachne flaccida,Poaceae
+Eriachne glandulosa Lazarides,Eriachne glandulosa,Poaceae
+Eriachne imbricata Lazarides,Eriachne imbricata,Poaceae
+Eriachne lanata Lazarides,Eriachne lanata,Poaceae
+Eriachne major (Ewart & O.B.Davies) Lazarides,Eriachne major,Poaceae
+Eriachne nodosa Lazarides,Eriachne nodosa,Poaceae
+Eriachne pauciflora W.Fitzg.,Eriachne pauciflora,Poaceae
+Eriachne pindanica R.L.Barrett,Eriachne pindanica,Poaceae
+Eriochloa fatmensis (Hochst. ex Steud.) Clayton,Eriochloa fatmensis,Poaceae
+Eulalia annua B.K.Simon,Eulalia annua,Poaceae
+Eulalia mackinlayi (F.Muell. ex Benth.) Kuntze,Eulalia mackinlayi,Poaceae
+Glyceria drummondii (Steud.) C.E.Hubb.,Glyceria drummondii,Poaceae
+Ischaemum albovillosum B.K.Simon,Ischaemum albovillosum,Poaceae
+Iseilema ciliatum C.E.Hubb.,Iseilema ciliatum,Poaceae
+Iseilema holmesii S.T.Blake,Iseilema holmesii,Poaceae
+Iseilema trichopus (Benth.) C.E.Hubb.,Iseilema trichopus,Poaceae
+Lachnagrostis drummondiana (Steud.) S.W.L.Jacobs,Lachnagrostis drummondiana,Poaceae
+Lachnagrostis nesomytica A.J.Br.,Lachnagrostis nesomytica,Poaceae
+Lachnagrostis plebeia (R.Br.) Trin.,Lachnagrostis plebeia,Poaceae
+Lachnagrostis preissii Nees,Lachnagrostis preissii,Poaceae
+Lepturus copeanus B.K.Simon,Lepturus copeanus,Poaceae
+Micraira brevis M.D.Barrett & R.L.Barrett,Micraira brevis,Poaceae
+"Micraira lazaridis L.G.Clark, Wendel & Craven",Micraira lazaridis,Poaceae
+Micraira spiciforma Lazarides,Micraira spiciforma,Poaceae
+Mnesithea annua (Lazarides) de Koning & Sosef,Mnesithea annua,Poaceae
+Neurachne annularis T.D.Macfarl.,Neurachne annularis,Poaceae
+Neurachne lanigera S.T.Blake,Neurachne lanigera,Poaceae
+Panicum mindanaense Merr.,Panicum mindanaense,Poaceae
+Paspalidium retiglume (Domin) Hughes,Paspalidium retiglume,Poaceae
+Poa fax J.H.Willis & Court,Poa fax,Poaceae
+Poa homomalla Nees,Poa homomalla,Poaceae
+Puccinellia longior A.R.Williams,Puccinellia longior,Poaceae
+Puccinellia vassica A.R.Williams,Puccinellia vassica,Poaceae
+Rytidosperma acerosum (Vickery) Connor & Edgar,Rytidosperma acerosum,Poaceae
+Rytidosperma occidentale (Vickery) Connor & Edgar,Rytidosperma occidentale,Poaceae
+Schizachyrium crinizonatum S.T.Blake,Schizachyrium crinizonatum,Poaceae
+Schizachyrium mitchelliana B.K.Simon,Schizachyrium mitchelliana,Poaceae
+Setaria queenslandica Domin,Setaria queenslandica,Poaceae
+Sorghum amplum Lazarides,Sorghum amplum,Poaceae
+Sorghum ecarinatum Lazarides,Sorghum ecarinatum,Poaceae
+Sorghum interjectum Lazarides,Sorghum interjectum,Poaceae
+Sporobolus blakei De Nardi ex B.K.Simon,Sporobolus blakei,Poaceae
+Sporobolus pulchellus R.Br.,Sporobolus pulchellus,Poaceae
+Thedachloa annua S.W.L.Jacobs,Thedachloa annua,Poaceae
+Triodia aeria Lazarides,Triodia aeria,Poaceae
+Triodia barbata R.L.Barrett & M.D.Barrett,Triodia barbata,Poaceae
+Triodia bunglensis (S.W.L.Jacobs) Lazarides,Triodia bunglensis,Poaceae
+Triodia claytonii Lazarides,Triodia claytonii,Poaceae
+Triodia cremnophila R.L.Barrett & M.D.Barrett,Triodia cremnophila,Poaceae
+Triodia cunninghamii Benth.,Triodia cunninghamii,Poaceae
+Triodia desertorum (C.E.Hubb.) Lazarides,Triodia desertorum,Poaceae
+Triodia dielsii (C.E.Hubb.) Lazarides,Triodia dielsii,Poaceae
+"Triodia fissura R.L.Barrett, G.B.Wells & K.W.Dixon",Triodia fissura,Poaceae
+Triodia fitzgeraldii N.T.Burb.,Triodia fitzgeraldii,Poaceae
+Triodia helmsii (C.E.Hubb.) Lazarides,Triodia helmsii,Poaceae
+Triodia inaequiloba N.T.Burb.,Triodia inaequiloba,Poaceae
+Triodia nana B.M.Anderson,Triodia nana,Poaceae
+Triodia pascoeana B.K.Simon,Triodia pascoeana,Poaceae
+Triodia roscida N.T.Burb.,Triodia roscida,Poaceae
+Triodia salina Lazarides,Triodia salina,Poaceae
+Triodia tomentosa S.W.L.Jacobs,Triodia tomentosa,Poaceae
+Urochloa kurzii (Hook.f.) R.D.Webster,Urochloa kurzii,Poaceae
+Urochloa occidentalis (C.A.Gardner & C.E.Hubb.) B.K.Simon,Urochloa occidentalis,Poaceae
+Urochloa polyphylla (R.Br.) R.D.Webster,Urochloa polyphylla,Poaceae
+Whiteochloa biciliata Lazarides,Whiteochloa biciliata,Poaceae
+Whiteochloa capillipes (Benth.) Lazarides,Whiteochloa capillipes,Poaceae
+Whiteochloa cymbiformis (Hughes) B.K.Simon,Whiteochloa cymbiformis,Poaceae
+Yakirra majuscula (F.Muell. ex Benth.) Lazarides & R.D.Webster,Yakirra majuscula,Poaceae
+Yakirra muelleri (Hughes) Lazarides & R.D.Webster,Yakirra muelleri,Poaceae
+Yakirra pauciflora (R.Br.) Lazarides & R.D.Webster,Yakirra pauciflora,Poaceae
+"Malaccotristicha australis (C.Cusset & G.Cusset) M.Kato, Y.Kita & Koi",Malaccotristicha australis,Podostemaceae
+Comesperma griffinii Keighery,Comesperma griffinii,Polygalaceae
+Comesperma lanceolatum R.Br. ex Benth.,Comesperma lanceolatum,Polygalaceae
+Comesperma minutum A.J.Ford & Halford,Comesperma minutum,Polygalaceae
+Comesperma rhadinocarpum F.Muell.,Comesperma rhadinocarpum,Polygalaceae
+Comesperma sabulosum A.J.Ford & Halford,Comesperma sabulosum,Polygalaceae
+Polygala bifoliata R.A.Kerrigan,Polygala bifoliata,Polygalaceae
+Polygala canaliculata R.A.Kerrigan,Polygala canaliculata,Polygalaceae
+Polygala crassitesta R.A.Kerrigan,Polygala crassitesta,Polygalaceae
+Polygala dimorphotricha R.A.Kerrigan,Polygala dimorphotricha,Polygalaceae
+Polygala eriocephala F.Muell. ex Benth.,Polygala eriocephala,Polygalaceae
+Polygala galeocephala R.A.Kerrigan,Polygala galeocephala,Polygalaceae
+Polygala kimberleyensis R.A.Kerrigan,Polygala kimberleyensis,Polygalaceae
+Polygala petrophila R.A.Kerrigan,Polygala petrophila,Polygalaceae
+Polygala praecox R.A.Kerrigan,Polygala praecox,Polygalaceae
+Polygala pterocarpa R.A.Kerrigan,Polygala pterocarpa,Polygalaceae
+Polygala rhynchocarpa R.A.Kerrigan,Polygala rhynchocarpa,Polygalaceae
+Polygala saccopetala R.A.Kerrigan,Polygala saccopetala,Polygalaceae
+Polygala succulenta R.A.Kerrigan,Polygala succulenta,Polygalaceae
+Polygala tepperi F.Muell.,Polygala tepperi,Polygalaceae
+Rumex drummondii Meisn.,Rumex drummondii,Polygonaceae
+Calandrinia butcherensis Obbens,Calandrinia butcherensis,Portulacaceae
+Calandrinia composita (Nees) Benth.,Calandrinia composita,Portulacaceae
+Calandrinia cylindrica Poelln.,Calandrinia cylindrica,Portulacaceae
+Calandrinia dielsii Poelln.,Calandrinia dielsii,Portulacaceae
+Calandrinia flava Obbens,Calandrinia flava,Portulacaceae
+Calandrinia lefroyensis Obbens,Calandrinia lefroyensis,Portulacaceae
+Calandrinia monogyna Poelln.,Calandrinia monogyna,Portulacaceae
+Calandrinia oraria Obbens,Calandrinia oraria,Portulacaceae
+Calandrinia pentavalvis Obbens,Calandrinia pentavalvis,Portulacaceae
+Calandrinia polypetala Fenzl,Calandrinia polypetala,Portulacaceae
+Calandrinia rubrisabulosa Obbens,Calandrinia rubrisabulosa,Portulacaceae
+Calandrinia vernicosa Obbens,Calandrinia vernicosa,Portulacaceae
+Rumicastrum chamaecladum (Diels) Ulbr.,Rumicastrum chamaecladum,Portulacaceae
+Posidonia denhartogii J.Kuo & Cambridge,Posidonia denhartogii,Posidoniaceae
+Posidonia kirkmanii J.Kuo & Cambridge,Posidonia kirkmanii,Posidoniaceae
+Posidonia ostenfeldii Hartog,Posidonia ostenfeldii,Posidoniaceae
+Posidonia robertsoniae J.Kuo & Cambridge,Posidonia robertsoniae,Posidoniaceae
+Althenia australis (J.Drumm. ex Harv.) F.Muell.,Althenia australis,Potamogetonaceae
+Althenia bilocularis (Kirk) Cockayne,Althenia bilocularis,Potamogetonaceae
+Althenia hearnii T.D.Macfarl. & D.D.Sokoloff,Althenia hearnii,Potamogetonaceae
+Althenia marina (E.L.Robertson) Yu Ito,Althenia marina,Potamogetonaceae
+Althenia patentifolia (E.L.Robertson) T.D.Macfarl. & D.D.Sokoloff,Althenia patentifolia,Potamogetonaceae
+Althenia preissii (Lehm.) F.Muell.,Althenia preissii,Potamogetonaceae
+Potamogeton reduncus Hagstr.,Potamogeton reduncus,Potamogetonaceae
+Samolus caespitosus Keighery,Samolus caespitosus,Primulaceae
+Adenanthos cacomorphus E.C.Nelson,Adenanthos cacomorphus,Proteaceae
+Conospermum multispicatum E.M.Benn.,Conospermum multispicatum,Proteaceae
+Grevillea adenotricha McGill.,Grevillea adenotricha,Proteaceae
+Grevillea calcicola A.S.George,Grevillea calcicola,Proteaceae
+Grevillea ceratocarpa Diels,Grevillea ceratocarpa,Proteaceae
+Grevillea cheilocarpa Makinson,Grevillea cheilocarpa,Proteaceae
+Grevillea cravenii Makinson,Grevillea cravenii,Proteaceae
+Grevillea donaldiana Kenneally,Grevillea donaldiana,Proteaceae
+Grevillea eremophila (Diels) Olde & Marriott,Grevillea eremophila,Proteaceae
+Grevillea incurva (Diels) Olde & Marriott,Grevillea incurva,Proteaceae
+Grevillea lissopleura McGill.,Grevillea lissopleura,Proteaceae
+Grevillea lullfitzii McGill.,Grevillea lullfitzii,Proteaceae
+Grevillea maherae Makinson & M.D.Barrett,Grevillea maherae,Proteaceae
+Grevillea metamorpha Makinson,Grevillea metamorpha,Proteaceae
+Grevillea microstyla M.D.Barrett & Makinson,Grevillea microstyla,Proteaceae
+Grevillea punctata Olde & Marriott,Grevillea punctata,Proteaceae
+Grevillea roycei McGill.,Grevillea roycei,Proteaceae
+Grevillea saxicola S.J.Dillon,Grevillea saxicola,Proteaceae
+Grevillea secunda McGill.,Grevillea secunda,Proteaceae
+Grevillea stenogyne (Benth.) Makinson,Grevillea stenogyne,Proteaceae
+Grevillea sulcata C.A.Gardner ex Olde & Marriott,Grevillea sulcata,Proteaceae
+Grevillea xiphoidea Olde & Marriott,Grevillea xiphoidea,Proteaceae
+Persoonia baeckeoides P.H.Weston,Persoonia baeckeoides,Proteaceae
+Persoonia biglandulosa P.H.Weston,Persoonia biglandulosa,Proteaceae
+Persoonia brachystylis F.Muell.,Persoonia brachystylis,Proteaceae
+Persoonia cordifolia P.H.Weston,Persoonia cordifolia,Proteaceae
+Persoonia filiformis P.H.Weston,Persoonia filiformis,Proteaceae
+Persoonia flexifolia R.Br.,Persoonia flexifolia,Proteaceae
+Persoonia hakeiformis Meisn.,Persoonia hakeiformis,Proteaceae
+Persoonia kararae P.H.Weston,Persoonia kararae,Proteaceae
+Persoonia leucopogon S.Moore,Persoonia leucopogon,Proteaceae
+Persoonia manotricha A.S.Markey & R.Butcher,Persoonia manotricha,Proteaceae
+Persoonia papillosa P.H.Weston,Persoonia papillosa,Proteaceae
+Persoonia pertinax P.H.Weston,Persoonia pertinax,Proteaceae
+Persoonia scabra R.Br.,Persoonia scabra,Proteaceae
+Persoonia spathulata R.Br.,Persoonia spathulata,Proteaceae
+Petrophile globifera Rye & K.A.Sheph.,Petrophile globifera,Proteaceae
+Petrophile misturata Foreman,Petrophile misturata,Proteaceae
+Petrophile trifurcata Foreman,Petrophile trifurcata,Proteaceae
+Stirlingia abrotanoides Meisn.,Stirlingia abrotanoides,Proteaceae
+Stirlingia divaricatissima A.S.George,Stirlingia divaricatissima,Proteaceae
+Strangea stenocarpoides (F.Muell. ex Benth.) C.A.Gardner,Strangea stenocarpoides,Proteaceae
+Synaphea drummondii Meisn.,Synaphea drummondii,Proteaceae
+Synaphea incurva A.S.George,Synaphea incurva,Proteaceae
+Synaphea tamminensis A.S.George,Synaphea tamminensis,Proteaceae
+Synaphea trinacriformis R.Butcher,Synaphea trinacriformis,Proteaceae
+Cheilanthes adiantoides T.C.Chambers & P.A.Farrant,Cheilanthes adiantoides,Pteridaceae
+Cheilanthes fragillima F.Muell.,Cheilanthes fragillima,Pteridaceae
+Chaetanthus leptocarpoides R.Br.,Chaetanthus leptocarpoides,Restionaceae
+Chordifex capillaceus B.G.Briggs & L.A.S.Johnson,Chordifex capillaceus,Restionaceae
+Chordifex gracilior (F.Muell. ex Benth.) B.G.Briggs & L.A.S.Johnson,Chordifex gracilior,Restionaceae
+Chordifex jacksonii B.G.Briggs & L.A.S.Johnson,Chordifex jacksonii,Restionaceae
+Chordifex leucoblepharus (Gilg) B.G.Briggs & L.A.S.Johnson,Chordifex leucoblepharus,Restionaceae
+Chordifex ornatus (Steud.) B.G.Briggs & L.A.S.Johnson,Chordifex ornatus,Restionaceae
+Chordifex reseminans B.G.Briggs & L.A.S.Johnson,Chordifex reseminans,Restionaceae
+Desmocladus biformis B.G.Briggs & L.A.S.Johnson,Desmocladus biformis,Restionaceae
+Desmocladus castaneus B.G.Briggs & L.A.S.Johnson,Desmocladus castaneus,Restionaceae
+Desmocladus confertospicatus (Steud.) B.G.Briggs,Desmocladus confertospicatus,Restionaceae
+Desmocladus diacolpicus B.G.Briggs & L.A.S.Johnson,Desmocladus diacolpicus,Restionaceae
+Desmocladus eludens (B.G.Briggs & L.A.S.Johnson) B.G.Briggs,Desmocladus eludens,Restionaceae
+Desmocladus eyreanus (B.G.Briggs & L.A.S.Johnson) B.G.Briggs,Desmocladus eyreanus,Restionaceae
+Desmocladus ferruginipes (Meney & Pate) B.G.Briggs,Desmocladus ferruginipes,Restionaceae
+Desmocladus glomeratus K.W.Dixon & Meney,Desmocladus glomeratus,Restionaceae
+Desmocladus lateriticus B.G.Briggs & L.A.S.Johnson,Desmocladus lateriticus,Restionaceae
+Desmocladus nodatus (B.G.Briggs & L.A.S.Johnson) B.G.Briggs,Desmocladus nodatus,Restionaceae
+Desmocladus quiricanus B.G.Briggs & L.A.S.Johnson,Desmocladus quiricanus,Restionaceae
+Desmocladus semiplanus B.G.Briggs & L.A.S.Johnson,Desmocladus semiplanus,Restionaceae
+Desmocladus virgatus (Benth.) B.G.Briggs & L.A.S.Johnson,Desmocladus virgatus,Restionaceae
+Hopkinsia adscendens B.G.Briggs & L.A.S.Johnson,Hopkinsia adscendens,Restionaceae
+Hypolaena caespitosa B.G.Briggs & L.A.S.Johnson,Hypolaena caespitosa,Restionaceae
+Hypolaena grandiuscula F.Muell.,Hypolaena grandiuscula,Restionaceae
+Hypolaena viridis L.A.S.Johnson & B.G.Briggs,Hypolaena viridis,Restionaceae
+Lepidobolus basiflorus Pate & Meney,Lepidobolus basiflorus,Restionaceae
+Lepidobolus eurardyensis K.W.Dixon & B.G.Briggs,Lepidobolus eurardyensis,Restionaceae
+Lepidobolus spiralis Meney & K.W.Dixon,Lepidobolus spiralis,Restionaceae
+Leptocarpus crassipes Pate & Meney,Leptocarpus crassipes,Restionaceae
+Leptocarpus decipiens B.G.Briggs,Leptocarpus decipiens,Restionaceae
+Leptocarpus scoparius B.G.Briggs,Leptocarpus scoparius,Restionaceae
+Leptocarpus tephrinus B.G.Briggs,Leptocarpus tephrinus,Restionaceae
+Leptocarpus thysananthus B.G.Briggs,Leptocarpus thysananthus,Restionaceae
+Lepyrodia curvescens B.G.Briggs & L.A.S.Johnson,Lepyrodia curvescens,Restionaceae
+Lepyrodia drummondiana Steud.,Lepyrodia drummondiana,Restionaceae
+Lepyrodia extensa B.G.Briggs & L.A.S.Johnson,Lepyrodia extensa,Restionaceae
+Lepyrodia fortunata B.G.Briggs & L.A.S.Johnson,Lepyrodia fortunata,Restionaceae
+Lepyrodia heleocharoides Gilg,Lepyrodia heleocharoides,Restionaceae
+Lepyrodia macra Nees,Lepyrodia macra,Restionaceae
+Lepyrodia monoica F.Muell.,Lepyrodia monoica,Restionaceae
+Lepyrodia muirii F.Muell.,Lepyrodia muirii,Restionaceae
+Lepyrodia porterae B.G.Briggs & L.A.S.Johnson,Lepyrodia porterae,Restionaceae
+Lepyrodia riparia B.G.Briggs & L.A.S.Johnson,Lepyrodia riparia,Restionaceae
+Loxocarya albipes Pate & Meney,Loxocarya albipes,Restionaceae
+Loxocarya striata (F.Muell.) B.G.Briggs & L.A.S.Johnson,Loxocarya striata,Restionaceae
+Melanostachya ustulata (F.Muell. ex Ewart & Sharman) B.G.Briggs & L.A.S.Johnson,Melanostachya ustulata,Restionaceae
+Platychorda applanata (Spreng.) B.G.Briggs & L.A.S.Johnson,Platychorda applanata,Restionaceae
+Platychorda rivalis B.G.Briggs & L.A.S.Johnson,Platychorda rivalis,Restionaceae
+Sporadanthus strictus (R.Br.) B.G.Briggs & L.A.S.Johnson,Sporadanthus strictus,Restionaceae
+Tyrbastes glaucescens B.G.Briggs & L.A.S.Johnson,Tyrbastes glaucescens,Restionaceae
 Cryptandra beverleyensis Rye,Cryptandra beverleyensis,Rhamnaceae
 Cryptandra crispula Rye,Cryptandra crispula,Rhamnaceae
 Cryptandra distigma Rye,Cryptandra distigma,Rhamnaceae
@@ -1886,7 +1772,17 @@ Trymalium densiflorum Rye,Trymalium densiflorum,Rhamnaceae
 Trymalium litorale (Diels) Domin,Trymalium litorale,Rhamnaceae
 Trymalium monospermum Rye,Trymalium monospermum,Rhamnaceae
 Trymalium spatulatum (Labill.) G.Don,Trymalium spatulatum,Rhamnaceae
-Ziziphus quadrilocularis F.Muell.,Ziziphus quadrilocularis,Rhamnaceae
+Gardenia gardneri Puttock,Gardenia gardneri,Rubiaceae
+Gardenia sericea Puttock,Gardenia sericea,Rubiaceae
+Oldenlandia delicata (Halford) Halford,Oldenlandia delicata,Rubiaceae
+Oldenlandia kochiae Halford,Oldenlandia kochiae,Rubiaceae
+Opercularia hirsuta F.Muell. ex Benth.,Opercularia hirsuta,Rubiaceae
+Opercularia liberiflora F.Muell.,Opercularia liberiflora,Rubiaceae
+Opercularia loganioides Keighery,Opercularia loganioides,Rubiaceae
+Opercularia rubioides Juss.,Opercularia rubioides,Rubiaceae
+Pavetta kimberleyana S.T.Reynolds,Pavetta kimberleyana,Rubiaceae
+Psydrax rigidula S.T.Reynolds & R.J.F.Hend.,Psydrax rigidula,Rubiaceae
+Psydrax suaveolens (S.Moore) S.T.Reynolds & R.J.F.Hend.,Psydrax suaveolens,Rubiaceae
 Asterolasia hyalina (Paul G.Wilson) Wege,Asterolasia hyalina,Rutaceae
 Boronia acanthoclada Paul G.Wilson,Boronia acanthoclada,Rutaceae
 Boronia anomala Duretto,Boronia anomala,Rutaceae
@@ -1918,12 +1814,110 @@ Philotheca cymbiformis (Paul G.Wilson) Paul G.Wilson,Philotheca cymbiformis,Ruta
 Philotheca eremicola Paul G.Wilson,Philotheca eremicola,Rutaceae
 Philotheca falcata (Paul G.Wilson) Paul G.Wilson,Philotheca falcata,Rutaceae
 Philotheca fitzgeraldii (C.R.P.Andrews) Paul G.Wilson,Philotheca fitzgeraldii,Rutaceae
-Zanthoxylum parviflorum Benth.,Zanthoxylum parviflorum,Rutaceae
+Choretrum lateriflorum R.Br.,Choretrum lateriflorum,Santalaceae
+Korthalsella leucothrix Barlow,Korthalsella leucothrix,Santalaceae
+Leptomeria axillaris R.Br.,Leptomeria axillaris,Santalaceae
+Leptomeria dielsiana Pilg.,Leptomeria dielsiana,Santalaceae
+Leptomeria ellytes Lepschi,Leptomeria ellytes,Santalaceae
+Leptomeria ericoides Miq.,Leptomeria ericoides,Santalaceae
+Leptomeria furtiva Lepschi,Leptomeria furtiva,Santalaceae
 Dodonaea concinna Benth.,Dodonaea concinna,Sapindaceae
 Dodonaea divaricata Benth.,Dodonaea divaricata,Sapindaceae
 Dodonaea ericoides Miq.,Dodonaea ericoides,Sapindaceae
 Dodonaea glandulosa J.G.West,Dodonaea glandulosa,Sapindaceae
 Dodonaea scurra K.A.Sheph. & R.A.Meissn.,Dodonaea scurra,Sapindaceae
+Diocirea ternata Chinnock,Diocirea ternata,Scrophulariaceae
+Eremophila anomala Chinnock,Eremophila anomala,Scrophulariaceae
+Eremophila arenaria Chinnock,Eremophila arenaria,Scrophulariaceae
+Eremophila ballythunnensis Buirchell & A.P.Br.,Eremophila ballythunnensis,Scrophulariaceae
+Eremophila buirchellii A.P.Br.,Eremophila buirchellii,Scrophulariaceae
+Eremophila calcicola R.W.Davis,Eremophila calcicola,Scrophulariaceae
+Eremophila capricornica Buirchell & A.P.Br.,Eremophila capricornica,Scrophulariaceae
+Eremophila ciliata Chinnock,Eremophila ciliata,Scrophulariaceae
+Eremophila daddii Buirchell & A.P.Br.,Eremophila daddii,Scrophulariaceae
+Eremophila demissa Chinnock,Eremophila demissa,Scrophulariaceae
+Eremophila eversa Chinnock,Eremophila eversa,Scrophulariaceae
+Eremophila ferricola Buirchell & A.P.Br.,Eremophila ferricola,Scrophulariaceae
+Eremophila graciliflora F.Muell.,Eremophila graciliflora,Scrophulariaceae
+Eremophila gracillima Chinnock,Eremophila gracillima,Scrophulariaceae
+Eremophila jamesiorum Buirchell & A.P.Br.,Eremophila jamesiorum,Scrophulariaceae
+Eremophila laccata Buirchell & A.P.Br.,Eremophila laccata,Scrophulariaceae
+Eremophila petrophila Chinnock,Eremophila petrophila,Scrophulariaceae
+Eremophila pusilliflora Buirchell & A.P.Br.,Eremophila pusilliflora,Scrophulariaceae
+Eremophila regia Buirchell & A.P.Br.,Eremophila regia,Scrophulariaceae
+Eremophila resiliens Buirchell & A.P.Br.,Eremophila resiliens,Scrophulariaceae
+Eremophila rigens Chinnock,Eremophila rigens,Scrophulariaceae
+Eremophila scrobiculata Buirchell & A.P.Br.,Eremophila scrobiculata,Scrophulariaceae
+Eremophila subangustifolia A.P.Br. & T.M.Llorens,Eremophila subangustifolia,Scrophulariaceae
+Eremophila viscimarginata Chinnock,Eremophila viscimarginata,Scrophulariaceae
+Eremophila yinnetharrensis Buirchell & A.P.Br.,Eremophila yinnetharrensis,Scrophulariaceae
+Anthocercis fasciculata F.Muell.,Anthocercis fasciculata,Solanaceae
+Anthocercis sylvicola T.D.Macfarl. & Ward.-Johnson,Anthocercis sylvicola,Solanaceae
+Nicotiana gascoynica M.W.Chase & Christenh.,Nicotiana gascoynica,Solanaceae
+Nicotiana karijini M.W.Chase & Christenh.,Nicotiana karijini,Solanaceae
+Solanum austropiceum A.R.Bean,Solanum austropiceum,Solanaceae
+Solanum capsiciforme (Domin) G.T.S.Baylis,Solanum capsiciforme,Solanaceae
+Solanum cataphractum A.Cunn. ex Benth.,Solanum cataphractum,Solanaceae
+Solanum fecundum A.R.Bean,Solanum fecundum,Solanaceae
+Solanum heteropodium Symon,Solanum heteropodium,Solanaceae
+Solanum horridum Dunal ex Poir.,Solanum horridum,Solanaceae
+Solanum iodinum A.R.Bean,Solanum iodinum,Solanaceae
+Solanum kentrocaule A.R.Bean,Solanum kentrocaule,Solanaceae
+Solanum leopoldense Symon,Solanum leopoldense,Solanaceae
+Solanum morrisonii Domin,Solanum morrisonii,Solanaceae
+Solanum octona A.R.Bean,Solanum octona,Solanaceae
+Solanum ossicruentum Martine & J.Cantley,Solanum ossicruentum,Solanaceae
+Solanum pallidifolium A.R.Bean,Solanum pallidifolium,Solanaceae
+Solanum petraeum Symon,Solanum petraeum,Solanaceae
+Solanum piceum A.R.Bean,Solanum piceum,Solanaceae
+Solanum pycnotrichum A.R.Bean,Solanum pycnotrichum,Solanaceae
+Solanum reclusum A.R.Bean,Solanum reclusum,Solanaceae
+Solanum vansittartense C.A.Gardner,Solanum vansittartense,Solanaceae
+Solanum zoeae R.L.Barrett,Solanum zoeae,Solanaceae
+Stylidium aceratum Lowrie & Kenneally,Stylidium aceratum,Stylidiaceae
+Stylidium applanatum Wege,Stylidium applanatum,Stylidiaceae
+Stylidium bellum Wege,Stylidium bellum,Stylidiaceae
+Stylidium costulatum Lowrie & Kenneally,Stylidium costulatum,Stylidiaceae
+Stylidium daphne Lowrie & Kenneally,Stylidium daphne,Stylidiaceae
+Stylidium diademum Wege,Stylidium diademum,Stylidiaceae
+Stylidium diceratum Lowrie & Kenneally,Stylidium diceratum,Stylidiaceae
+Stylidium dispermum F.Muell.,Stylidium dispermum,Stylidiaceae
+Stylidium ferricola Wege & Keighery,Stylidium ferricola,Stylidiaceae
+Stylidium fimbriatum Lowrie & Kenneally,Stylidium fimbriatum,Stylidiaceae
+Stylidium keigheryi Lowrie & Carlquist,Stylidium keigheryi,Stylidiaceae
+"Stylidium korijekup Wege, B.J.Keighery & Keighery",Stylidium korijekup,Stylidiaceae
+Stylidium lithophilum Wege,Stylidium lithophilum,Stylidiaceae
+Stylidium monticola Lowrie & Kenneally,Stylidium monticola,Stylidiaceae
+Stylidium mucronatum Lowrie & Kenneally,Stylidium mucronatum,Stylidiaceae
+Stylidium nitidum Lowrie & Kenneally,Stylidium nitidum,Stylidiaceae
+Stylidium notabile A.R.Bean,Stylidium notabile,Stylidiaceae
+Stylidium nungarinense S.Moore,Stylidium nungarinense,Stylidiaceae
+Stylidium oreophilum Wege,Stylidium oreophilum,Stylidiaceae
+Stylidium periscelianthum F.L.Erickson & J.H.Willis,Stylidium periscelianthum,Stylidiaceae
+Stylidium perizoster Lowrie & Kenneally,Stylidium perizoster,Stylidiaceae
+Stylidium planirosula Wege,Stylidium planirosula,Stylidiaceae
+Stylidium rhipidium F.L.Erickson & J.H.Willis,Stylidium rhipidium,Stylidiaceae
+Stylidium roseonanum Carlquist,Stylidium roseonanum,Stylidiaceae
+Stylidium rosulatum Wege,Stylidium rosulatum,Stylidiaceae
+Stylidium scintillans Wege,Stylidium scintillans,Stylidiaceae
+Stylidium spiciforme Wege,Stylidium spiciforme,Stylidiaceae
+Stylidium thryonides Wege,Stylidium thryonides,Stylidiaceae
+Stylidium tinkeri Lowrie & Kenneally,Stylidium tinkeri,Stylidiaceae
+Stylidium trudgenii Lowrie & Kenneally,Stylidium trudgenii,Stylidiaceae
+Stylidium xanthopis F.L.Erickson & J.H.Willis,Stylidium xanthopis,Stylidiaceae
+Pimelea eyrei F.Muell.,Pimelea eyrei,Thymelaeaceae
+Pimelea holroydii F.Muell.,Pimelea holroydii,Thymelaeaceae
+Pimelea neokyrea Rye,Pimelea neokyrea,Thymelaeaceae
+Pimelea pelinos Rye,Pimelea pelinos,Thymelaeaceae
+Afrohybanthus bennettiae (R.L.Barrett) Messina,Afrohybanthus bennettiae,Violaceae
+Hybanthus volubilis E.M.Benn.,Hybanthus volubilis,Violaceae
+Xyris atroviridis Doust & B.J.Conn,Xyris atroviridis,Xyridaceae
+Xyris gracillima F.Muell.,Xyris gracillima,Xyridaceae
+Xyris inaequalis N.A.Wakef.,Xyris inaequalis,Xyridaceae
+Xyris laxiflora F.Muell.,Xyris laxiflora,Xyridaceae
+Xyris maxima Doust & B.J.Conn,Xyris maxima,Xyridaceae
+Xyris pusilla Sol. ex R.Br.,Xyris pusilla,Xyridaceae
+Heterozostera polychlamys J.Kuo,Heterozostera polychlamys,Zosteraceae
 Roepera halophila (R.M.Barker) Beier & Thulin,Roepera halophila,Zygophyllaceae
 Roepera kochii (Tate) Beier & Thulin,Roepera kochii,Zygophyllaceae
 Roepera lobulata (Benth.) Beier & Thulin,Roepera lobulata,Zygophyllaceae
@@ -1932,17 +1926,3 @@ Roepera tetraptera (H.Eichler ex R.M.Barker) Beier & Thulin,Roepera tetraptera,Z
 Tribulopis sessilis (Domin) H.Eichler,Tribulopis sessilis,Zygophyllaceae
 Tribulus adelacanthus R.M.Barker,Tribulus adelacanthus,Zygophyllaceae
 Tribulus minutus Leichh. ex Benth.,Tribulus minutus,Zygophyllaceae
-Amyema pyriformis Barlow,Amyema pyriformis,Loranthaceae
-Decaisnina biangulata (W.Fitzg.) Barlow,Decaisnina biangulata,Loranthaceae
-Olax aphylla R.Br.,Olax aphylla,Olacaceae
-Olax scalariformis A.S.George,Olax scalariformis,Olacaceae
-Choretrum lateriflorum R.Br.,Choretrum lateriflorum,Santalaceae
-Korthalsella leucothrix Barlow,Korthalsella leucothrix,Santalaceae
-Leptomeria axillaris R.Br.,Leptomeria axillaris,Santalaceae
-Leptomeria dielsiana Pilg.,Leptomeria dielsiana,Santalaceae
-Leptomeria ellytes Lepschi,Leptomeria ellytes,Santalaceae
-Leptomeria ericoides Miq.,Leptomeria ericoides,Santalaceae
-Leptomeria furtiva Lepschi,Leptomeria furtiva,Santalaceae
-Lindsaea orbiculata (Lam.) Mett. ex Kuhn,Lindsaea orbiculata,Lindsaeaceae
-Cheilanthes adiantoides T.C.Chambers & P.A.Farrant,Cheilanthes adiantoides,Pteridaceae
-Cheilanthes fragillima F.Muell.,Cheilanthes fragillima,Pteridaceae

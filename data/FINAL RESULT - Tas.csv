@@ -1,28 +1,14 @@
 species,APC_name,family
-Isoetes elatior F.Muell. ex A.Braun,Isoetes elatior,Isoetaceae
-Isoetes humilior F.Muell. ex A.Braun,Isoetes humilior,Isoetaceae
 Oreomyrrhis gunnii Mathias & Constance,Oreomyrrhis gunnii,Apiaceae
 Hydrocotyle comocarpa F.Muell.,Hydrocotyle comocarpa,Araliaceae
-Billardiera viridiflora L.Cayzer & D.L.Jones,Billardiera viridiflora,Pittosporaceae
 Brachyscome radicata Hook.f.,Brachyscome radicata,Asteraceae
 Euchiton lateralis (C.J.Webb) Breitw. & J.M.Ward,Euchiton lateralis,Asteraceae
 Ozothamnus buchananii Puttock ex de Salas & Schmidt-Leb.,Ozothamnus buchananii,Asteraceae
 Ozothamnus floribundus de Salas & Schmidt-Leb.,Ozothamnus floribundus,Asteraceae
 Ozothamnus gunnii Hook.f.,Ozothamnus gunnii,Asteraceae
 Senecio longipilus I.Thomps.,Senecio longipilus,Asteraceae
-Archeria minor Hook.f.,Archeria minor,Ericaceae
-Galium albescens Hook.f.,Galium albescens,Rubiaceae
-Callitriche umbonata Hegelm.,Callitriche umbonata,Plantaginaceae
-Plantago glabrata Hook.f.,Plantago glabrata,Plantaginaceae
-Euphrasia fragosa W.R.Barker,Euphrasia fragosa,Scrophulariaceae
-Althenia australis (J.Drumm. ex Harv.) F.Muell.,Althenia australis,Potamogetonaceae
-Althenia bilocularis (Kirk) Cockayne,Althenia bilocularis,Potamogetonaceae
-Althenia marina (E.L.Robertson) Yu Ito,Althenia marina,Potamogetonaceae
-Althenia patentifolia (E.L.Robertson) T.D.Macfarl. & D.D.Sokoloff,Althenia patentifolia,Potamogetonaceae
-Althenia preissii (Lehm.) F.Muell.,Althenia preissii,Potamogetonaceae
-Caladenia pallida Lindl.,Caladenia pallida,Orchidaceae
-Prasophyllum secutum D.L.Jones,Prasophyllum secutum,Orchidaceae
-Thynninorchis nothofagicola (D.L.Jones) D.L.Jones & M.A.Clem.,Thynninorchis nothofagicola,Orchidaceae
+Cardamine franklinensis I.Thomps.,Cardamine franklinensis,Brassicaceae
+Lepidium desvauxii Thell.,Lepidium desvauxii,Brassicaceae
 Gaimardia amblyphylla W.M.Curtis,Gaimardia amblyphylla,Centrolepidaceae
 Carex cataractae R.Br.,Carex cataractae,Cyperaceae
 Carex cheesemanniana (Boeckeler) K.A.Ford,Carex cheesemanniana,Cyperaceae
@@ -39,7 +25,21 @@ Schoenus absconditus Kük.,Schoenus absconditus,Cyperaceae
 Schoenus biglumis Kük.,Schoenus biglumis,Cyperaceae
 Schoenus fluitans Hook.f.,Schoenus fluitans,Cyperaceae
 Schoenus pygmaeus S.T.Blake,Schoenus pygmaeus,Cyperaceae
+Archeria minor Hook.f.,Archeria minor,Ericaceae
+Haloragis myriocarpa Orchard,Haloragis myriocarpa,Haloragaceae
+Myriophyllum amphibium Labill.,Myriophyllum amphibium,Haloragaceae
+Myriophyllum glomeratum Schindl.,Myriophyllum glomeratum,Haloragaceae
+Hypericum pusillum Choisy,Hypericum pusillum,Hypericaceae
+Isoetes elatior F.Muell. ex A.Braun,Isoetes elatior,Isoetaceae
+Isoetes humilior F.Muell. ex A.Braun,Isoetes humilior,Isoetaceae
 Luzula poimena W.M.Curtis,Luzula poimena,Juncaceae
+Eucalyptus revelata D.Nicolle & R.L.Barrett,Eucalyptus revelata,Myrtaceae
+Caladenia pallida Lindl.,Caladenia pallida,Orchidaceae
+Prasophyllum secutum D.L.Jones,Prasophyllum secutum,Orchidaceae
+Thynninorchis nothofagicola (D.L.Jones) D.L.Jones & M.A.Clem.,Thynninorchis nothofagicola,Orchidaceae
+Billardiera viridiflora L.Cayzer & D.L.Jones,Billardiera viridiflora,Pittosporaceae
+Callitriche umbonata Hegelm.,Callitriche umbonata,Plantaginaceae
+Plantago glabrata Hook.f.,Plantago glabrata,Plantaginaceae
 Agrostis australiensis Mez,Agrostis australiensis,Poaceae
 Agrostis diemenica D.I.Morris,Agrostis diemenica,Poaceae
 Agrostis joyceae S.W.L.Jacobs,Agrostis joyceae,Poaceae
@@ -64,14 +64,14 @@ Puccinellia harcusiana A.R.Williams,Puccinellia harcusiana,Poaceae
 Rytidosperma dimidiatum (Vickery) Connor & Edgar,Rytidosperma dimidiatum,Poaceae
 Rytidosperma nitens (D.I.Morris) H.P.Linder,Rytidosperma nitens,Poaceae
 Rytidosperma remotum (D.I.Morris) A.M.Humphreys & H.P.Linder,Rytidosperma remotum,Poaceae
-Calorophus erostris (C.B.Clarke) L.A.S.Johnson & B.G.Briggs,Calorophus erostris,Restionaceae
-Haloragis myriocarpa Orchard,Haloragis myriocarpa,Haloragaceae
-Myriophyllum amphibium Labill.,Myriophyllum amphibium,Haloragaceae
-Myriophyllum glomeratum Schindl.,Myriophyllum glomeratum,Haloragaceae
-Persoonia moscalii Orchard,Persoonia moscalii,Proteaceae
-Cardamine franklinensis I.Thomps.,Cardamine franklinensis,Brassicaceae
-Lepidium desvauxii Thell.,Lepidium desvauxii,Brassicaceae
-Hypericum pusillum Choisy,Hypericum pusillum,Hypericaceae
-Eucalyptus revelata D.Nicolle & R.L.Barrett,Eucalyptus revelata,Myrtaceae
 Notogrammitis garrettii (Parris) Parris,Notogrammitis garrettii,Polypodiaceae
 Notogrammitis gunnii (Parris) Parris,Notogrammitis gunnii,Polypodiaceae
+Althenia australis (J.Drumm. ex Harv.) F.Muell.,Althenia australis,Potamogetonaceae
+Althenia bilocularis (Kirk) Cockayne,Althenia bilocularis,Potamogetonaceae
+Althenia marina (E.L.Robertson) Yu Ito,Althenia marina,Potamogetonaceae
+Althenia patentifolia (E.L.Robertson) T.D.Macfarl. & D.D.Sokoloff,Althenia patentifolia,Potamogetonaceae
+Althenia preissii (Lehm.) F.Muell.,Althenia preissii,Potamogetonaceae
+Persoonia moscalii Orchard,Persoonia moscalii,Proteaceae
+Calorophus erostris (C.B.Clarke) L.A.S.Johnson & B.G.Briggs,Calorophus erostris,Restionaceae
+Galium albescens Hook.f.,Galium albescens,Rubiaceae
+Euphrasia fragosa W.R.Barker,Euphrasia fragosa,Scrophulariaceae
