@@ -346,6 +346,13 @@ heat_map_df[6416, 3] = 0
 heat_map_df[6524, 3] = 0
 heat_map_df[6705, 3] = 0
 
+#remove the 4 points way north of Australia
+heat_map_df[74, 3] = NA
+heat_map_df[543, 3] = NA
+heat_map_df[902, 3] = NA
+heat_map_df[2913, 3] = NA
+
+
 map_australia <- 
   map_data("world") %>% 
   filter(region == "Australia") %>% 
