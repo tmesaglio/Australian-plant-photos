@@ -524,3 +524,18 @@ write_csv(big_un2, "data/inat_after_analysis.csv")
 
 #now to make a nice final master unphotographed file with all the columns
 
+master <- read_csv("data/unphotographed_FINAL.csv")
+master$Genus <- word(master$APC_name, 1)
+
+masteryear<-dplyr::select(file2, APC_name, Original_Year)
+master2<-dplyr::left_join(master, masteryear, by = "APC_name")
+
+masterhabit<-dplyr::select(file4, APC_name, plant_growth_form_recoded)
+master3<-dplyr::left_join(master2, masterhabit, by = "APC_name")
+
+master3<-master3[,c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,21,23,24)]
+master3<-dplyr::rename(master3, "Growth_Habit" = "Growth Habit")
+
+write_csv(master3, "data/master_unphotographed_file.csv")
+
+#I adjusted the growth habit values in the csv via excel to match those defined in the xlsx file "growth habits guide"
