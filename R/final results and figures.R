@@ -176,7 +176,7 @@ library(ggplot2)
 
 
 group <- c(rep("Shrubs"),rep("Herbs"),rep("Graminoids"),rep("Trees"),rep("Aquatic herbs and ferns"),rep("Cycads"),rep("Climbers"),rep("Terrestrial ferns"),rep("Woody climbers"),rep("Epiphytic ferns"),rep("Unknown"))
-value <- c(1407,1289,597,213,89,3,34,38,32,13,1)
+value <- c(1406,1289,597,213,89,3,34,38,32,13,1)
 data <- data.frame(group,value)
 
 
@@ -249,7 +249,7 @@ m3_aus2<-m3_aus2[!grepl("Diuris calcicola", m3_aus2$APC_name),]
 
 
 
-unphoto4<-dplyr::slice(file1, 3001:3716)
+unphoto4<-dplyr::slice(file1, 3001:3715)
 target4<-unphoto4$APC_name
 m4 <- galah_call() |>
   galah_identify(target4) |>
