@@ -415,7 +415,7 @@ library(galah)
 
 inatu <- read_csv("data/unphotographed_inat_updated.csv")
 
-#so 21,078 - 9047 = 12,031 initially
+#so 21,077 - 9047 = 12,030 initially
 
 #now the ALA stuff (note I'm doing this on June 5th 2022, numbers will change constantly after this if code is rerun)
 unphoto1<-dplyr::slice(inatu, 1:1000)
