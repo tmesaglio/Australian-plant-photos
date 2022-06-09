@@ -1,3 +1,3 @@
-species,canonicalName,NT,Qld,WA,ChI,NSW,SA,Vic,Tas,ACT,NI,LHI,MI,HI,MDI,CoI,CSI,AR,CaI
-Diuris leopardina D.L.Jones & R.J.Bates,Diuris leopardina,not present,not present,not present,not present,not present,native,native,not present,not present,not present,not present,not present,not present,not present,not present,not present,not present,not present
-Baumea articulata (R.Br.) S.T.Blake,Baumea articulata,not present,present,present,not present,present,present,present,present,present,not present,not present,not present,not present,not present,not present,not present,not present,not present
+species,APC_name,NT,Qld,WA,ChI,NSW,SA,Vic,Tas,ACT,NI,LHI,MI,HI,MDI,CoI,CSI,AR,CaI,Genus,Family
+Diuris leopardina D.L.Jones & R.J.Bates,Diuris leopardina,not present,not present,not present,not present,not present,native,native,not present,not present,not present,not present,not present,not present,not present,not present,not present,not present,not present,Diuris,Orchidaceae
+Baumea articulata (R.Br.) S.T.Blake,Baumea articulata,not present,present,present,not present,present,present,present,present,present,not present,not present,not present,not present,not present,not present,not present,not present,not present,Baumea,Cyperaceae
