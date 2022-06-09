@@ -175,8 +175,8 @@ library(treemapify)
 library(ggplot2)
 
 
-group <- c(rep("Shrubs"),rep("Herbs"),rep("Graminoids"),rep("Trees"),rep("Aquatic herbs and ferns"),rep("Cycads"),rep("Climbers"),rep("Terrestrial ferns"),rep("Woody climbers"),rep("Epiphytic ferns"),rep("Unknown"))
-value <- c(1406,1289,597,213,89,3,34,38,32,13,1)
+group <- c(rep("Shrubs"),rep("Herbs"),rep("Graminoids"),rep("Trees"),rep("Aquatic herbs and ferns"),rep("Cycads"),rep("Climbers"),rep("Ferns"),rep("Woody climbers"),rep("Unknown"))
+value <- c(1406,1289,597,213,89,3,34,51,32,1)
 data <- data.frame(group,value)
 
 
