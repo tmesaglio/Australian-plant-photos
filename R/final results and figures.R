@@ -513,7 +513,7 @@ iNat_ala6<-iNat_ala5[!grepl("Thelymitra jonesii", iNat_ala5$scientificName),]
 
 iNat_ala7 <- iNat_ala6 %>% distinct(scientificName, .keep_all = TRUE)
 
-#273 additional species since April 13th! 
+#279 additional species since April 13th! 
 
 big_un <- read_csv("data/unphotographed_FINAL.csv")
 big_un2 <- iNat_ala7 %>% mutate(Match = case_when(scientificName %in% big_un$APC_name ~ "Yes", T ~ "No"))
