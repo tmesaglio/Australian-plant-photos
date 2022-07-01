@@ -442,7 +442,7 @@ heat_map_df2 %>%
                colour = "#1a1a1a",
                size = 0.4) +
   coord_fixed() +
-  scale_fill_viridis_d(na.value = "white",direction = -1) +
+  scale_fill_viridis_d(na.value = "white",direction = -1, drop = FALSE) +
   theme_classic() +
   theme(axis.line = element_blank(),
         panel.background = element_rect(fill = NA, size = 0.5, colour = "black"),
