@@ -352,6 +352,7 @@ heat_map_df[543, 3] = NA
 heat_map_df[902, 3] = NA
 heat_map_df[2913, 3] = NA
 
+heat_map_df$z <- with(heat_map_df, (species_num/3715)*100)
 
 map_australia <- 
   map_data("world") %>% 
@@ -402,6 +403,56 @@ ggsave("spatial_dist.png")
 
 #note that this figure was lightly manually cleaned outside R to remove grid cells stemming from datapoints in the middle of the ocean
 #(easier to do rather than trawl through several hundred thousand rows in the joined_cleaned5 file)
+
+#now redo this figure but using %s instead of raw numbers
+map_australia <- 
+  map_data("world") %>% 
+  filter(region == "Australia") %>% 
+  filter(lat > -45 | long < 155) # Check that this includes all the islands you want
+
+heat_map_df2 <- heat_map_df %>% 
+  mutate(z = case_when(species_num == 0 ~ "0",
+                                        (z >= 0.001 & z <= 1) ~ "0 - 1",
+                                        (z >= 1.001 & z <= 2) ~ "1 - 2",
+                                        (z >= 2.001 & z <= 3) ~ "2 - 3",
+                                        (z >= 3.001 & z <= 4) ~ "3 - 4",
+                                        (z >= 4.001 & z <= 5) ~ "4 - 5",
+                                        (z >= 5.001 & z <= 6) ~ "5 - 6",
+                                        (z >= 6.001 & z <= 7) ~ "6 - 7",
+                                        (z >= 7.001 & z <= 8) ~ "7 - 8",
+                                        (z >= 8.001 & z <= 9) ~ "8 - 9",
+                                        (z >= 9.001 & z <= 10) ~ "9 - 10",
+                                        T ~ "NA"))
+
+heat_map_df2[ heat_map_df2 == "NA" ] <- NA
+
+unique(heat_map_df2$z)
+heat_map_df2$z<-factor(heat_map_df2$z,levels = rev(c("0","0 - 1","1 - 2","2 - 3","3 - 4",
+                                                                                     "4 - 5","5 - 6","6 - 7",
+                                                                                     "7 - 8","8 - 9","9 - 10")))
+
+heat_map_df2 %>% 
+  filter(!is.na(z)) %>%
+  ggplot(aes(x = x, y = y)) +
+  geom_raster(aes(fill = z), 
+              interpolate = FALSE) + # Change interpolate argument to true for smoothing
+  geom_polygon(data = map_australia, # Plot Australia polygon
+               mapping = aes(x = long, y = lat, group = group), 
+               fill = NA, 
+               colour = "#1a1a1a",
+               size = 0.4) +
+  coord_fixed() +
+  scale_fill_viridis_d(na.value = "white",direction = -1) +
+  theme_classic() +
+  theme(axis.line = element_blank(),
+        panel.background = element_rect(fill = NA, size = 0.5, colour = "black"),
+        axis.text = element_text(colour = "black", size = 9),
+        axis.title = element_blank(),
+        panel.spacing = unit(0.2, "cm"),
+        legend.position = "right",
+        legend.title = element_blank())
+
+ggsave("spatial_dist_%.png")
 
 
 #6. Check on iNat progress since original iNat filter (13 April 2022)
