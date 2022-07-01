@@ -452,7 +452,7 @@ heat_map_df2 %>%
         legend.position = "right",
         legend.title = element_blank())
 
-ggsave("spatial_dist_%.png")
+ggsave("spatial_dist_percentage.png")
 
 
 #6. Check on iNat progress since original iNat filter (13 April 2022)
