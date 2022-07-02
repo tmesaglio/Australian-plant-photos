@@ -139,6 +139,24 @@ p
 ggsave("years.png")
 #this figure was edited/cleaned in Affinity after
 
+#just testing this figure for all species too
+all <- read_csv("data/MOST UP-TO DATE NATIVE MATRIX V2.csv")
+all$Original_Year <- as.factor(all$Original_Year)
+allyear<-Freq(all$Original_Year)
+allyear<-dplyr::select(allyear, 1:2)
+write_csv(allyear,"data/YEARS OF PUBLICATION - ALL SPECIES.csv")
+
+#edit then read file back in
+years2 <- read_csv("YEARS OF PUBLICATION - ALL SPECIES.csv")
+years2[is.na(years2)] <- 0
+
+pq<-ggplot(data=years2, aes(x=level, y=freq)) +
+  geom_bar(stat="identity",colour="black", size=0.2) +
+  theme_classic() +
+  scale_x_continuous(limits = c(1746,2022), expand = c(0, 0)) +
+  scale_y_continuous(limits = c(0,1300), expand = c(0, 0)) 
+pq
+
 
 #4. Growth habit
 #set working directory back to main folde3r
