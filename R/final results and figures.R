@@ -188,19 +188,28 @@ tab1(file4$plant_growth_form_recoded, sort.group = "decreasing")
 
 #treemap
 library(treemap)
-library(d3treeR)
 library(treemapify)
 library(ggplot2)
 
-
-group <- c(rep("Shrubs"),rep("Herbs"),rep("Graminoids"),rep("Trees"),rep("Aquatic herbs and ferns"),rep("Cycads"),rep("Climbers"),rep("Ferns"),rep("Woody climbers"),rep("Unknown"))
-value <- c(1406,1289,597,213,89,3,34,51,32,1)
+#here, I'm omitting the 1 unknown (Marsdenia tubulosa) from the figure, and will just note it in the caption
+group <- c(rep("Shrubs"),rep("Herbs"),rep("Graminoids"),rep("Trees"),rep("Aquatic herbs and ferns"),rep("Cycads and grasstrees"),rep("Climbers"),rep("Ferns"),rep("Woody climbers"))
+value <- c(1406,1289,597,213,89,3,34,51,32)
 data <- data.frame(group,value)
 
 
 ggplot(data, aes(area = value, fill = group)) +
   geom_treemap()
-ggsave("habit.png")
+ggsave("habitupdated.png")
+
+#just testing this figure for all species too
+group2 <- c(rep("Shrubs"),rep("Herbs"),rep("Graminoids"),rep("Trees"),rep("Aquatic herbs and ferns"),rep("Cycads and grasstrees"),rep("Climbers"),rep("Ferns"),rep("Woody climbers"))
+value2 <- c(8078,6201,1731,3515,336,107,321,413,374)
+data2 <- data.frame(group2,value2)
+
+
+ggplot(data2, aes(area = value2, fill = group2)) +
+  geom_treemap()
+ggsave("habitupdatedallspp.png")
 
 
 #5. Spatial distribution
