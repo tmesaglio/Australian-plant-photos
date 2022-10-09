@@ -482,7 +482,7 @@ heat_map_df2 %>%
 ggsave("spatial_dist_percentage.png")
 
 
-#6. Check on iNat progress since original iNat filter (13 April 2022)
+#6. Check on iNat progress since original iNat filter (9 October 2022)
 
 library(tidyverse)
 library(stringr)
@@ -495,7 +495,7 @@ inatu <- read_csv("data/unphotographed_inat_updated.csv")
 
 #so 21,077 - 9047 = 12,030 initially
 
-#now the ALA stuff (note I'm doing this on June 30th 2022, numbers will change constantly after this if code is rerun)
+#now the ALA stuff (note I'm doing this on October 9th 2022, numbers will change constantly after this if code is rerun)
 unphoto1<-dplyr::slice(inatu, 1:1000)
 target1<-unphoto1$canonicalName
 m1 <- galah_call() |>
@@ -591,13 +591,13 @@ iNat_ala6<-iNat_ala5[!grepl("Thelymitra jonesii", iNat_ala5$scientificName),]
 
 iNat_ala7 <- iNat_ala6 %>% distinct(scientificName, .keep_all = TRUE)
 
-#279 additional species since April 13th! (+1 that is on iNat but not in ALA due to restrictive copyright license)
+#over 800 additional species since April 13th! 
 
 big_un <- read_csv("data/unphotographed_FINAL.csv")
 big_un2 <- iNat_ala7 %>% mutate(Match = case_when(scientificName %in% big_un$APC_name ~ "Yes", T ~ "No"))
 write_csv(big_un2, "data/inat_after_analysis.csv")
 
-#38 species that are still on the unphotographed list! [ie they got uploaded to iNat after I finished my analyses on April 15th 2022]
+#125+ species that are still on the unphotographed list! [ie they got uploaded to iNat after I finished my analyses on April 15th 2022]
 
 
 #now to make a nice final master unphotographed file with all the columns
