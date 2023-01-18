@@ -599,6 +599,8 @@ write_csv(big_un2, "data/inat_after_analysis.csv")
 
 #125+ species that are still on the unphotographed list! [ie they got uploaded to iNat after I finished my analyses on April 15th 2022]
 
+#extra note; when I quickly reran this code on January 19th 2023 for the revision, these numbers had increased to +1231 species, 
+#214 of which still on unphotographed list.
 
 #now to make a nice final master unphotographed file with all the columns
 
